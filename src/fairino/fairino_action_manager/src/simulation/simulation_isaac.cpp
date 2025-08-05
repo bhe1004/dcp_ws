@@ -15,10 +15,6 @@ FairinoController::FairinoController(const rclcpp::NodeOptions & opts)
   this->declare_parameter<std::string>("model_path", "/home/home/fairino_ros2_ws/src/fairino_description");
   this->declare_parameter<std::string>("urdf_name", "/urdf/fairino5_v6.urdf");
 
-  // gui pub
-  string controller_gui_urdf_dir = this->declare_parameter<std::string>("controller_gui_urdf_dir", "default_package_share_path_val"); // This was not used
-  string controller_gui_urdf_filename = this->declare_parameter<std::string>("controller_gui_urdf_filename", "default_urdf_name_val"); // This was not used
-  
   // Publisher
   isaac_joint_command_publisher_ = create_publisher<sensor_msgs::msg::JointState>(
     "/isaac_joint_command", 10

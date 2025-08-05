@@ -27,24 +27,13 @@ def generate_launch_description():
     # Unified URDF path settings (used for GUI, RSP, and RobotWrapper)
     declared_args.append(DeclareLaunchArgument(
         'model_path',
-        default_value='/home/home/dcp_ws/src/fairino/robotiq_description/',
+        default_value='/home/home/dcp_ws/src/fairino/fairino_description/',
         description="Package name containing the robot URDF."
     ))
     declared_args.append(DeclareLaunchArgument(
         'urdf_name',
-        default_value='urdf/fairino5_v6_2f_140.urdf',
+        default_value='urdf/fairino5_v6.urdf',
         description="URDF filename relative to the package."
-    ))
-
-    urdf_full_path = PathJoinSubstitution([
-        LaunchConfiguration('model_path'),
-        LaunchConfiguration('urdf_name')
-    ])
-
-    declared_args.append(DeclareLaunchArgument(
-        'urdf_full_path',
-        default_value=urdf_full_path,
-        description='Full path to the URDF file.'
     ))
 
     # 1. Get Launch Configurations
@@ -52,15 +41,11 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time')
     model_path = LaunchConfiguration('model_path')
     urdf_name = LaunchConfiguration('urdf_name')
-    urdf_full_path_lc = LaunchConfiguration('urdf_full_path')
 
     # 2. Define Node Parameters
     fairino_controller_params = [
         {'robot_group': robot_group},
         {'use_sim_time': use_sim_time},
-        {'urdf_full': urdf_full_path_lc},
-        {'wrapper_urdf_full_path': urdf_full_path_lc},
-        {'wrapper_model_package_path': model_path}
     ]
 
     rsp_urdf_model_path = PathJoinSubstitution([

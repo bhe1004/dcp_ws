@@ -65,7 +65,6 @@ private:
     void updateSensorStateCallback(const geometry_msgs::msg::Wrench::SharedPtr msg);
 
     // publihser
-    rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr gui_joint_publisher_;
     rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr isaac_joint_command_publisher_; // "/isaac_joint_command"
 
     // Subscription
@@ -75,10 +74,6 @@ private:
 
     // msg
     sensor_msgs::msg::JointState isaac_joint_command_msg_;
-    sensor_msgs::msg::JointState gui_joint_msg_;
-
-    // tf
-    // std::shared_ptr<tf2_ros::TransformBroadcaster> br_;
 
     // Action Server
     std::unique_ptr<JointPostureActionServer> joint_posture_action_server_;

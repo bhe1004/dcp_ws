@@ -148,7 +148,7 @@ class ControlSuiteShell(cmd.Cmd):
     def do_se3(self, arg):
         """SE3 Ctrl - only arm (arg=0) or whole-body"""
         goal = SE3.Goal()
-        goal.duration = 7.0
+        goal.duration = 5.0
         goal.target_pose = Pose()
 
         if arg.strip() == "0":
