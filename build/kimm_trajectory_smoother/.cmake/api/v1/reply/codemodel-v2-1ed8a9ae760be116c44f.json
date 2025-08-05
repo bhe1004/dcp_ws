@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3c2020d924ca660da8f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kimm_trajectory_smoother",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kimm_trajectory_smoother::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimm_trajectory_smoother-d8e2ff855e69a7ecb6ab.json",
+					"name" : "kimm_trajectory_smoother",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimm_trajectory_smoother_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimm_trajectory_smoother_uninstall-08308f33b48d1d41ee88.json",
+					"name" : "kimm_trajectory_smoother_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5e09a1289e26e07df374.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/home/dcp_ws/build/kimm_trajectory_smoother",
+		"source" : "/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

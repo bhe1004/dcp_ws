@@ -1,0 +1,20 @@
+running egg_info
+writing ../../../build/isaacsim_ros2/isaacsim_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../../build/isaacsim_ros2/isaacsim_ros2.egg-info/dependency_links.txt
+writing entry points to ../../../build/isaacsim_ros2/isaacsim_ros2.egg-info/entry_points.txt
+writing requirements to ../../../build/isaacsim_ros2/isaacsim_ros2.egg-info/requires.txt
+writing top-level names to ../../../build/isaacsim_ros2/isaacsim_ros2.egg-info/top_level.txt
+reading manifest file '../../../build/isaacsim_ros2/isaacsim_ros2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/isaacsim_ros2/isaacsim_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/isaacsim_ros2/isaacsim_ros2.egg-info to /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing set_target_pose_client script to /home/home/dcp_ws/install/isaacsim_ros2/lib/isaacsim_ros2
+writing list of installed files to '/home/home/dcp_ws/build/isaacsim_ros2/install.log'

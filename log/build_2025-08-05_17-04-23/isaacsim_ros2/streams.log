@@ -1,0 +1,105 @@
+[0.363s] Invoking command in '/home/home/dcp_ws/src/fairino/isaacsim_ros2': PYTHONPATH=/home/home/dcp_ws/build/isaacsim_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/isaacsim_ros2 build --build-base /home/home/dcp_ws/build/isaacsim_ros2/build install --record /home/home/dcp_ws/build/isaacsim_ros2/install.log --single-version-externally-managed install_data
+[0.504s] running egg_info
+[0.504s] creating ../../../build/isaacsim_ros2/isaacsim_ros2.egg-info
+[0.504s] writing ../../../build/isaacsim_ros2/isaacsim_ros2.egg-info/PKG-INFO
+[0.504s] writing dependency_links to ../../../build/isaacsim_ros2/isaacsim_ros2.egg-info/dependency_links.txt
+[0.504s] writing entry points to ../../../build/isaacsim_ros2/isaacsim_ros2.egg-info/entry_points.txt
+[0.504s] writing requirements to ../../../build/isaacsim_ros2/isaacsim_ros2.egg-info/requires.txt
+[0.504s] writing top-level names to ../../../build/isaacsim_ros2/isaacsim_ros2.egg-info/top_level.txt
+[0.504s] writing manifest file '../../../build/isaacsim_ros2/isaacsim_ros2.egg-info/SOURCES.txt'
+[0.504s] reading manifest file '../../../build/isaacsim_ros2/isaacsim_ros2.egg-info/SOURCES.txt'
+[0.504s] adding license file 'LICENSE'
+[0.504s] writing manifest file '../../../build/isaacsim_ros2/isaacsim_ros2.egg-info/SOURCES.txt'
+[0.504s] running build
+[0.504s] running build_py
+[0.504s] creating /home/home/dcp_ws/build/isaacsim_ros2/build
+[0.504s] creating /home/home/dcp_ws/build/isaacsim_ros2/build/lib
+[0.504s] creating /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2
+[0.504s] copying isaacsim_ros2/robot_env.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2
+[0.507s] copying isaacsim_ros2/dcp.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2
+[0.511s] copying isaacsim_ros2/dcp_no_camera.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2
+[0.511s] copying isaacsim_ros2/__init__.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2
+[0.511s] copying isaacsim_ros2/action_graph.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2
+[0.511s] copying isaacsim_ros2/assembler.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2
+[0.511s] copying isaacsim_ros2/robot_env_no_camera.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2
+[0.511s] creating /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/robot
+[0.511s] copying isaacsim_ros2/robot/__init__.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/robot
+[0.511s] copying isaacsim_ros2/robot/fr5.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/robot
+[0.511s] creating /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/client
+[0.511s] copying isaacsim_ros2/client/__init__.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/client
+[0.511s] copying isaacsim_ros2/client/set_target_pose_client.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/client
+[0.511s] creating /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/controller
+[0.511s] copying isaacsim_ros2/controller/__init__.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/controller
+[0.513s] copying isaacsim_ros2/controller/rmpflow_controller.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/controller
+[0.513s] creating /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/tasks
+[0.513s] copying isaacsim_ros2/tasks/follow_target_with_rmpflow.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/tasks
+[0.513s] copying isaacsim_ros2/tasks/follow_target.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/tasks
+[0.514s] copying isaacsim_ros2/tasks/pick_place.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/tasks
+[0.514s] copying isaacsim_ros2/tasks/__init__.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/tasks
+[0.514s] creating /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/server
+[0.514s] copying isaacsim_ros2/server/follow_target.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/server
+[0.514s] copying isaacsim_ros2/server/follow_target copy.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/server
+[0.514s] copying isaacsim_ros2/server/pick_place.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/server
+[0.514s] copying isaacsim_ros2/server/__init__.py -> /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/server
+[0.514s] running install
+[0.514s] running install_lib
+[0.514s] creating /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2
+[0.514s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/robot_env.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2
+[0.514s] creating /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/robot
+[0.514s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/robot/__init__.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/robot
+[0.514s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/robot/fr5.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/robot
+[0.514s] creating /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/client
+[0.514s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/client/__init__.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/client
+[0.514s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/client/set_target_pose_client.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/client
+[0.514s] creating /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/controller
+[0.514s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/controller/__init__.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/controller
+[0.514s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/controller/rmpflow_controller.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/controller
+[0.515s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/dcp.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2
+[0.515s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/dcp_no_camera.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2
+[0.516s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/__init__.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2
+[0.516s] creating /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/tasks
+[0.516s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/tasks/follow_target_with_rmpflow.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/tasks
+[0.516s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/tasks/follow_target.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/tasks
+[0.516s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/tasks/pick_place.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/tasks
+[0.516s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/tasks/__init__.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/tasks
+[0.516s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/action_graph.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2
+[0.516s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/assembler.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2
+[0.516s] creating /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/server
+[0.516s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/server/follow_target.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/server
+[0.516s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/server/follow_target copy.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/server
+[0.516s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/server/pick_place.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/server
+[0.516s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/server/__init__.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/server
+[0.516s] copying /home/home/dcp_ws/build/isaacsim_ros2/build/lib/isaacsim_ros2/robot_env_no_camera.py -> /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2
+[0.516s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/robot_env.py to robot_env.cpython-310.pyc
+[0.516s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/robot/__init__.py to __init__.cpython-310.pyc
+[0.516s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/robot/fr5.py to fr5.cpython-310.pyc
+[0.516s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/client/__init__.py to __init__.cpython-310.pyc
+[0.517s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/client/set_target_pose_client.py to set_target_pose_client.cpython-310.pyc
+[0.517s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/controller/__init__.py to __init__.cpython-310.pyc
+[0.517s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/controller/rmpflow_controller.py to rmpflow_controller.cpython-310.pyc
+[0.517s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/dcp.py to dcp.cpython-310.pyc
+[0.520s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/dcp_no_camera.py to dcp_no_camera.cpython-310.pyc
+[0.527s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/__init__.py to __init__.cpython-310.pyc
+[0.527s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/tasks/follow_target_with_rmpflow.py to follow_target_with_rmpflow.cpython-310.pyc
+[0.527s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/tasks/follow_target.py to follow_target.cpython-310.pyc
+[0.528s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/tasks/pick_place.py to pick_place.cpython-310.pyc
+[0.528s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/tasks/__init__.py to __init__.cpython-310.pyc
+[0.528s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/action_graph.py to action_graph.cpython-310.pyc
+[0.528s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/assembler.py to assembler.cpython-310.pyc
+[0.528s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/server/follow_target.py to follow_target.cpython-310.pyc
+[0.528s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/server/follow_target copy.py to follow_target copy.cpython-310.pyc
+[0.528s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/server/pick_place.py to pick_place.cpython-310.pyc
+[0.528s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/server/__init__.py to __init__.cpython-310.pyc
+[0.528s] byte-compiling /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2/robot_env_no_camera.py to robot_env_no_camera.cpython-310.pyc
+[0.528s] running install_data
+[0.528s] creating /home/home/dcp_ws/install/isaacsim_ros2/share/ament_index
+[0.528s] creating /home/home/dcp_ws/install/isaacsim_ros2/share/ament_index/resource_index
+[0.528s] creating /home/home/dcp_ws/install/isaacsim_ros2/share/ament_index/resource_index/packages
+[0.528s] copying resource/isaacsim_ros2 -> /home/home/dcp_ws/install/isaacsim_ros2/share/ament_index/resource_index/packages
+[0.528s] copying package.xml -> /home/home/dcp_ws/install/isaacsim_ros2/share/isaacsim_ros2
+[0.528s] running install_egg_info
+[0.530s] Copying ../../../build/isaacsim_ros2/isaacsim_ros2.egg-info to /home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages/isaacsim_ros2-0.0.0-py3.10.egg-info
+[0.533s] running install_scripts
+[0.549s] Installing set_target_pose_client script to /home/home/dcp_ws/install/isaacsim_ros2/lib/isaacsim_ros2
+[0.552s] writing list of installed files to '/home/home/dcp_ws/build/isaacsim_ros2/install.log'
+[0.597s] Invoked command in '/home/home/dcp_ws/src/fairino/isaacsim_ros2' returned '0': PYTHONPATH=/home/home/dcp_ws/build/isaacsim_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/home/dcp_ws/install/isaacsim_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/isaacsim_ros2 build --build-base /home/home/dcp_ws/build/isaacsim_ros2/build install --record /home/home/dcp_ws/build/isaacsim_ros2/install.log --single-version-externally-managed install_data

@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from fairino_interfaces/action/SE3Array.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseArray.idl"
+#include "std_msgs/msg/Float32MultiArray.idl"
+
+module fairino_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Define the goal")
+    struct SE3Array_Goal {
+      geometry_msgs::msg::PoseArray target_poses;
+
+      std_msgs::msg::Float32MultiArray durations;
+
+      sequence<boolean> relative;
+
+      sequence<boolean> wholebody;
+    };
+    @verbatim (language="comment", text=
+      "Define the result")
+    struct SE3Array_Result {
+      boolean is_completed;
+    };
+    @verbatim (language="comment", text=
+      "Define a feedback message")
+    struct SE3Array_Feedback {
+      float percent_complete;
+    };
+  };
+};

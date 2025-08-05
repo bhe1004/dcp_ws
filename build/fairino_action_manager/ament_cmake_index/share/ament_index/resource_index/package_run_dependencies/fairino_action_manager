@@ -1,0 +1,1 @@
+pinocchio;eigen3;rclcpp_action;rclcpp;fairino_interfaces;tf2_eigen;rosidl_default_runtime;launch;launch_ros;rclpy;action_msgs

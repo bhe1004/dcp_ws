@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from fairino_interfaces/action/JointPosture.action
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/JointState.idl"
+
+module fairino_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Define the goal")
+    struct JointPosture_Goal {
+      sensor_msgs::msg::JointState target_joints;
+
+      float duration;
+    };
+    @verbatim (language="comment", text=
+      "Define the result")
+    struct JointPosture_Result {
+      boolean is_completed;
+    };
+    @verbatim (language="comment", text=
+      "Define a feedback message")
+    struct JointPosture_Feedback {
+      float percent_complete;
+    };
+  };
+};

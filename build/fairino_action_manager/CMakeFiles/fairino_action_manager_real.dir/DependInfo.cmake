@@ -1,0 +1,20 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/home/dcp_ws/src/fairino/fairino_action_manager/src/real/real.cpp" "CMakeFiles/fairino_action_manager_real.dir/src/real/real.cpp.o" "gcc" "CMakeFiles/fairino_action_manager_real.dir/src/real/real.cpp.o.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/home/dcp_ws/build/fairino_action_manager/CMakeFiles/controller.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

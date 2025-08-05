@@ -1,0 +1,61 @@
+[ 22%] Built target task
+[ 33%] Built target task_manager
+[ 77%] Built target controller
+[35m[1mConsolidate compiler generated dependencies of target fairino_action_manager_simulation_isaac[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/fairino_action_manager_real.dir/src/real/real.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/fairino_action_manager_simulation_isaac.dir/src/simulation/simulation_isaac.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable fairino_action_manager_real[0m
+/usr/bin/ld: warning: libpinocchio_parsers.so.3.5.0, needed by /home/home/fairino_ros2_ws/install/kimm_hqp_controller/lib/libkimm_hqp_controller.so, not found (try using -rpath or -rpath-link)
+[ 94%] Built target fairino_action_manager_real
+[100%] [32m[1mLinking CXX executable fairino_action_manager_simulation_isaac[0m
+/usr/bin/ld: warning: libpinocchio_parsers.so.3.5.0, needed by /home/home/fairino_ros2_ws/install/kimm_hqp_controller/lib/libkimm_hqp_controller.so, not found (try using -rpath or -rpath-link)
+[100%] Built target fairino_action_manager_simulation_isaac
+-- Install configuration: ""
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/lib/libcontroller.so
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/lib/libtask.so
+-- Installing: /home/home/dcp_ws/install/fairino_action_manager/lib/fairino_action_manager/fairino_action_manager_real
+-- Set runtime path of "/home/home/dcp_ws/install/fairino_action_manager/lib/fairino_action_manager/fairino_action_manager_real" to ""
+-- Installing: /home/home/dcp_ws/install/fairino_action_manager/lib/fairino_action_manager/fairino_action_manager_simulation_isaac
+-- Set runtime path of "/home/home/dcp_ws/install/fairino_action_manager/lib/fairino_action_manager/fairino_action_manager_simulation_isaac" to ""
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/lib/fairino_action_manager/task_manager
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/controller
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/servers
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/servers/basic
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/servers/basic/qr_action_server.hpp
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/servers/basic/tool_changer_action_server.hpp
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/servers/basic/se3_action_server.hpp
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/servers/basic/gripper_real_action_server.hpp
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/servers/basic/gripper_sim_action_server.hpp
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/servers/basic/joint_posture_action_server.hpp
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/servers/task
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/servers/task/base_task.hpp
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/servers/task/place.hpp
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/servers/task/pick.hpp
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/real
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/real/real.hpp
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/task
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/task/task_manager.hpp
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/simulation
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/include/fairino_action_manager/simulation/simulation_isaac.hpp
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/fairino_action_manager/launch
+-- Installing: /home/home/dcp_ws/install/fairino_action_manager/share/fairino_action_manager/launch/simulation_isaac_launch.py
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/fairino_action_manager/launch/real_launch.py
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/ament_index/resource_index/package_run_dependencies/fairino_action_manager
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/ament_index/resource_index/parent_prefix_path/fairino_action_manager
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/fairino_action_manager/environment/ament_prefix_path.sh
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/fairino_action_manager/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/fairino_action_manager/environment/path.sh
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/fairino_action_manager/environment/path.dsv
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/fairino_action_manager/local_setup.bash
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/fairino_action_manager/local_setup.sh
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/fairino_action_manager/local_setup.zsh
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/fairino_action_manager/local_setup.dsv
+-- Installing: /home/home/dcp_ws/install/fairino_action_manager/share/fairino_action_manager/package.dsv
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/ament_index/resource_index/packages/fairino_action_manager
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/fairino_action_manager/cmake/fairino_action_managerConfig.cmake
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/fairino_action_manager/cmake/fairino_action_managerConfig-version.cmake
+-- Up-to-date: /home/home/dcp_ws/install/fairino_action_manager/share/fairino_action_manager/package.xml

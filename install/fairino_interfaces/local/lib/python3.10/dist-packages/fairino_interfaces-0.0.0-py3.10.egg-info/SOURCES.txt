@@ -1,0 +1,17 @@
+setup.py
+fairino_interfaces/__init__.py
+fairino_interfaces.egg-info/PKG-INFO
+fairino_interfaces.egg-info/SOURCES.txt
+fairino_interfaces.egg-info/dependency_links.txt
+fairino_interfaces.egg-info/top_level.txt
+fairino_interfaces/action/__init__.py
+fairino_interfaces/action/_gripper.py
+fairino_interfaces/action/_joint_posture.py
+fairino_interfaces/action/_move.py
+fairino_interfaces/action/_qr.py
+fairino_interfaces/action/_se3.py
+fairino_interfaces/action/_se3_array.py
+fairino_interfaces/action/_tool_changer.py
+fairino_interfaces/srv/__init__.py
+fairino_interfaces/srv/_pick.py
+fairino_interfaces/srv/_place.py

@@ -65,8 +65,8 @@ namespace RobotController
 
         Vector3d ee_offset(0.0, 0, 0.0);
         VectorXd ee_gain(6);
-        ee_gain << 1200., 1200., 1200.,
-                   1200., 1200., 1200.;
+        ee_gain << 400., 400., 400.,
+                   400., 400., 400.;
         eeTask_ = std::make_shared<TaskSE3Equality>("task-se3", *robot_, "j6", ee_offset);
         eeTask_->Kp(ee_gain); 
         eeTask_->Kd(1.4 * eeTask_->Kp().cwiseSqrt());

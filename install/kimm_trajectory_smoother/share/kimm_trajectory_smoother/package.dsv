@@ -1,0 +1,11 @@
+source;share/kimm_trajectory_smoother/hook/cmake_prefix_path.ps1
+source;share/kimm_trajectory_smoother/hook/cmake_prefix_path.dsv
+source;share/kimm_trajectory_smoother/hook/cmake_prefix_path.sh
+source;share/kimm_trajectory_smoother/hook/ld_library_path_lib.ps1
+source;share/kimm_trajectory_smoother/hook/ld_library_path_lib.dsv
+source;share/kimm_trajectory_smoother/hook/ld_library_path_lib.sh
+source;share/kimm_trajectory_smoother/local_setup.bash
+source;share/kimm_trajectory_smoother/local_setup.dsv
+source;share/kimm_trajectory_smoother/local_setup.ps1
+source;share/kimm_trajectory_smoother/local_setup.sh
+source;share/kimm_trajectory_smoother/local_setup.zsh

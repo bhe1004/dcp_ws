@@ -1,0 +1,28 @@
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+  CMakeLists.txt:21 (find_package)
+
+[0m
+[31mCMake Error at CMakeLists.txt:25 (find_package):
+  By not providing "Findpak_hqp_controller.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "pak_hqp_controller", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "pak_hqp_controller" with any of the following names:
+
+    pak_hqp_controllerConfig.cmake
+    pak_hqp_controller-config.cmake
+
+  Add the installation prefix of "pak_hqp_controller" to CMAKE_PREFIX_PATH or
+  set "pak_hqp_controller_DIR" to a directory containing one of the above
+  files.  If "pak_hqp_controller" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

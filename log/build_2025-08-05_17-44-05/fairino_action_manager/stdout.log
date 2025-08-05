@@ -1,0 +1,6 @@
+[ 22%] Built target task
+[ 33%] Built target task_manager
+[ 77%] Built target controller
+[35m[1mConsolidate compiler generated dependencies of target fairino_action_manager_simulation_isaac[0m
+[ 88%] Built target fairino_action_manager_real
+[ 94%] [32mBuilding CXX object CMakeFiles/fairino_action_manager_simulation_isaac.dir/src/simulation/simulation_isaac.cpp.o[0m

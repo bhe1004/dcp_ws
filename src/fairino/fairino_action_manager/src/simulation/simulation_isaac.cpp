@@ -19,30 +19,6 @@ FairinoController::FairinoController(const rclcpp::NodeOptions & opts)
   string controller_gui_urdf_dir = this->declare_parameter<std::string>("controller_gui_urdf_dir", "default_package_share_path_val"); // This was not used
   string controller_gui_urdf_filename = this->declare_parameter<std::string>("controller_gui_urdf_filename", "default_urdf_name_val"); // This was not used
   
-  std::string urdfFileNameForGui;
-  this->get_parameter("urdf_full", urdfFileNameForGui); // Parameter for GUI URDF
-
-  pinocchio::Model gui_model;
-  pinocchio::urdf::buildModel(urdfFileNameForGui, gui_model, false); // Use the correct variable
-
-  gui_joint_msg_.name.resize(gui_model.nq);
-  gui_joint_msg_.position.resize(gui_model.nq);
-  gui_joint_msg_.velocity.resize(gui_model.nq);
-  gui_joint_msg_.effort.resize(gui_model.nq);
-
-  // Pinocchio's model.names includes "universe" as the first element (index 0).
-  // Actual joint names start from index 1.
-  if (gui_model.njoints > 1) { // Ensure there's more than just 'universe'
-    for (int j = 0; j < gui_model.nq; j++) { // Assuming nq matches number of named joints after universe
-      gui_joint_msg_.name[j] = gui_model.names[j + 1]; // Names[0] is universe
-      gui_joint_msg_.position[j] = 0.0;
-      gui_joint_msg_.velocity[j] = 0.0;
-      gui_joint_msg_.effort[j] = 0.0;
-    }
-  } else {
-      RCLCPP_WARN(get_logger(), "GUI URDF model has no joints (nq=%d, njoints=%d). JointState messages will be empty.", gui_model.nq, gui_model.njoints);
-  }
-
   // Publisher
   isaac_joint_command_publisher_ = create_publisher<sensor_msgs::msg::JointState>(
     "/isaac_joint_command", 10
@@ -117,7 +93,6 @@ void FairinoController::JointStateCallback(const sensor_msgs::msg::JointState::S
     for (int i=0; i<6; i++) {
         q(i) = msg->position[i];
         v(i) = msg->velocity[i];
-        gui_joint_msg_.position[i] = ctrl_->state().fairino.q(i);
     }
 
     ctrl_->fairino_update(q, v);

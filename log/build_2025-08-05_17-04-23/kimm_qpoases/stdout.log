@@ -1,0 +1,85 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.17") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/home/dcp_ws/build/kimm_qpoases
+[ 13%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/Constraints.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/Bounds.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/BLASReplacement.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/Indexlist.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/Flipper.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/Options.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/MessageHandling.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/QProblem.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/LAPACKReplacement.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/Matrices.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/QProblemB.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/SQProblem.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/SubjectTo.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/Utils.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libkimm_qpoases.so[0m
+[100%] Built target kimm_qpoases
+-- Install configuration: ""
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/lib/libkimm_qpoases.so
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblemB.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Matrices.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/extras
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/extras/SolutionAnalysis.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/extras/SolutionAnalysis.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/extras/OQPinterface.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/SQProblem.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Indexlist.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Bounds.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Options.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Constraints.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Utils.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/SubjectTo.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblem.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblem.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Constraints.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Types.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Constants.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Flipper.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/SubjectTo.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Utils.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblemB.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Indexlist.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Bounds.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/MessageHandling.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/MessageHandling.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/SQProblem.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/library_path.sh
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/library_path.dsv
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/ament_index/resource_index/package_run_dependencies/kimm_qpoases
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/ament_index/resource_index/parent_prefix_path/kimm_qpoases
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/ament_prefix_path.sh
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/ament_prefix_path.dsv
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/path.sh
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/path.dsv
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/local_setup.bash
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/local_setup.sh
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/local_setup.zsh
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/local_setup.dsv
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/package.dsv
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/ament_index/resource_index/packages/kimm_qpoases
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/cmake/kimm_qpoasesConfig.cmake
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/cmake/kimm_qpoasesConfig-version.cmake
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/package.xml

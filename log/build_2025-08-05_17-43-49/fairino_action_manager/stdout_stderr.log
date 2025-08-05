@@ -1,0 +1,14 @@
+[ 22%] Built target task
+[ 66%] Built target controller
+[ 77%] Built target task_manager
+[35m[1mConsolidate compiler generated dependencies of target fairino_action_manager_simulation_isaac[0m
+[ 88%] Built target fairino_action_manager_real
+[ 94%] [32mBuilding CXX object CMakeFiles/fairino_action_manager_simulation_isaac.dir/src/simulation/simulation_isaac.cpp.o[0m
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/simulation/simulation_isaac.cpp:[m[K In constructor ‘[01m[KFairinoController::FairinoController(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/simulation/simulation_isaac.cpp:28:3:[m[K [01;31m[Kerror: [m[K‘[01m[KRLCPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO[m[K’?
+   28 |   [01;31m[KRLCPP_INFO[m[K(get_logger(), "GUI URDF model loaded: %s", urdfFileNameForGui.c_str());
+      |   [01;31m[K^~~~~~~~~~[m[K
+      |   [32m[KRCLCPP_INFO[m[K
+gmake[2]: *** [CMakeFiles/fairino_action_manager_simulation_isaac.dir/build.make:76: CMakeFiles/fairino_action_manager_simulation_isaac.dir/src/simulation/simulation_isaac.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/fairino_action_manager_simulation_isaac.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

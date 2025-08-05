@@ -1,0 +1,4 @@
+source;share/kimm_qpoases/local_setup.bash
+source;share/kimm_qpoases/local_setup.dsv
+source;share/kimm_qpoases/local_setup.sh
+source;share/kimm_qpoases/local_setup.zsh

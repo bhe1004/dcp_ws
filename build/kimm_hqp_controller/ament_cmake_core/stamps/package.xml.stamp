@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>kimm_hqp_controller</name>
+  <version>1.0.0</version>
+  <description>HQP controller for KIMM</description>
+
+  <maintainer email="kim87@kimm.re.kr">Sanghyun Kim</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Build dependencies -->
+  <build_depend>pinocchio</build_depend>
+  <build_depend>eiquadprog</build_depend>
+  <build_depend>eigenpy</build_depend>
+  <build_depend>kimm_trajectory_smoother</build_depend>
+  <build_depend>kimm_qpoases</build_depend>
+  <build_depend>boost</build_depend>
+
+  <!-- Execution dependencies -->
+  <exec_depend>pinocchio</exec_depend>
+  <exec_depend>eiquadprog</exec_depend>
+  <exec_depend>eigenpy</exec_depend>
+  <exec_depend>kimm_trajectory_smoother</exec_depend>
+  <exec_depend>kimm_qpoases</exec_depend>
+  <exec_depend>boost</exec_depend>
+
+  <!-- Optional visualizer / debug tool -->
+  <exec_depend>graphviz</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

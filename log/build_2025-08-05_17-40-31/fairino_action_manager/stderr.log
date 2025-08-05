@@ -1,0 +1,2 @@
+/usr/bin/ld: warning: libpinocchio_parsers.so.3.5.0, needed by /home/home/fairino_ros2_ws/install/kimm_hqp_controller/lib/libkimm_hqp_controller.so, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libpinocchio_parsers.so.3.5.0, needed by /home/home/fairino_ros2_ws/install/kimm_hqp_controller/lib/libkimm_hqp_controller.so, not found (try using -rpath or -rpath-link)

@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from fairino_interfaces/srv/Place.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module fairino_interfaces {
+  module srv {
+    struct Place_Request {
+      geometry_msgs::msg::Pose target_pose;
+
+      float duration;
+    };
+    struct Place_Response {
+      boolean is_completed;
+    };
+  };
+};

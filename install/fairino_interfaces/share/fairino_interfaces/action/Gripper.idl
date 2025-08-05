@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from fairino_interfaces/action/Gripper.action
+// generated code does not contain a copyright notice
+
+
+module fairino_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Define the goal")
+    struct Gripper_Goal {
+      boolean grasp;
+
+      uint8 position_percentage;
+
+      uint8 speed_percentage;
+
+      uint8 torque_percentage;
+    };
+    @verbatim (language="comment", text=
+      "Define the result")
+    struct Gripper_Result {
+      boolean is_completed;
+    };
+    @verbatim (language="comment", text=
+      "Define a feedback message")
+    struct Gripper_Feedback {
+      float percent_complete;
+    };
+  };
+};

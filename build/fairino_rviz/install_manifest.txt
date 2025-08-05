@@ -1,0 +1,17 @@
+/home/home/dcp_ws/install/fairino_rviz/share/fairino_rviz/rviz2/fr5.rviz
+/home/home/dcp_ws/install/fairino_rviz/share/fairino_rviz/launch/view_robot.launch.py
+/home/home/dcp_ws/install/fairino_rviz/share/ament_index/resource_index/package_run_dependencies/fairino_rviz
+/home/home/dcp_ws/install/fairino_rviz/share/ament_index/resource_index/parent_prefix_path/fairino_rviz
+/home/home/dcp_ws/install/fairino_rviz/share/fairino_rviz/environment/ament_prefix_path.sh
+/home/home/dcp_ws/install/fairino_rviz/share/fairino_rviz/environment/ament_prefix_path.dsv
+/home/home/dcp_ws/install/fairino_rviz/share/fairino_rviz/environment/path.sh
+/home/home/dcp_ws/install/fairino_rviz/share/fairino_rviz/environment/path.dsv
+/home/home/dcp_ws/install/fairino_rviz/share/fairino_rviz/local_setup.bash
+/home/home/dcp_ws/install/fairino_rviz/share/fairino_rviz/local_setup.sh
+/home/home/dcp_ws/install/fairino_rviz/share/fairino_rviz/local_setup.zsh
+/home/home/dcp_ws/install/fairino_rviz/share/fairino_rviz/local_setup.dsv
+/home/home/dcp_ws/install/fairino_rviz/share/fairino_rviz/package.dsv
+/home/home/dcp_ws/install/fairino_rviz/share/ament_index/resource_index/packages/fairino_rviz
+/home/home/dcp_ws/install/fairino_rviz/share/fairino_rviz/cmake/fairino_rvizConfig.cmake
+/home/home/dcp_ws/install/fairino_rviz/share/fairino_rviz/cmake/fairino_rvizConfig-version.cmake
+/home/home/dcp_ws/install/fairino_rviz/share/fairino_rviz/package.xml

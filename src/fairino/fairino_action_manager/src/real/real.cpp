@@ -16,7 +16,7 @@ FairinoController::FairinoController(const rclcpp::NodeOptions & opts)
   this->declare_parameter<std::string>("robot_ip", "192.168.58.2");
   this->declare_parameter<std::string>("robot_group", "fr5");
   this->declare_parameter<std::string>("urdf_full", ""); // URDF 경로이므로 기본값으로 빈 문자열을 줍니다.
-  this->declare_parameter<std::string>("model_path", "/home/home/dcp_ws/src/fairino/fairino_description");
+  this->declare_parameter<std::string>("model_path", "/home/home/dcp_ws/src/fairino/robotiq_description");
   this->declare_parameter<std::string>("urdf_name", "/urdf/fairino5_v6.urdf");
 
   // Robot Linking

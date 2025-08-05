@@ -1,0 +1,121 @@
+[0.023s] Invoking command in '/home/home/dcp_ws/build/kimm_trajectory_smoother': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/kimm_qpoases:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/fairino_ros2_ws/install/kimm_hqp_controller:/home/home/fairino_ros2_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/fairino_ros2_ws/install/isaacsim_ros2:/opt/ros/humble:/home/home/fairino_ros2_ws/install/kimm_qpoases:/home/home/fairino_ros2_ws/install/isaacsim:/home/home/fairino_ros2_ws/install/fairino_rviz:/home/home/fairino_ros2_ws/install/fairino_action_manager:/home/home/fairino_ros2_ws/install/fairino_interfaces:/home/home/fairino_ros2_ws/install/fairino_description:/home/home/fairino_ros2_ws/install/dh_robotics_ag95_description /usr/bin/cmake /home/home/dcp_ws/src/fairino/kimm_trajectory_smoother -DCMAKE_INSTALL_PREFIX=/home/home/dcp_ws/install/kimm_trajectory_smoother
+[0.173s] -- The C compiler identification is GNU 11.4.0
+[0.173s] -- The CXX compiler identification is GNU 11.4.0
+[0.173s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.173s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.173s] -- Detecting CXX compiler ABI info
+[0.203s] -- Detecting CXX compiler ABI info - done
+[0.209s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.209s] -- Detecting CXX compile features
+[0.210s] -- Detecting CXX compile features - done
+[0.210s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.306s] -- Found Python3: /usr/bin/python3 (found version "3.10.17") found components: Interpreter 
+[0.378s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[0.378s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[0.395s] -- Checking for NumPy
+[0.540s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[0.648s] --   NUMPY_VERSION=1.21.5
+[0.822s] -- Found Python3: /usr/bin/python3 (found version "3.10.17") found components: Interpreter Development.Module NumPy 
+[0.823s] -- PythonLibraryDirs: 
+[0.823s] -- PythonLibVersionString: 3.10.17
+[0.835s] -- Python site lib: lib/python3.10/site-packages
+[0.835s] -- Python include dirs: /usr/include/python3.10
+[0.882s] -- Checking for NumPy
+[1.005s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[1.140s] --   NUMPY_VERSION=1.21.5
+[1.140s] -- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[1.145s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[1.145s]   No header defined for python310; skipping header check (note: header-only
+[1.145s]   libraries have no designated component)
+[1.145s] Call Stack (most recent call first):
+[1.145s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+[1.145s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+[1.145s]   CMakeLists.txt:11 (find_package)
+[1.145s] 
+[1.145s] [0m
+[1.168s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[1.566s] -- Default C++ standard: 201703
+[1.566s] -- Minimal C++ standard upgraded to 11
+[1.566s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.566s] -- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17
+[1.606s] -- Configuring done
+[1.608s] -- Generating done
+[1.609s] -- Build files have been written to: /home/home/dcp_ws/build/kimm_trajectory_smoother
+[1.613s] Invoked command in '/home/home/dcp_ws/build/kimm_trajectory_smoother' returned '0': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/kimm_qpoases:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/fairino_ros2_ws/install/kimm_hqp_controller:/home/home/fairino_ros2_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/fairino_ros2_ws/install/isaacsim_ros2:/opt/ros/humble:/home/home/fairino_ros2_ws/install/kimm_qpoases:/home/home/fairino_ros2_ws/install/isaacsim:/home/home/fairino_ros2_ws/install/fairino_rviz:/home/home/fairino_ros2_ws/install/fairino_action_manager:/home/home/fairino_ros2_ws/install/fairino_interfaces:/home/home/fairino_ros2_ws/install/fairino_description:/home/home/fairino_ros2_ws/install/dh_robotics_ag95_description /usr/bin/cmake /home/home/dcp_ws/src/fairino/kimm_trajectory_smoother -DCMAKE_INSTALL_PREFIX=/home/home/dcp_ws/install/kimm_trajectory_smoother
+[1.617s] Invoking command in '/home/home/dcp_ws/build/kimm_trajectory_smoother': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/kimm_qpoases:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/fairino_ros2_ws/install/kimm_hqp_controller:/home/home/fairino_ros2_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/fairino_ros2_ws/install/isaacsim_ros2:/opt/ros/humble:/home/home/fairino_ros2_ws/install/kimm_qpoases:/home/home/fairino_ros2_ws/install/isaacsim:/home/home/fairino_ros2_ws/install/fairino_rviz:/home/home/fairino_ros2_ws/install/fairino_action_manager:/home/home/fairino_ros2_ws/install/fairino_interfaces:/home/home/fairino_ros2_ws/install/fairino_description:/home/home/fairino_ros2_ws/install/dh_robotics_ag95_description /usr/bin/cmake --build /home/home/dcp_ws/build/kimm_trajectory_smoother -- -j10 -l10
+[1.645s] [ 33%] [32mBuilding CXX object CMakeFiles/kimm_trajectory_smoother.dir/src/Path.cpp.o[0m
+[1.645s] [ 66%] [32mBuilding CXX object CMakeFiles/kimm_trajectory_smoother.dir/src/Trajectory.cpp.o[0m
+[2.117s] [01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:[m[K In constructor ‘[01m[KLinearPathSegment::LinearPathSegment(const VectorXd&, const VectorXd&)[m[K’:
+[2.117s] [01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:48:25:[m[K [01;35m[Kwarning: [m[K‘[01m[KLinearPathSegment::end[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.117s]    48 |         Eigen::VectorXd [01;35m[Kend[m[K;
+[2.117s]       |                         [01;35m[K^~~[m[K
+[2.117s] [01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:20:47:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Kkimmtraj::PathSegment[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.117s]    20 |                 PathSegment((end-start).norm()[01;35m[K)[m[K
+[2.117s]       |                                               [01;35m[K^[m[K
+[2.117s] [01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:17:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.117s]    17 |         [01;35m[KLinearPathSegment[m[K(const Eigen::VectorXd &start, const Eigen::VectorXd &end) :
+[2.118s]       |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[2.118s] [01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:[m[K In member function ‘[01m[Kbool kimmtraj::Trajectory::getNextSwitchingPoint(double, kimmtraj::Trajectory::TrajectoryStep&, double&, double&)[m[K’:
+[2.118s] [01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:86:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.118s]    86 |                 double [01;35m[Ktest[m[K = getVelocityMaxPathVelocity(accelerationSwitchingPoint.pathPos);
+[2.118s]       |                        [01;35m[K^~~~[m[K
+[2.182s] [01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:[m[K In constructor ‘[01m[KCircularPathSegment::CircularPathSegment(const VectorXd&, const VectorXd&, const VectorXd&, double)[m[K’:
+[2.182s] [01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:77:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KstartDistance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.182s]    77 |                 const double [01;35m[KstartDistance[m[K = (start - intersection).norm();
+[2.182s]       |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[2.182s] [01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:78:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KendDistance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.182s]    78 |                 const double [01;35m[KendDistance[m[K = (end - intersection).norm();
+[2.182s]       |                              [01;35m[K^~~~~~~~~~~[m[K
+[2.194s] [01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:[m[K At global scope:
+[2.194s] [01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:12:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble squared(double)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[2.194s]    12 | static double [01;35m[Ksquared[m[K(double d) {
+[2.194s]       |               [01;35m[K^~~~~~~[m[K
+[2.270s] [01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:[m[K In member function ‘[01m[Kvoid kimmtraj::Trajectory::integrateBackward(std::__cxx11::list<kimmtraj::Trajectory::TrajectoryStep>&, double, double, double)[m[K’:
+[2.270s] [01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:317:138:[m[K [01;35m[Kwarning: [m[K‘[01m[Kslope[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[2.270s]   317 |                 const double intersectionPathPos = (start1->pathVel - pathVel + slope * pathPos - startSlope * start1->pathPos) / [01;35m[K(slope - startSlope)[m[K;
+[2.270s]       |                                                                                                                                   [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[2.302s] [01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:[m[K In member function ‘[01m[Kdouble kimmtraj::Trajectory::getVelocityMaxPathVelocityDeriv(double)[m[K’:
+[2.302s] [01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:399:47:[m[K [01;35m[Kwarning: [m[K‘[01m[KactiveConstraint[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[2.302s]   399 |         return - (maxVelocity[activeConstraint[01;35m[K][m[K * path.getCurvature(pathPos)[activeConstraint])
+[2.302s]       |                                               [01;35m[K^[m[K
+[2.878s] [100%] [32m[1mLinking CXX shared library libkimm_trajectory_smoother.so[0m
+[3.009s] [100%] Built target kimm_trajectory_smoother
+[3.028s] Invoked command in '/home/home/dcp_ws/build/kimm_trajectory_smoother' returned '0': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/kimm_qpoases:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/fairino_ros2_ws/install/kimm_hqp_controller:/home/home/fairino_ros2_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/fairino_ros2_ws/install/isaacsim_ros2:/opt/ros/humble:/home/home/fairino_ros2_ws/install/kimm_qpoases:/home/home/fairino_ros2_ws/install/isaacsim:/home/home/fairino_ros2_ws/install/fairino_rviz:/home/home/fairino_ros2_ws/install/fairino_action_manager:/home/home/fairino_ros2_ws/install/fairino_interfaces:/home/home/fairino_ros2_ws/install/fairino_description:/home/home/fairino_ros2_ws/install/dh_robotics_ag95_description /usr/bin/cmake --build /home/home/dcp_ws/build/kimm_trajectory_smoother -- -j10 -l10
+[3.030s] Invoking command in '/home/home/dcp_ws/build/kimm_trajectory_smoother': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/kimm_qpoases:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/fairino_ros2_ws/install/kimm_hqp_controller:/home/home/fairino_ros2_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/fairino_ros2_ws/install/isaacsim_ros2:/opt/ros/humble:/home/home/fairino_ros2_ws/install/kimm_qpoases:/home/home/fairino_ros2_ws/install/isaacsim:/home/home/fairino_ros2_ws/install/fairino_rviz:/home/home/fairino_ros2_ws/install/fairino_action_manager:/home/home/fairino_ros2_ws/install/fairino_interfaces:/home/home/fairino_ros2_ws/install/fairino_description:/home/home/fairino_ros2_ws/install/dh_robotics_ag95_description /usr/bin/cmake --install /home/home/dcp_ws/build/kimm_trajectory_smoother
+[3.039s] -- Install configuration: ""
+[3.040s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/lib/libkimm_trajectory_smoother.so
+[3.041s] -- Set runtime path of "/home/home/dcp_ws/install/kimm_trajectory_smoother/lib/libkimm_trajectory_smoother.so" to ""
+[3.041s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include/
+[3.041s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother
+[3.041s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings
+[3.041s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings/expose_Trajectory.hpp
+[3.041s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings/fwd.hpp
+[3.042s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings/expose_Path.hpp
+[3.042s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings/Trajectory.hpp
+[3.042s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings/Path.hpp
+[3.042s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/Trajectory.h
+[3.042s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/Path.h
+[3.042s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/library_path.sh
+[3.043s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/library_path.dsv
+[3.043s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/ament_index/resource_index/package_run_dependencies/kimm_trajectory_smoother
+[3.043s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/ament_index/resource_index/parent_prefix_path/kimm_trajectory_smoother
+[3.044s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/ament_prefix_path.sh
+[3.044s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/ament_prefix_path.dsv
+[3.044s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/path.sh
+[3.045s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/path.dsv
+[3.045s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/local_setup.bash
+[3.045s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/local_setup.sh
+[3.045s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/local_setup.zsh
+[3.045s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/local_setup.dsv
+[3.045s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/package.dsv
+[3.046s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/ament_index/resource_index/packages/kimm_trajectory_smoother
+[3.046s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.046s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+[3.047s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.047s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake/kimm_trajectory_smootherConfig.cmake
+[3.047s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake/kimm_trajectory_smootherConfig-version.cmake
+[3.048s] -- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/package.xml
+[3.049s] Invoked command in '/home/home/dcp_ws/build/kimm_trajectory_smoother' returned '0': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/kimm_qpoases:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/fairino_ros2_ws/install/kimm_hqp_controller:/home/home/fairino_ros2_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/fairino_ros2_ws/install/isaacsim_ros2:/opt/ros/humble:/home/home/fairino_ros2_ws/install/kimm_qpoases:/home/home/fairino_ros2_ws/install/isaacsim:/home/home/fairino_ros2_ws/install/fairino_rviz:/home/home/fairino_ros2_ws/install/fairino_action_manager:/home/home/fairino_ros2_ws/install/fairino_interfaces:/home/home/fairino_ros2_ws/install/fairino_description:/home/home/fairino_ros2_ws/install/dh_robotics_ag95_description /usr/bin/cmake --install /home/home/dcp_ws/build/kimm_trajectory_smoother
