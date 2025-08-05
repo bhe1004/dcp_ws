@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>pak_hqp_controller</name>
+  <version>0.0.1</version>
+  <description>HQP controller solver and utilities</description>
+  <maintainer email="pakbohyong0717@gmail.com">Pak_BH</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>eigen3_cmake_module</build_depend>
+  <build_depend>eigen</build_depend>
+  <build_depend>pinocchio</build_depend>
+  <build_depend>eiquadprog</build_depend>
+  
+  <exec_depend>eigen</exec_depend>
+  <exec_depend>pinocchio</exec_depend>
+  <exec_depend>eiquadprog</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
