@@ -1,0 +1,1 @@
+/home/home/dcp_ws/build/fairino_interfaces/rosidl_generator_py/fairino_interfaces/srv/_place_s.c

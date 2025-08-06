@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>dh_robotics_ag95_description</name>
+  <version>0.0.0</version>
+  <description>DH-robotics ag95 Visual Models</description>
+  <maintainer email="Renjie.ding@dh-robotics.com">Shelling Ding</maintainer>
+  <author>Shelling Ding</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

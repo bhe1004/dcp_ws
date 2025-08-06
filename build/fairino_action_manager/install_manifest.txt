@@ -1,0 +1,5 @@
+/home/home/dcp_ws/install/fairino_action_manager/lib/libcontroller.so
+/home/home/dcp_ws/install/fairino_action_manager/lib/libtask.so
+/home/home/dcp_ws/install/fairino_action_manager/lib/fairino_action_manager/fairino_action_manager_real
+/home/home/dcp_ws/install/fairino_action_manager/lib/fairino_action_manager/fairino_action_manager_simulation_isaac
+/home/home/dcp_ws/install/fairino_action_manager/lib/fairino_action_manager/task_manager

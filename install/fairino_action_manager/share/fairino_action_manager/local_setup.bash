@@ -1,0 +1,1 @@
+/home/home/dcp_ws/build/fairino_action_manager/ament_cmake_environment_hooks/local_setup.bash

@@ -3,7 +3,7 @@ from typing import Optional
 
 import numpy as np
 import omni
-from isaacsim.core.api.objects import FixedCuboid, DynamicCuboid
+from isaacsim.core.api.objects import FixedCuboid, DynamicCuboid, DynamicCylinder
 from isaacsim.core.api.scenes.scene import Scene
 from isaacsim.core.api.tasks import BaseTask
 from isaacsim.core.prims import SingleXFormPrim, SingleRigidPrim
@@ -117,6 +117,13 @@ class DCP(ABC, BaseTask):
             size=0.05,
             position=np.array([0.64, 0.3, 0.1]),
         )
+
+        cylinder_1 = DynamicCylinder(
+            prim_path="/World/cylinder1",
+            name="cylinder1",
+            position=np.array([0.8, -0.146, 0.1]),
+            radius=0.02,
+            height=0.3)
 
         # Define the robot
         self._robot = self.set_robot()

@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from fairino_interfaces/action/ToolChanger.action
+// generated code does not contain a copyright notice
+
+
+module fairino_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Define the goal")
+    struct ToolChanger_Goal {
+      boolean grip;
+
+      int32 tool_id;
+
+      float duration;
+    };
+    @verbatim (language="comment", text=
+      "Define the result")
+    struct ToolChanger_Result {
+      boolean reach_completed;
+
+      boolean tool_change_completed;
+    };
+    @verbatim (language="comment", text=
+      "Define a feedback message")
+    struct ToolChanger_Feedback {
+      @verbatim (language="comment", text=
+        "50: reach complete, 100: tool change complete")
+      float percent_complete;
+    };
+  };
+};

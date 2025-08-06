@@ -1,0 +1,3 @@
+/home/home/dcp_ws/install/pak_hqp_controller/lib/libpak_hqp_controller.so
+/home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/cmake/export_pak_hqp_controllerExport.cmake
+/home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/cmake/export_pak_hqp_controllerExport-noconfig.cmake

@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target task[0m
+[  5%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller/controller.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/qr_action_server.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/se3_action_server.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/tool_changer_action_sever.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/joint_posture_action_server.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/gripper_sim_action_server.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/gripper_real_action_server.cpp.o[0m
+[ 61%] Built target task
+[ 66%] [32mBuilding CXX object CMakeFiles/task_manager.dir/src/task/task_manager.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable task_manager[0m
+[ 72%] Built target task_manager

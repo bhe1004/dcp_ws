@@ -1,0 +1,115 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+-- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+--   NUMPY_VERSION=1.21.5
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development.Module NumPy 
+-- PythonLibraryDirs: 
+-- PythonLibVersionString: 3.10.12
+-- Python site lib: lib/python3.10/site-packages
+-- Python include dirs: /usr/include/python3.10
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+--   NUMPY_VERSION=1.21.5
+-- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  CMakeLists.txt:11 (find_package)
+
+[0m
+-- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+-- Default C++ standard: 201703
+-- Minimal C++ standard upgraded to 11
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/home/dcp_ws/build/kimm_trajectory_smoother
+[ 33%] [32mBuilding CXX object CMakeFiles/kimm_trajectory_smoother.dir/src/Path.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/kimm_trajectory_smoother.dir/src/Trajectory.cpp.o[0m
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:[m[K In member function ‘[01m[Kbool kimmtraj::Trajectory::getNextSwitchingPoint(double, kimmtraj::Trajectory::TrajectoryStep&, double&, double&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:86:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   86 |                 double [01;35m[Ktest[m[K = getVelocityMaxPathVelocity(accelerationSwitchingPoint.pathPos);
+      |                        [01;35m[K^~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:[m[K In constructor ‘[01m[KLinearPathSegment::LinearPathSegment(const VectorXd&, const VectorXd&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:48:25:[m[K [01;35m[Kwarning: [m[K‘[01m[KLinearPathSegment::end[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   48 |         Eigen::VectorXd [01;35m[Kend[m[K;
+      |                         [01;35m[K^~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:20:47:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Kkimmtraj::PathSegment[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   20 |                 PathSegment((end-start).norm()[01;35m[K)[m[K
+      |                                               [01;35m[K^[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:17:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   17 |         [01;35m[KLinearPathSegment[m[K(const Eigen::VectorXd &start, const Eigen::VectorXd &end) :
+      |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:[m[K At global scope:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:12:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble squared(double)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   12 | static double [01;35m[Ksquared[m[K(double d) {
+      |               [01;35m[K^~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:[m[K In constructor ‘[01m[KCircularPathSegment::CircularPathSegment(const VectorXd&, const VectorXd&, const VectorXd&, double)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:77:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KstartDistance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   77 |                 const double [01;35m[KstartDistance[m[K = (start - intersection).norm();
+      |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:78:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KendDistance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   78 |                 const double [01;35m[KendDistance[m[K = (end - intersection).norm();
+      |                              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:[m[K In member function ‘[01m[Kvoid kimmtraj::Trajectory::integrateBackward(std::__cxx11::list<kimmtraj::Trajectory::TrajectoryStep>&, double, double, double)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:317:138:[m[K [01;35m[Kwarning: [m[K‘[01m[Kslope[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  317 |                 const double intersectionPathPos = (start1->pathVel - pathVel + slope * pathPos - startSlope * start1->pathPos) / [01;35m[K(slope - startSlope)[m[K;
+      |                                                                                                                                   [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:[m[K In member function ‘[01m[Kdouble kimmtraj::Trajectory::getVelocityMaxPathVelocityDeriv(double)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:399:47:[m[K [01;35m[Kwarning: [m[K‘[01m[KactiveConstraint[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  399 |         return - (maxVelocity[activeConstraint[01;35m[K][m[K * path.getCurvature(pathPos)[activeConstraint])
+      |                                               [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX shared library libkimm_trajectory_smoother.so[0m
+[100%] Built target kimm_trajectory_smoother
+-- Install configuration: ""
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/lib/libkimm_trajectory_smoother.so
+-- Set runtime path of "/home/home/dcp_ws/install/kimm_trajectory_smoother/lib/libkimm_trajectory_smoother.so" to ""
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include/
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings/Trajectory.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings/expose_Trajectory.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings/expose_Path.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings/Path.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings/fwd.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/Trajectory.h
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/Path.h
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/library_path.sh
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/library_path.dsv
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/ament_index/resource_index/package_run_dependencies/kimm_trajectory_smoother
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/ament_index/resource_index/parent_prefix_path/kimm_trajectory_smoother
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/ament_prefix_path.sh
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/ament_prefix_path.dsv
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/path.sh
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/path.dsv
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/local_setup.bash
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/local_setup.sh
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/local_setup.zsh
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/local_setup.dsv
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/package.dsv
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/ament_index/resource_index/packages/kimm_trajectory_smoother
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake/kimm_trajectory_smootherConfig.cmake
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake/kimm_trajectory_smootherConfig-version.cmake
+-- Installing: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/package.xml

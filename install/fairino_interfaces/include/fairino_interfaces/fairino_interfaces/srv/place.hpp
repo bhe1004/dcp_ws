@@ -1,0 +1,1 @@
+/home/home/dcp_ws/build/fairino_interfaces/rosidl_generator_cpp/fairino_interfaces/srv/place.hpp

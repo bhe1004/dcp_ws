@@ -1,0 +1,1 @@
+/home/home/dcp_ws/build/fairino_interfaces/rosidl_typesupport_fastrtps_c/fairino_interfaces/srv/detail/pick__rosidl_typesupport_fastrtps_c.h

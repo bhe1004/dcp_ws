@@ -1,0 +1,247 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+-- Build files have been written to: /home/home/dcp_ws/build/kimm_qpoases
+[ 20%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/Bounds.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/Constraints.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/BLASReplacement.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/Indexlist.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/LAPACKReplacement.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/Matrices.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/Flipper.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/MessageHandling.cpp.o[0m
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/BLASReplacement.cpp:[m[K In function ‘[01m[Kvoid dgemm_(const char*, const char*, const long unsigned int*, const long unsigned int*, const long unsigned int*, const double*, const double*, const long unsigned int*, const double*, const long unsigned int*, const double*, double*, const long unsigned int*)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/BLASReplacement.cpp:36:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTRANSB[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   36 | extern "C" void dgemm_ ( const char *TRANSA, [01;35m[Kconst char *TRANSB[m[K,
+      |                                              [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/BLASReplacement.cpp:[m[K In function ‘[01m[Kvoid sgemm_(const char*, const char*, const long unsigned int*, const long unsigned int*, const long unsigned int*, const float*, const float*, const long unsigned int*, const float*, const long unsigned int*, const float*, float*, const long unsigned int*)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/BLASReplacement.cpp:90:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTRANSB[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   90 | extern "C" void sgemm_ ( const char *TRANSA, [01;35m[Kconst char *TRANSB[m[K,
+      |                                              [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[ 60%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/Options.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/QProblem.cpp.o[0m
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/MessageHandling.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::MessageHandling::throwMessage(qpOASES::returnValue, const char*, const char*, const char*, long unsigned int, qpOASES::VisibilityStatus, const char*)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/MessageHandling.cpp:431:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfunctionname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  431 |         [01;35m[Kconst char* functionname[m[K,
+      |         [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/MessageHandling.cpp:432:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfilename[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  432 |         [01;35m[Kconst char* filename[m[K,
+      |         [01;35m[K~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/MessageHandling.cpp:433:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinenumber[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  433 |         [01;35m[Kconst unsigned long linenumber[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[ 73%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/QProblemB.cpp.o[0m
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/LAPACKReplacement.cpp:[m[K In function ‘[01m[Kvoid dpotrf_(const char*, const long unsigned int*, double*, const long unsigned int*, long int*)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/LAPACKReplacement.cpp:38:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuplo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   38 | extern "C" void dpotrf_ ([01;35m[Kconst char *uplo[m[K, const unsigned long *_n, double *a,
+      |                          [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/LAPACKReplacement.cpp:[m[K In function ‘[01m[Kvoid spotrf_(const char*, const long unsigned int*, float*, const long unsigned int*, long int*)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/LAPACKReplacement.cpp:78:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuplo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   78 | extern "C" void spotrf_ ([01;35m[Kconst char *uplo[m[K, const unsigned long *_n, float *a,
+      |                          [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[ 80%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/SQProblem.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/SubjectTo.cpp.o[0m
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblemB.hpp:1038[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES.hpp:32[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/Matrices.cpp:35[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblemB.ipp:[m[K In member function ‘[01m[Kvoid qpOASES::QProblemB::applyGivens(qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t&, qpOASES::real_t&) const[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblemB.ipp:412:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  412 | inline void QProblemB::applyGivens(     real_t c, real_t s, [01;35m[Kreal_t nu[m[K, real_t xold, real_t yold,
+      |                                                             [01;35m[K~~~~~~~^~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblem.hpp:43[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES.hpp:33[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/Matrices.cpp:35[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:[m[K In copy constructor ‘[01m[KqpOASES::ConstraintProduct::ConstraintProduct(const qpOASES::ConstraintProduct&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:64:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   64 |                 ConstraintProduct(      [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:[m[K In member function ‘[01m[KqpOASES::ConstraintProduct& qpOASES::ConstraintProduct::operator=(const qpOASES::ConstraintProduct&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:71:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   71 |                 ConstraintProduct &operator=(   [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/Matrices.cpp:[m[K In member function ‘[01m[Kvirtual qpOASES::returnValue qpOASES::SparseMatrix::addToDiag(qpOASES::real_t)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/Matrices.cpp:1074:12:[m[K [01;35m[Kwarning: [m[Ksuggest explicit braces to avoid ambiguous ‘[01m[Kelse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdangling-else-Wdangling-else]8;;[m[K]
+ 1074 |         if [01;35m[K([m[Kalpha != 0.0)
+      |            [01;35m[K^[m[K
+[ 93%] [32mBuilding CXX object CMakeFiles/kimm_qpoases.dir/src/Utils.cpp.o[0m
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblemB.hpp:1038[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblem.hpp:41[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblem.cpp:36[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblemB.ipp:[m[K In member function ‘[01m[Kvoid qpOASES::QProblemB::applyGivens(qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t&, qpOASES::real_t&) const[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblemB.ipp:412:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  412 | inline void QProblemB::applyGivens(     real_t c, real_t s, [01;35m[Kreal_t nu[m[K, real_t xold, real_t yold,
+      |                                                             [01;35m[K~~~~~~~^~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblem.hpp:43[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblem.cpp:36[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:[m[K In copy constructor ‘[01m[KqpOASES::ConstraintProduct::ConstraintProduct(const qpOASES::ConstraintProduct&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:64:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   64 |                 ConstraintProduct(      [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:[m[K In member function ‘[01m[KqpOASES::ConstraintProduct& qpOASES::ConstraintProduct::operator=(const qpOASES::ConstraintProduct&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:71:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   71 |                 ConstraintProduct &operator=(   [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/Matrices.cpp:[m[K In member function ‘[01m[Kvirtual qpOASES::returnValue qpOASES::SparseMatrixRow::addToDiag(qpOASES::real_t)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/Matrices.cpp:1680:12:[m[K [01;35m[Kwarning: [m[Ksuggest explicit braces to avoid ambiguous ‘[01m[Kelse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdangling-else-Wdangling-else]8;;[m[K]
+ 1680 |         if [01;35m[K([m[Kalpha != 0.0)
+      |            [01;35m[K^[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblem.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::QProblem::solveQP(const real_t*, const real_t*, const real_t*, const real_t*, const real_t*, int&, qpOASES::real_t*, int)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblem.cpp:1693:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KnFR[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+ 1693 |         int [01;35m[KnFR[m[K, nFX, nAC, nIAC;
+      |             [01;35m[K^~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblem.cpp:1693:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KnFX[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+ 1693 |         int nFR, [01;35m[KnFX[m[K, nAC, nIAC;
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblem.cpp:1693:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KnAC[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+ 1693 |         int nFR, nFX, [01;35m[KnAC[m[K, nIAC;
+      |                       [01;35m[K^~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblem.cpp:1693:28:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KnIAC[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+ 1693 |         int nFR, nFX, nAC, [01;35m[KnIAC[m[K;
+      |                            [01;35m[K^~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblemB.hpp:1038[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblemB.cpp:36[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblemB.ipp:[m[K In member function ‘[01m[Kvoid qpOASES::QProblemB::applyGivens(qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t&, qpOASES::real_t&) const[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblemB.ipp:412:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  412 | inline void QProblemB::applyGivens(     real_t c, real_t s, [01;35m[Kreal_t nu[m[K, real_t xold, real_t yold,
+      |                                                             [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblemB.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::QProblemB::solveQP(const real_t*, const real_t*, const real_t*, int&, qpOASES::real_t*, int)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblemB.cpp:2386:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KnFR[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+ 2386 |         int [01;35m[KnFR[m[K, nFX;
+      |             [01;35m[K^~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblemB.cpp:2386:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KnFX[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+ 2386 |         int nFR, [01;35m[KnFX[m[K;
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblemB.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::QProblemB::changeActiveSet(int, qpOASES::SubjectToStatus)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblemB.cpp:3321:25:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kelse[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+ 3321 |                         [01;35m[Kelse[m[K
+      |                         [01;35m[K^~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblemB.cpp:3323:33:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kelse[m[K’
+ 3323 |                                 [01;36m[KgetGlobalMessageHandler[m[K( )->throwInfo( RET_ADD_TO_ACTIVESET,messageString,__FUNCTION__,__FILE__,__LINE__,VS_VISIBLE );
+      |                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblemB.hpp:1038[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblem.hpp:41[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/SQProblem.hpp:42[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/SQProblem.cpp:37[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblemB.ipp:[m[K In member function ‘[01m[Kvoid qpOASES::QProblemB::applyGivens(qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t&, qpOASES::real_t&) const[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblemB.ipp:412:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  412 | inline void QProblemB::applyGivens(     real_t c, real_t s, [01;35m[Kreal_t nu[m[K, real_t xold, real_t yold,
+      |                                                             [01;35m[K~~~~~~~^~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblem.hpp:43[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/SQProblem.hpp:42[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/SQProblem.cpp:37[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:[m[K In copy constructor ‘[01m[KqpOASES::ConstraintProduct::ConstraintProduct(const qpOASES::ConstraintProduct&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:64:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   64 |                 ConstraintProduct(      [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:[m[K In member function ‘[01m[KqpOASES::ConstraintProduct& qpOASES::ConstraintProduct::operator=(const qpOASES::ConstraintProduct&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:71:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   71 |                 ConstraintProduct &operator=(   [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/SQProblem.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::SQProblem::hotstart(const real_t*, const real_t*, const real_t*, const real_t*, const real_t*, const real_t*, const real_t*, int&, qpOASES::real_t*)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/SQProblem.cpp:111:5:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+  111 |     [01;35m[Kif[m[K ( cputime != 0 )
+      |     [01;35m[K^~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/SQProblem.cpp:116:9:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+  116 |         [01;36m[Kif[m[K ( setupAuxiliaryQP( H_new,A_new,lb_new,ub_new,lbA_new,ubA_new ) != SUCCESSFUL_RETURN )
+      |         [01;36m[K^~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/SQProblem.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::SQProblem::hotstart(qpOASES::SymmetricMatrix*, const real_t*, qpOASES::Matrix*, const real_t*, const real_t*, const real_t*, const real_t*, int&, qpOASES::real_t*)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/SQProblem.cpp:246:5:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+  246 |     [01;35m[Kif[m[K ( cputime != 0 )
+      |     [01;35m[K^~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/SQProblem.cpp:251:9:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+  251 |         [01;36m[Kif[m[K ( setupAuxiliaryQP( H_new,A_new,lb_new,ub_new,lbA_new,ubA_new ) != SUCCESSFUL_RETURN )
+      |         [01;36m[K^~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblem.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::QProblem::printIteration(int, int, qpOASES::SubjectToStatus, qpOASES::BooleanType)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblem.cpp:6166:112:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output may be truncated before the last format character [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+ 6166 |                 snprintf( myPrintfString,80,"   %5.1d   |   %1.6e   |    %s SOLVED     |  %4.1d   |  %4.1d   \n[01;35m[K"[m[K, iteration,tau,info,getNFX( ),getNAC( ) );
+      |                                                                                                                [01;35m[K^[m[K
+In file included from [01m[K/usr/include/stdio.h:894[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/Indexlist.hpp:40[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/SubjectTo.hpp:40[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/Bounds.hpp:40[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/Flipper.hpp:40[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblemB.hpp:42[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/include/qpOASES/QProblem.hpp:41[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_qpoases/src/QProblem.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 60 and 97 bytes into a destination of size 80
+   71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libkimm_qpoases.so[0m
+[100%] Built target kimm_qpoases
+-- Install configuration: ""
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/lib/libkimm_qpoases.so
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Options.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblem.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Constants.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/extras
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/extras/SolutionAnalysis.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/extras/OQPinterface.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/extras/SolutionAnalysis.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/SQProblem.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/SQProblem.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Indexlist.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Bounds.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Indexlist.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Utils.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Constraints.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Utils.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblem.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/SubjectTo.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblemB.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Matrices.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Types.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/MessageHandling.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Flipper.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblemB.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Bounds.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/MessageHandling.ipp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Constraints.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/SubjectTo.hpp
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/library_path.sh
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/library_path.dsv
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/ament_index/resource_index/package_run_dependencies/kimm_qpoases
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/ament_index/resource_index/parent_prefix_path/kimm_qpoases
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/ament_prefix_path.sh
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/ament_prefix_path.dsv
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/path.sh
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/path.dsv
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/local_setup.bash
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/local_setup.sh
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/local_setup.zsh
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/local_setup.dsv
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/package.dsv
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/ament_index/resource_index/packages/kimm_qpoases
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/cmake/kimm_qpoasesConfig.cmake
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/cmake/kimm_qpoasesConfig-version.cmake
+-- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/package.xml

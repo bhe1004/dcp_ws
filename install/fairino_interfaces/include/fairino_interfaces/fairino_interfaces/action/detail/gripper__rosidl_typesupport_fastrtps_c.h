@@ -1,0 +1,1 @@
+/home/home/dcp_ws/build/fairino_interfaces/rosidl_typesupport_fastrtps_c/fairino_interfaces/action/detail/gripper__rosidl_typesupport_fastrtps_c.h

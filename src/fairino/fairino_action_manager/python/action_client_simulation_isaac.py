@@ -282,13 +282,13 @@ class ControlSuiteShell(cmd.Cmd):
         if arg.strip() == "0":
             # request.target_pose.position.x = 0.0
             # request.target_pose.position.y = 0.4
-            request.target_pose.position.x = 0.64
-            request.target_pose.position.y = 0.45
-            request.target_pose.position.z = 0.34
-            request.target_pose.orientation.x = 0.0
-            request.target_pose.orientation.y = 1.0
-            request.target_pose.orientation.z = 0.0
-            request.target_pose.orientation.w = 0.0
+            request.target_pose.position.x = 0.5
+            request.target_pose.position.y = -0.15
+            request.target_pose.position.z = 0.2
+            request.target_pose.orientation.x = 0.5
+            request.target_pose.orientation.y = -0.5
+            request.target_pose.orientation.z = 0.5
+            request.target_pose.orientation.w = -0.5
             # request.target_pose.orientation.x = 0.5
             # request.target_pose.orientation.y = -0.5
             # request.target_pose.orientation.z = 0.5
@@ -318,10 +318,10 @@ class ControlSuiteShell(cmd.Cmd):
             request.target_pose.position.x = 0.5
             request.target_pose.position.y = 0.45
             request.target_pose.position.z = 0.45
-            request.target_pose.orientation.x = 0.0
-            request.target_pose.orientation.y = 1.0
-            request.target_pose.orientation.z = 0.0
-            request.target_pose.orientation.w = 0.0
+            request.target_pose.orientation.x = 0.5
+            request.target_pose.orientation.y = -0.5
+            request.target_pose.orientation.z = 0.5
+            request.target_pose.orientation.w = -0.5
         else:
             request.target_pose.position.x = 0.4
             request.target_pose.position.y = 0.4

@@ -1,0 +1,89 @@
+[0.009s] Invoking command in '/home/home/dcp_ws/build/fairino_action_manager': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/kimm_ws/install/rb5_action_manager:/opt/ros/humble:/home/home/dcp_ws/install/kimm_qpoases:/home/home/gello_ws/install/franka_plugin:/home/home/gello_ws/install/franka_description:/home/home/gello_ws/install/dynamixel_sdk_examples:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces:/home/home/gello_ws/install/dynamixel:/home/home/gello_ws/install/dynamixel_sdk:/home/home/kimm_ws/install/rbpodo_bringup:/home/home/kimm_ws/install/rbpodo_hardware:/home/home/kimm_ws/install/rbpodo_msgs:/home/home/kimm_ws/install/rb3_730es_u_moveit_config:/home/home/kimm_ws/install/rbpodo_description:/home/home/kimm_ws/install/rb5_gui_manager:/home/home/kimm_ws/install/action_interface LD_LIBRARY_PATH=/home/home/dcp_ws/install/fairino_interfaces/lib:/home/home/dcp_ws/install/fairino_action_manager/lib:/home/home/dcp_ws/install/pak_hqp_controller/lib:/home/home/dcp_ws/install/kimm_hqp_controller/lib:/home/home/dcp_ws/install/kimm_trajectory_smoother/lib:/home/home/dcp_ws/install/kimm_qpoases/lib:/home/home/gello_ws/install/franka_plugin/lib:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/home/gello_ws/install/dynamixel_sdk/lib:/home/home/kimm_ws/install/rbpodo_hardware/lib:/home/home/kimm_ws/install/rbpodo_msgs/lib:/home/home/kimm_ws/install/rb5_gui_manager/lib:/home/home/kimm_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/home/dcp_ws/build/fairino_action_manager -- -j10 -l10
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target task[0m
+[0.043s] [  5%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller/controller.cpp.o[0m
+[0.044s] [ 11%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/qr_action_server.cpp.o[0m
+[0.045s] [ 16%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/se3_action_server.cpp.o[0m
+[0.046s] [ 33%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/tool_changer_action_sever.cpp.o[0m
+[0.046s] [ 33%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/joint_posture_action_server.cpp.o[0m
+[0.046s] [ 33%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/gripper_sim_action_server.cpp.o[0m
+[0.050s] [ 38%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/gripper_real_action_server.cpp.o[0m
+[0.051s] [ 61%] Built target task
+[0.066s] [ 66%] [32mBuilding CXX object CMakeFiles/task_manager.dir/src/task/task_manager.cpp.o[0m
+[3.755s] [ 72%] [32m[1mLinking CXX executable task_manager[0m
+[3.796s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+[3.796s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/se3_action_server.hpp:3[m[K,
+[3.796s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/se3_action_server.cpp:1[m[K:
+[3.796s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskParallelGrasp[m[K’ is not a member of ‘[01m[Kpak_hqp_controller::task[m[K’
+[3.796s]   211 |         std::shared_ptr<pak_hqp_controller::task::[01;31m[KTaskParallelGrasp[m[K> parallel_grasp_task_;
+[3.796s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.796s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.796s]   211 |         std::shared_ptr<pak_hqp_controller::task::TaskParallelGrasp[01;31m[K>[m[K parallel_grasp_task_;
+[3.796s]       |                                                                    [01;31m[K^[m[K
+[3.827s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+[3.827s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/tool_changer_action_server.hpp:3[m[K,
+[3.827s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/tool_changer_action_sever.cpp:1[m[K:
+[3.828s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskParallelGrasp[m[K’ is not a member of ‘[01m[Kpak_hqp_controller::task[m[K’
+[3.828s]   211 |         std::shared_ptr<pak_hqp_controller::task::[01;31m[KTaskParallelGrasp[m[K> parallel_grasp_task_;
+[3.828s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.828s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.828s]   211 |         std::shared_ptr<pak_hqp_controller::task::TaskParallelGrasp[01;31m[K>[m[K parallel_grasp_task_;
+[3.828s]       |                                                                    [01;31m[K^[m[K
+[3.860s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+[3.860s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/qr_action_server.hpp:3[m[K,
+[3.860s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/qr_action_server.cpp:1[m[K:
+[3.860s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskParallelGrasp[m[K’ is not a member of ‘[01m[Kpak_hqp_controller::task[m[K’
+[3.860s]   211 |         std::shared_ptr<pak_hqp_controller::task::[01;31m[KTaskParallelGrasp[m[K> parallel_grasp_task_;
+[3.860s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.860s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.860s]   211 |         std::shared_ptr<pak_hqp_controller::task::TaskParallelGrasp[01;31m[K>[m[K parallel_grasp_task_;
+[3.860s]       |                                                                    [01;31m[K^[m[K
+[3.862s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+[3.862s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/gripper_sim_action_server.hpp:3[m[K,
+[3.862s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/gripper_sim_action_server.cpp:1[m[K:
+[3.862s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskParallelGrasp[m[K’ is not a member of ‘[01m[Kpak_hqp_controller::task[m[K’
+[3.862s]   211 |         std::shared_ptr<pak_hqp_controller::task::[01;31m[KTaskParallelGrasp[m[K> parallel_grasp_task_;
+[3.862s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.862s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.862s]   211 |         std::shared_ptr<pak_hqp_controller::task::TaskParallelGrasp[01;31m[K>[m[K parallel_grasp_task_;
+[3.862s]       |                                                                    [01;31m[K^[m[K
+[3.878s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+[3.878s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/joint_posture_action_server.hpp:3[m[K,
+[3.878s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/joint_posture_action_server.cpp:1[m[K:
+[3.878s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskParallelGrasp[m[K’ is not a member of ‘[01m[Kpak_hqp_controller::task[m[K’
+[3.878s]   211 |         std::shared_ptr<pak_hqp_controller::task::[01;31m[KTaskParallelGrasp[m[K> parallel_grasp_task_;
+[3.878s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.878s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.878s]   211 |         std::shared_ptr<pak_hqp_controller::task::TaskParallelGrasp[01;31m[K>[m[K parallel_grasp_task_;
+[3.878s]       |                                                                    [01;31m[K^[m[K
+[3.949s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/tool_changer_action_sever.cpp:[m[K In member function ‘[01m[Kvirtual bool ToolChangerActionServer::compute(const rclcpp::Time&)[m[K’:
+[3.949s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/tool_changer_action_sever.cpp:97:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.949s]    97 | bool ToolChangerActionServer::compute([01;35m[Kconst rclcpp::Time& current_time[m[K)
+[3.949s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[3.951s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/controller/controller.cpp:1[m[K:
+[3.951s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskParallelGrasp[m[K’ is not a member of ‘[01m[Kpak_hqp_controller::task[m[K’
+[3.951s]   211 |         std::shared_ptr<pak_hqp_controller::task::[01;31m[KTaskParallelGrasp[m[K> parallel_grasp_task_;
+[3.951s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.951s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.951s]   211 |         std::shared_ptr<pak_hqp_controller::task::TaskParallelGrasp[01;31m[K>[m[K parallel_grasp_task_;
+[3.951s]       |                                                                    [01;31m[K^[m[K
+[3.990s] [ 72%] Built target task_manager
+[4.920s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+[4.923s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/gripper_real_action_server.hpp:3[m[K,
+[4.923s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/gripper_real_action_server.cpp:1[m[K:
+[4.923s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskParallelGrasp[m[K’ is not a member of ‘[01m[Kpak_hqp_controller::task[m[K’
+[4.923s]   211 |         std::shared_ptr<pak_hqp_controller::task::[01;31m[KTaskParallelGrasp[m[K> parallel_grasp_task_;
+[4.923s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.923s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.923s]   211 |         std::shared_ptr<pak_hqp_controller::task::TaskParallelGrasp[01;31m[K>[m[K parallel_grasp_task_;
+[4.923s]       |                                                                    [01;31m[K^[m[K
+[5.477s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:132: CMakeFiles/controller.dir/src/servers/basic/gripper_sim_action_server.cpp.o] 오류 1
+[5.477s] gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[5.481s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:146: CMakeFiles/controller.dir/src/servers/basic/tool_changer_action_sever.cpp.o] 오류 1
+[5.544s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:90: CMakeFiles/controller.dir/src/servers/basic/joint_posture_action_server.cpp.o] 오류 1
+[5.594s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:160: CMakeFiles/controller.dir/src/servers/basic/qr_action_server.cpp.o] 오류 1
+[6.059s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:104: CMakeFiles/controller.dir/src/servers/basic/se3_action_server.cpp.o] 오류 1
+[6.500s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:118: CMakeFiles/controller.dir/src/servers/basic/gripper_real_action_server.cpp.o] 오류 1
+[10.312s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller/controller.cpp.o] 오류 1
+[10.313s] gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/controller.dir/all] 오류 2
+[10.313s] gmake: *** [Makefile:146: all] 오류 2
+[10.315s] Invoked command in '/home/home/dcp_ws/build/fairino_action_manager' returned '2': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/kimm_ws/install/rb5_action_manager:/opt/ros/humble:/home/home/dcp_ws/install/kimm_qpoases:/home/home/gello_ws/install/franka_plugin:/home/home/gello_ws/install/franka_description:/home/home/gello_ws/install/dynamixel_sdk_examples:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces:/home/home/gello_ws/install/dynamixel:/home/home/gello_ws/install/dynamixel_sdk:/home/home/kimm_ws/install/rbpodo_bringup:/home/home/kimm_ws/install/rbpodo_hardware:/home/home/kimm_ws/install/rbpodo_msgs:/home/home/kimm_ws/install/rb3_730es_u_moveit_config:/home/home/kimm_ws/install/rbpodo_description:/home/home/kimm_ws/install/rb5_gui_manager:/home/home/kimm_ws/install/action_interface LD_LIBRARY_PATH=/home/home/dcp_ws/install/fairino_interfaces/lib:/home/home/dcp_ws/install/fairino_action_manager/lib:/home/home/dcp_ws/install/pak_hqp_controller/lib:/home/home/dcp_ws/install/kimm_hqp_controller/lib:/home/home/dcp_ws/install/kimm_trajectory_smoother/lib:/home/home/dcp_ws/install/kimm_qpoases/lib:/home/home/gello_ws/install/franka_plugin/lib:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/home/gello_ws/install/dynamixel_sdk/lib:/home/home/kimm_ws/install/rbpodo_hardware/lib:/home/home/kimm_ws/install/rbpodo_msgs/lib:/home/home/kimm_ws/install/rb5_gui_manager/lib:/home/home/kimm_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/home/dcp_ws/build/fairino_action_manager -- -j10 -l10

@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from fairino_interfaces/action/SE3.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module fairino_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Define the goal")
+    struct SE3_Goal {
+      geometry_msgs::msg::Pose target_pose;
+
+      float duration;
+
+      boolean relative;
+
+      boolean wholebody;
+    };
+    @verbatim (language="comment", text=
+      "Define the result")
+    struct SE3_Result {
+      boolean is_completed;
+    };
+    @verbatim (language="comment", text=
+      "Define a feedback message")
+    struct SE3_Feedback {
+      float percent_complete;
+    };
+  };
+};

@@ -1,0 +1,9 @@
+/home/home/dcp_ws/build/fairino_interfaces/rosidl_adapter/fairino_interfaces:action/JointPosture.idl
+/home/home/dcp_ws/build/fairino_interfaces/rosidl_adapter/fairino_interfaces:action/SE3.idl
+/home/home/dcp_ws/build/fairino_interfaces/rosidl_adapter/fairino_interfaces:action/SE3Array.idl
+/home/home/dcp_ws/build/fairino_interfaces/rosidl_adapter/fairino_interfaces:action/Gripper.idl
+/home/home/dcp_ws/build/fairino_interfaces/rosidl_adapter/fairino_interfaces:action/Move.idl
+/home/home/dcp_ws/build/fairino_interfaces/rosidl_adapter/fairino_interfaces:action/QR.idl
+/home/home/dcp_ws/build/fairino_interfaces/rosidl_adapter/fairino_interfaces:action/ToolChanger.idl
+/home/home/dcp_ws/build/fairino_interfaces/rosidl_adapter/fairino_interfaces:srv/Pick.idl
+/home/home/dcp_ws/build/fairino_interfaces/rosidl_adapter/fairino_interfaces:srv/Place.idl

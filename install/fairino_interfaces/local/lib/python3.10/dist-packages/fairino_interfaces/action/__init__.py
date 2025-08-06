@@ -1,0 +1,1 @@
+/home/home/dcp_ws/build/fairino_interfaces/rosidl_generator_py/fairino_interfaces/action/__init__.py

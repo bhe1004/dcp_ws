@@ -1,0 +1,423 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/home/dcp_ws/build/fairino_interfaces
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_symlink_fairino_interfaces
+running egg_info
+creating fairino_interfaces.egg-info
+writing fairino_interfaces.egg-info/PKG-INFO
+writing dependency_links to fairino_interfaces.egg-info/dependency_links.txt
+writing top-level names to fairino_interfaces.egg-info/top_level.txt
+writing manifest file 'fairino_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'fairino_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'fairino_interfaces.egg-info/SOURCES.txt'
+[  2%] Built target ament_cmake_python_build_fairino_interfaces_egg
+[  3%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_c.dir/rosidl_generator_c/fairino_interfaces/action/detail/joint_posture__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_c.dir/rosidl_generator_c/fairino_interfaces/action/detail/se3_array__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_c.dir/rosidl_generator_c/fairino_interfaces/action/detail/se3__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_c.dir/rosidl_generator_c/fairino_interfaces/action/detail/gripper__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_c.dir/rosidl_generator_c/fairino_interfaces/action/detail/qr__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_c.dir/rosidl_generator_c/fairino_interfaces/action/detail/tool_changer__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_c.dir/rosidl_generator_c/fairino_interfaces/action/detail/move__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_c.dir/rosidl_generator_c/fairino_interfaces/srv/detail/place__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_c.dir/rosidl_generator_c/fairino_interfaces/srv/detail/pick__functions.c.o[0m
+[ 11%] Built target fairino_interfaces__cpp
+[ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 15%] [32m[1mLinking C shared library libfairino_interfaces__rosidl_generator_c.so[0m
+[ 15%] Built target fairino_interfaces__rosidl_generator_c
+[ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fairino_interfaces/action/joint_posture__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fairino_interfaces/action/se3__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fairino_interfaces/action/se3_array__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fairino_interfaces/action/gripper__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fairino_interfaces/action/move__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/fairino_interfaces/action/joint_posture__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/fairino_interfaces/action/se3__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/fairino_interfaces/action/se3_array__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/fairino_interfaces/action/gripper__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fairino_interfaces/action/qr__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fairino_interfaces/action/tool_changer__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/fairino_interfaces/action/move__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fairino_interfaces/srv/pick__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fairino_interfaces/action/detail/joint_posture__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fairino_interfaces/srv/place__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/fairino_interfaces/action/qr__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/fairino_interfaces/action/tool_changer__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/fairino_interfaces/srv/pick__type_support.cpp.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fairino_interfaces/action/detail/joint_posture__type_support.c.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/fairino_interfaces/srv/place__type_support.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library libfairino_interfaces__rosidl_typesupport_c.so[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fairino_interfaces/action/detail/joint_posture__type_support_c.cpp.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fairino_interfaces/action/detail/se3_array__type_support.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fairino_interfaces/action/detail/se3__type_support.c.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fairino_interfaces/action/detail/dds_fastrtps/joint_posture__type_support.cpp.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fairino_interfaces/action/detail/gripper__type_support.c.o[0m
+[ 46%] Built target fairino_interfaces__rosidl_typesupport_c
+[ 47%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fairino_interfaces/action/detail/se3__type_support.cpp.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fairino_interfaces/action/detail/move__type_support.c.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fairino_interfaces/action/detail/dds_fastrtps/se3__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fairino_interfaces/action/detail/dds_fastrtps/se3_array__type_support.cpp.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fairino_interfaces/action/detail/qr__type_support.c.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fairino_interfaces/action/detail/dds_fastrtps/gripper__type_support.cpp.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fairino_interfaces/action/detail/tool_changer__type_support.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fairino_interfaces/srv/detail/pick__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fairino_interfaces/srv/detail/place__type_support.c.o[0m
+[ 56%] [32m[1mLinking CXX shared library libfairino_interfaces__rosidl_typesupport_cpp.so[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fairino_interfaces/action/detail/dds_fastrtps/move__type_support.cpp.o[0m
+[ 58%] [32m[1mLinking C shared library libfairino_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 58%] Built target fairino_interfaces__rosidl_typesupport_cpp
+[ 60%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fairino_interfaces/action/detail/se3_array__type_support.cpp.o[0m
+[ 60%] Built target fairino_interfaces__rosidl_typesupport_introspection_c
+[ 61%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fairino_interfaces/action/detail/gripper__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fairino_interfaces/action/detail/move__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fairino_interfaces/action/detail/se3__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fairino_interfaces/action/detail/dds_fastrtps/qr__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fairino_interfaces/action/detail/dds_fastrtps/tool_changer__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fairino_interfaces/action/detail/qr__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fairino_interfaces/srv/detail/dds_fastrtps/pick__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fairino_interfaces/srv/detail/dds_fastrtps/place__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fairino_interfaces/action/detail/se3_array__type_support_c.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fairino_interfaces/action/detail/gripper__type_support_c.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fairino_interfaces/action/detail/tool_changer__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fairino_interfaces/srv/detail/pick__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fairino_interfaces/action/detail/move__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fairino_interfaces/srv/detail/place__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fairino_interfaces/action/detail/qr__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fairino_interfaces/action/detail/tool_changer__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fairino_interfaces/srv/detail/pick__type_support_c.cpp.o[0m
+[ 78%] [32m[1mLinking CXX shared library libfairino_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fairino_interfaces/srv/detail/place__type_support_c.cpp.o[0m
+[ 80%] Built target fairino_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 81%] [32m[1mLinking CXX shared library libfairino_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 82%] [32m[1mLinking CXX shared library libfairino_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 82%] Built target fairino_interfaces__rosidl_typesupport_introspection_cpp
+[ 82%] Built target fairino_interfaces__rosidl_typesupport_fastrtps_c
+[ 82%] Built target fairino_interfaces
+[ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 83%] Built target fairino_interfaces__py
+[ 86%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fairino_interfaces/action/_se3_array_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fairino_interfaces/action/_gripper_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fairino_interfaces/action/_joint_posture_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fairino_interfaces/action/_tool_changer_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fairino_interfaces/action/_move_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fairino_interfaces/action/_qr_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fairino_interfaces/action/_se3_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fairino_interfaces/srv/_pick_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fairino_interfaces/srv/_place_s.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/fairino_interfaces/libfairino_interfaces__rosidl_generator_py.so[0m
+[ 93%] Built target fairino_interfaces__rosidl_generator_py
+[ 94%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fairino_interfaces/_fairino_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fairino_interfaces/_fairino_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/fairino_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fairino_interfaces/_fairino_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/fairino_interfaces/fairino_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/fairino_interfaces/fairino_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/fairino_interfaces/fairino_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target fairino_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target fairino_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target fairino_interfaces__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/ament_index/resource_index/rosidl_interfaces/fairino_interfaces
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/gripper__functions.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/gripper__struct.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/gripper__type_support.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/joint_posture__functions.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/joint_posture__struct.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/joint_posture__type_support.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/move__functions.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/move__struct.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/move__type_support.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/qr__functions.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/qr__struct.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/qr__type_support.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3__functions.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3__struct.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3__type_support.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3_array__functions.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3_array__struct.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3_array__type_support.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/tool_changer__functions.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/tool_changer__struct.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/tool_changer__type_support.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/gripper.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/joint_posture.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/move.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/qr.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/se3.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/se3_array.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/tool_changer.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/pick__functions.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/pick__struct.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/pick__type_support.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/place__functions.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/place__struct.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/place__type_support.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/pick.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/place.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/environment/library_path.sh
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/environment/library_path.dsv
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/gripper__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/joint_posture__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/move__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/qr__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/tool_changer__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/pick__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/place__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/gripper__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/joint_posture__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/move__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/qr__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/tool_changer__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/pick__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/place__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/gripper__builder.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/gripper__struct.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/gripper__traits.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/gripper__type_support.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/joint_posture__builder.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/joint_posture__struct.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/joint_posture__traits.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/joint_posture__type_support.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/move__builder.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/move__struct.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/move__traits.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/move__type_support.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/qr__builder.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/qr__struct.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/qr__traits.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/qr__type_support.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3__builder.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3__struct.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3__traits.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3__type_support.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3_array__builder.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3_array__struct.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3_array__traits.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3_array__type_support.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/tool_changer__builder.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/tool_changer__struct.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/tool_changer__traits.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/tool_changer__type_support.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/gripper.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/joint_posture.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/move.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/qr.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/se3.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/se3_array.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/tool_changer.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/pick__builder.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/pick__struct.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/pick__traits.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/pick__type_support.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/place__builder.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/place__struct.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/place__traits.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/place__type_support.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/pick.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/place.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/gripper__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/joint_posture__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/qr__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/tool_changer__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/pick__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/place__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/gripper__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/joint_posture__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/move__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/qr__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/se3_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/action/detail/tool_changer__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/pick__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/include/fairino_interfaces/fairino_interfaces/srv/detail/place__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/environment/pythonpath.sh
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/environment/pythonpath.dsv
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/__init__.py
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/_fairino_interfaces_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/_fairino_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/_fairino_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/__init__.py
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_gripper.py
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_gripper_s.c
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_joint_posture.py
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_joint_posture_s.c
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_move.py
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_move_s.c
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_qr.py
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_qr_s.c
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_se3.py
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_se3_array.py
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_se3_array_s.c
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_se3_s.c
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_tool_changer.py
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_tool_changer_s.c
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/fairino_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/fairino_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/fairino_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/libfairino_interfaces__rosidl_generator_py.so
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/srv/__init__.py
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/srv/_pick.py
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/srv/_pick_s.c
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/srv/_place.py
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/srv/_place_s.c
+-- Up-to-date symlink: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/fairino_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/fairino_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/fairino_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/JointPosture.idl
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/SE3.idl
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/SE3Array.idl
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/Gripper.idl
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/Move.idl
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/QR.idl
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/ToolChanger.idl
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/srv/Pick.idl
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/srv/Place.idl
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/JointPosture.action
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/SE3.action
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/SE3Array.action
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/Gripper.action
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/Move.action
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/QR.action
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/ToolChanger.action
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/srv/Pick.srv
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/srv/Pick_Request.msg
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/srv/Pick_Response.msg
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/srv/Place.srv
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/srv/Place_Request.msg
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/srv/Place_Response.msg
+-- Up-to-date symlink: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/Gripper.action
+-- Up-to-date symlink: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/JointPosture.action
+-- Up-to-date symlink: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/Move.action
+-- Up-to-date symlink: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/QR.action
+-- Up-to-date symlink: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/SE3.action
+-- Up-to-date symlink: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/SE3Array.action
+-- Up-to-date symlink: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/action/ToolChanger.action
+-- Up-to-date symlink: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/srv/Pick.srv
+-- Up-to-date symlink: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/srv/Place.srv
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/ament_index/resource_index/package_run_dependencies/fairino_interfaces
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/ament_index/resource_index/parent_prefix_path/fairino_interfaces
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/environment/path.sh
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/environment/path.dsv
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/local_setup.bash
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/local_setup.sh
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/local_setup.zsh
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/local_setup.dsv
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/package.dsv
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/ament_index/resource_index/packages/fairino_interfaces
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/fairino_interfacesConfig.cmake
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/fairino_interfacesConfig-version.cmake
+-- Symlinking: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/package.xml
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_typesupport_cpp.so" to ""
+Listing '/home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces'...
+Compiling '/home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/__init__.py'...
+Listing '/home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action'...
+Compiling '/home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/__init__.py'...
+Compiling '/home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_gripper.py'...
+Compiling '/home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_joint_posture.py'...
+Compiling '/home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_move.py'...
+Compiling '/home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_qr.py'...
+Compiling '/home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_se3.py'...
+Compiling '/home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_se3_array.py'...
+Compiling '/home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/action/_tool_changer.py'...
+Listing '/home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/srv'...
+Compiling '/home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/srv/__init__.py'...
+Compiling '/home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/srv/_pick.py'...
+Compiling '/home/home/dcp_ws/install/fairino_interfaces/local/lib/python3.10/dist-packages/fairino_interfaces/srv/_place.py'...
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/home/home/dcp_ws/install/fairino_interfaces/lib/libfairino_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/export_fairino_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/export_fairino_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/export_fairino_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/export_fairino_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/fairino_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/fairino_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/fairino_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/fairino_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/export_fairino_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/export_fairino_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/export_fairino_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/fairino_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/fairino_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/fairino_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/fairino_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/export_fairino_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake/export_fairino_interfaces__rosidl_generator_pyExport-noconfig.cmake

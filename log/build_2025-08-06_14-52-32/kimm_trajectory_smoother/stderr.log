@@ -1,0 +1,42 @@
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  CMakeLists.txt:11 (find_package)
+
+[0m
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:[m[K In member function ‘[01m[Kbool kimmtraj::Trajectory::getNextSwitchingPoint(double, kimmtraj::Trajectory::TrajectoryStep&, double&, double&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:86:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   86 |                 double [01;35m[Ktest[m[K = getVelocityMaxPathVelocity(accelerationSwitchingPoint.pathPos);
+      |                        [01;35m[K^~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:[m[K In constructor ‘[01m[KLinearPathSegment::LinearPathSegment(const VectorXd&, const VectorXd&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:48:25:[m[K [01;35m[Kwarning: [m[K‘[01m[KLinearPathSegment::end[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   48 |         Eigen::VectorXd [01;35m[Kend[m[K;
+      |                         [01;35m[K^~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:20:47:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Kkimmtraj::PathSegment[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   20 |                 PathSegment((end-start).norm()[01;35m[K)[m[K
+      |                                               [01;35m[K^[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:17:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   17 |         [01;35m[KLinearPathSegment[m[K(const Eigen::VectorXd &start, const Eigen::VectorXd &end) :
+      |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:[m[K At global scope:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:12:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble squared(double)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   12 | static double [01;35m[Ksquared[m[K(double d) {
+      |               [01;35m[K^~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:[m[K In constructor ‘[01m[KCircularPathSegment::CircularPathSegment(const VectorXd&, const VectorXd&, const VectorXd&, double)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:77:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KstartDistance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   77 |                 const double [01;35m[KstartDistance[m[K = (start - intersection).norm();
+      |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Path.cpp:78:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KendDistance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   78 |                 const double [01;35m[KendDistance[m[K = (end - intersection).norm();
+      |                              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:[m[K In member function ‘[01m[Kvoid kimmtraj::Trajectory::integrateBackward(std::__cxx11::list<kimmtraj::Trajectory::TrajectoryStep>&, double, double, double)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:317:138:[m[K [01;35m[Kwarning: [m[K‘[01m[Kslope[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  317 |                 const double intersectionPathPos = (start1->pathVel - pathVel + slope * pathPos - startSlope * start1->pathPos) / [01;35m[K(slope - startSlope)[m[K;
+      |                                                                                                                                   [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:[m[K In member function ‘[01m[Kdouble kimmtraj::Trajectory::getVelocityMaxPathVelocityDeriv(double)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_trajectory_smoother/src/Trajectory.cpp:399:47:[m[K [01;35m[Kwarning: [m[K‘[01m[KactiveConstraint[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  399 |         return - (maxVelocity[activeConstraint[01;35m[K][m[K * path.getCurvature(pathPos)[activeConstraint])
+      |                                               [01;35m[K^[m[K

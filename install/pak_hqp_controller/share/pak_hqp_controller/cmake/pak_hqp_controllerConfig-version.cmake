@@ -1,0 +1,1 @@
+/home/home/dcp_ws/build/pak_hqp_controller/ament_cmake_core/pak_hqp_controllerConfig-version.cmake

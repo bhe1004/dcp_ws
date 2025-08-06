@@ -1,0 +1,115 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+-- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+-- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+-- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so
+-- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so
+-- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+-- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+--   NUMPY_VERSION=1.21.5
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development.Module NumPy 
+-- PythonLibraryDirs: 
+-- PythonLibVersionString: 3.10.12
+-- Python site lib: lib/python3.10/site-packages
+-- Python include dirs: /usr/include/python3.10
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+--   NUMPY_VERSION=1.21.5
+-- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+  CMakeLists.txt:6 (find_package)
+
+[0m
+-- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+-- Default C++ standard: 201703
+-- Minimal C++ standard upgraded to 11
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17
+-- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+-- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem 
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/home/dcp_ws/build/pak_hqp_controller
+[ 14%] [32mBuilding CXX object CMakeFiles/pak_hqp_controller.dir/src/robot/robot_wrapper.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/pak_hqp_controller.dir/src/solver/solver.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/pak_hqp_controller.dir/src/task/task_se3_equality.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/pak_hqp_controller.dir/src/task/task_only_yaw_free.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/pak_hqp_controller.dir/src/controller/controller.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/pak_hqp_controller.dir/src/task/task_singularity_avoidance.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/pinocchio/parsers/urdf.hpp:351[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/pak_hqp_controller/include/pak_hqp_controller/robot/robot_wrapper.hpp:5[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/pak_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:[m[K In member function ‘[01m[Kpinocchio::JointIndex pinocchio::urdf::details::UrdfVisitor<Scalar, Options, JointCollectionTpl>::addMimicJoint(const Frame&, const SE3&, const string&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const MimicInfo_&) [with TypeX = pinocchio::JointModelRevoluteTpl<double, 0, 0>; TypeY = pinocchio::JointModelRevoluteTpl<double, 0, 1>; TypeZ = pinocchio::JointModelRevoluteTpl<double, 0, 2>; TypeUnaligned = pinocchio::JointModelRevoluteUnalignedTpl<double>; Scalar = double; int Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’:
+[01m[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:543:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  543 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+[01m[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:[m[K In member function ‘[01m[Kpinocchio::JointIndex pinocchio::urdf::details::UrdfVisitor<Scalar, Options, JointCollectionTpl>::addMimicJoint(const Frame&, const SE3&, const string&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const MimicInfo_&) [with TypeX = pinocchio::JointModelPrismaticTpl<double, 0, 0>; TypeY = pinocchio::JointModelPrismaticTpl<double, 0, 1>; TypeZ = pinocchio::JointModelPrismaticTpl<double, 0, 2>; TypeUnaligned = pinocchio::JointModelPrismaticUnalignedTpl<double>; Scalar = double; int Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’:
+[01m[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:543:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  543 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX shared library libpak_hqp_controller.so[0m
+[100%] Built target pak_hqp_controller
+-- Install configuration: ""
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/lib/libpak_hqp_controller.so
+-- Set runtime path of "/home/home/dcp_ws/install/pak_hqp_controller/lib/libpak_hqp_controller.so" to ""
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/include/
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/include//pak_hqp_controller
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/include//pak_hqp_controller/controller
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/include//pak_hqp_controller/controller/controller.hpp
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/include//pak_hqp_controller/robot
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/include//pak_hqp_controller/robot/robot_wrapper.hpp
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/include//pak_hqp_controller/task
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/include//pak_hqp_controller/task/task_only_yaw_free.hpp
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/include//pak_hqp_controller/task/task_se3_equality.hpp
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/include//pak_hqp_controller/task/task_singularity_avoidacne.hpp
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/include//pak_hqp_controller/task/constraint_base.hpp
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/include//pak_hqp_controller/task/task_base.hpp
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/include//pak_hqp_controller/utils
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/include//pak_hqp_controller/solver
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/include//pak_hqp_controller/solver/solver.hpp
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/environment/library_path.sh
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/environment/library_path.dsv
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/ament_index/resource_index/package_run_dependencies/pak_hqp_controller
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/ament_index/resource_index/parent_prefix_path/pak_hqp_controller
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/environment/ament_prefix_path.sh
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/environment/path.sh
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/environment/path.dsv
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/local_setup.bash
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/local_setup.sh
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/local_setup.zsh
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/local_setup.dsv
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/package.dsv
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/ament_index/resource_index/packages/pak_hqp_controller
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/cmake/export_pak_hqp_controllerExport.cmake
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/cmake/export_pak_hqp_controllerExport-noconfig.cmake
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/cmake/pak_hqp_controllerConfig.cmake
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/cmake/pak_hqp_controllerConfig-version.cmake
+-- Installing: /home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/package.xml

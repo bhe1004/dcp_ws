@@ -89,7 +89,6 @@ void FairinoController::JointStateCallback(const sensor_msgs::msg::JointState::S
     for (int i=0; i<6; i++) {
         q(i) = msg->position[i];
         v(i) = msg->velocity[i];
-        // gui_joint_msg_.position[i] = ctrl_->state().fairino.q(i);
     }
 
     ctrl_->fairino_update(q, v);

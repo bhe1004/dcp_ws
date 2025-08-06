@@ -1,0 +1,75 @@
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/se3_action_server.hpp:3[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/se3_action_server.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskParallelGrasp[m[K’ is not a member of ‘[01m[Kpak_hqp_controller::task[m[K’
+  211 |         std::shared_ptr<pak_hqp_controller::task::[01;31m[KTaskParallelGrasp[m[K> parallel_grasp_task_;
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  211 |         std::shared_ptr<pak_hqp_controller::task::TaskParallelGrasp[01;31m[K>[m[K parallel_grasp_task_;
+      |                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/tool_changer_action_server.hpp:3[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/tool_changer_action_sever.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskParallelGrasp[m[K’ is not a member of ‘[01m[Kpak_hqp_controller::task[m[K’
+  211 |         std::shared_ptr<pak_hqp_controller::task::[01;31m[KTaskParallelGrasp[m[K> parallel_grasp_task_;
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  211 |         std::shared_ptr<pak_hqp_controller::task::TaskParallelGrasp[01;31m[K>[m[K parallel_grasp_task_;
+      |                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/qr_action_server.hpp:3[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/qr_action_server.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskParallelGrasp[m[K’ is not a member of ‘[01m[Kpak_hqp_controller::task[m[K’
+  211 |         std::shared_ptr<pak_hqp_controller::task::[01;31m[KTaskParallelGrasp[m[K> parallel_grasp_task_;
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  211 |         std::shared_ptr<pak_hqp_controller::task::TaskParallelGrasp[01;31m[K>[m[K parallel_grasp_task_;
+      |                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/gripper_sim_action_server.hpp:3[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/gripper_sim_action_server.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskParallelGrasp[m[K’ is not a member of ‘[01m[Kpak_hqp_controller::task[m[K’
+  211 |         std::shared_ptr<pak_hqp_controller::task::[01;31m[KTaskParallelGrasp[m[K> parallel_grasp_task_;
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  211 |         std::shared_ptr<pak_hqp_controller::task::TaskParallelGrasp[01;31m[K>[m[K parallel_grasp_task_;
+      |                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/joint_posture_action_server.hpp:3[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/joint_posture_action_server.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskParallelGrasp[m[K’ is not a member of ‘[01m[Kpak_hqp_controller::task[m[K’
+  211 |         std::shared_ptr<pak_hqp_controller::task::[01;31m[KTaskParallelGrasp[m[K> parallel_grasp_task_;
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  211 |         std::shared_ptr<pak_hqp_controller::task::TaskParallelGrasp[01;31m[K>[m[K parallel_grasp_task_;
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/tool_changer_action_sever.cpp:[m[K In member function ‘[01m[Kvirtual bool ToolChangerActionServer::compute(const rclcpp::Time&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/tool_changer_action_sever.cpp:97:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   97 | bool ToolChangerActionServer::compute([01;35m[Kconst rclcpp::Time& current_time[m[K)
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/controller/controller.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskParallelGrasp[m[K’ is not a member of ‘[01m[Kpak_hqp_controller::task[m[K’
+  211 |         std::shared_ptr<pak_hqp_controller::task::[01;31m[KTaskParallelGrasp[m[K> parallel_grasp_task_;
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  211 |         std::shared_ptr<pak_hqp_controller::task::TaskParallelGrasp[01;31m[K>[m[K parallel_grasp_task_;
+      |                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/gripper_real_action_server.hpp:3[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/gripper_real_action_server.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskParallelGrasp[m[K’ is not a member of ‘[01m[Kpak_hqp_controller::task[m[K’
+  211 |         std::shared_ptr<pak_hqp_controller::task::[01;31m[KTaskParallelGrasp[m[K> parallel_grasp_task_;
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:211:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  211 |         std::shared_ptr<pak_hqp_controller::task::TaskParallelGrasp[01;31m[K>[m[K parallel_grasp_task_;
+      |                                                                    [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:132: CMakeFiles/controller.dir/src/servers/basic/gripper_sim_action_server.cpp.o] 오류 1
+gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:146: CMakeFiles/controller.dir/src/servers/basic/tool_changer_action_sever.cpp.o] 오류 1
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:90: CMakeFiles/controller.dir/src/servers/basic/joint_posture_action_server.cpp.o] 오류 1
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:160: CMakeFiles/controller.dir/src/servers/basic/qr_action_server.cpp.o] 오류 1
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:104: CMakeFiles/controller.dir/src/servers/basic/se3_action_server.cpp.o] 오류 1
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:118: CMakeFiles/controller.dir/src/servers/basic/gripper_real_action_server.cpp.o] 오류 1
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller/controller.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/controller.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

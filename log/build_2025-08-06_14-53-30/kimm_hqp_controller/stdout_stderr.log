@@ -1,0 +1,127 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+-- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+-- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+-- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so
+-- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so
+-- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+-- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+--   NUMPY_VERSION=1.21.5
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development.Module NumPy 
+-- PythonLibraryDirs: 
+-- PythonLibVersionString: 3.10.12
+-- Python site lib: lib/python3.10/site-packages
+-- Python include dirs: /usr/include/python3.10
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+--   NUMPY_VERSION=1.21.5
+-- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+  CMakeLists.txt:9 (find_package)
+
+[0m
+-- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+-- Default C++ standard: 201703
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17
+-- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+-- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem 
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- Found kimm_qpoases: 1.0.0 (/home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/cmake)
+-- Found kimm_trajectory_smoother: 1.0.0 (/home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/home/dcp_ws/build/kimm_hqp_controller
+[35m[1mConsolidate compiler generated dependencies of target kimm_hqp_controller[0m
+[100%] Built target kimm_hqp_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/config.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/contact/contact_base.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/contact/contact_point.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/contact/fwd.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/formulation/contact_level.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/formulation/inverse_dynamics_formulation_acc.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/formulation/inverse_dynamics_formulation_base.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/formulation/inverse_dynamics_formulation_weighted_acc.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/math/constraint_base.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/math/constraint_bound.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/math/constraint_equality.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/math/constraint_inequality.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/math/fwd.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/math/util.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/robot/fwd.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/fwd.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_base.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog_fast.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog_rt.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog_rt.hxx
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_factory.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_factory.hxx
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_output.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_qpoases.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/util.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/fwd.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_base.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_contact_force.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_joint_bound.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_joint_posture.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_mobile_base.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_motion.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_se3_equality.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/trajectory/fwd.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/trajectory/trajectory_base.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/trajectory/trajectory_euclidian.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/trajectory/trajectory_se3.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/util/Stdafx.hh
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/util/statistics.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/util/stop_watch.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/environment/library_path.sh
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/environment/library_path.dsv
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/ament_index/resource_index/package_run_dependencies/kimm_hqp_controller
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/ament_index/resource_index/parent_prefix_path/kimm_hqp_controller
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/environment/path.sh
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/environment/path.dsv
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/local_setup.bash
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/local_setup.sh
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/local_setup.zsh
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/local_setup.dsv
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/package.dsv
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/ament_index/resource_index/packages/kimm_hqp_controller
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/kimm_hqp_controllerConfig.cmake
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/kimm_hqp_controllerConfig-version.cmake
+-- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/package.xml
+-- Up-to-date: /home/home/dcp_ws/install/kimm_hqp_controller/lib/libkimm_hqp_controller.so
+-- Up-to-date: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/export_kimm_hqp_controller.cmake
+-- Up-to-date: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/export_kimm_hqp_controller-noconfig.cmake
+-- Up-to-date: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/export_kimm_hqp_controllerExport.cmake
+-- Up-to-date: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/export_kimm_hqp_controllerExport-noconfig.cmake

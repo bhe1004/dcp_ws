@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from fairino_interfaces/srv/Pick.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module fairino_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct Pick_Request {
+      geometry_msgs::msg::Pose target_pose;
+
+      float duration;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct Pick_Response {
+      boolean is_completed;
+    };
+  };
+};

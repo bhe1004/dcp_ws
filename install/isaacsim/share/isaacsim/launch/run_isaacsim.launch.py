@@ -1,0 +1,1 @@
+/home/home/dcp_ws/src/fairino/isaacsim/launch/run_isaacsim.launch.py

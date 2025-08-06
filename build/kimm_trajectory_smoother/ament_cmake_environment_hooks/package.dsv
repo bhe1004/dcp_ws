@@ -1,0 +1,4 @@
+source;share/kimm_trajectory_smoother/local_setup.bash
+source;share/kimm_trajectory_smoother/local_setup.dsv
+source;share/kimm_trajectory_smoother/local_setup.sh
+source;share/kimm_trajectory_smoother/local_setup.zsh

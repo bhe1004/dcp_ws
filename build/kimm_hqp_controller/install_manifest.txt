@@ -1,0 +1,5 @@
+/home/home/dcp_ws/install/kimm_hqp_controller/lib/libkimm_hqp_controller.so
+/home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/export_kimm_hqp_controller.cmake
+/home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/export_kimm_hqp_controller-noconfig.cmake
+/home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/export_kimm_hqp_controllerExport.cmake
+/home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/export_kimm_hqp_controllerExport-noconfig.cmake

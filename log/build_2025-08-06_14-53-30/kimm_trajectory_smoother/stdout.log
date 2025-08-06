@@ -1,0 +1,56 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+-- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+--   NUMPY_VERSION=1.21.5
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development.Module NumPy 
+-- PythonLibraryDirs: 
+-- PythonLibVersionString: 3.10.12
+-- Python site lib: lib/python3.10/site-packages
+-- Python include dirs: /usr/include/python3.10
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+--   NUMPY_VERSION=1.21.5
+-- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+-- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+-- Default C++ standard: 201703
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/home/dcp_ws/build/kimm_trajectory_smoother
+[35m[1mConsolidate compiler generated dependencies of target kimm_trajectory_smoother[0m
+[100%] Built target kimm_trajectory_smoother
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/Path.h
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/Trajectory.h
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings/Path.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings/Trajectory.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings/expose_Path.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings/expose_Trajectory.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/include//kimm_trajectory_smoother/bindings/fwd.hpp
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/library_path.sh
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/library_path.dsv
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/ament_index/resource_index/package_run_dependencies/kimm_trajectory_smoother
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/ament_index/resource_index/parent_prefix_path/kimm_trajectory_smoother
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/ament_prefix_path.sh
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/ament_prefix_path.dsv
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/path.sh
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/environment/path.dsv
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/local_setup.bash
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/local_setup.sh
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/local_setup.zsh
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/local_setup.dsv
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/package.dsv
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/ament_index/resource_index/packages/kimm_trajectory_smoother
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake/kimm_trajectory_smootherConfig.cmake
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake/kimm_trajectory_smootherConfig-version.cmake
+-- Symlinking: /home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/package.xml
+-- Up-to-date: /home/home/dcp_ws/install/kimm_trajectory_smoother/lib/libkimm_trajectory_smoother.so

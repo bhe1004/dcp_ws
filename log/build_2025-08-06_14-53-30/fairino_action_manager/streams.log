@@ -1,0 +1,162 @@
+[0.010s] Invoking command in '/home/home/dcp_ws/build/fairino_action_manager': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/kimm_ws/install/rb5_action_manager:/opt/ros/humble:/home/home/dcp_ws/install/kimm_qpoases:/home/home/gello_ws/install/franka_plugin:/home/home/gello_ws/install/franka_description:/home/home/gello_ws/install/dynamixel_sdk_examples:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces:/home/home/gello_ws/install/dynamixel:/home/home/gello_ws/install/dynamixel_sdk:/home/home/kimm_ws/install/rbpodo_bringup:/home/home/kimm_ws/install/rbpodo_hardware:/home/home/kimm_ws/install/rbpodo_msgs:/home/home/kimm_ws/install/rb3_730es_u_moveit_config:/home/home/kimm_ws/install/rbpodo_description:/home/home/kimm_ws/install/rb5_gui_manager:/home/home/kimm_ws/install/action_interface LD_LIBRARY_PATH=/home/home/dcp_ws/install/fairino_interfaces/lib:/home/home/dcp_ws/install/fairino_action_manager/lib:/home/home/dcp_ws/install/pak_hqp_controller/lib:/home/home/dcp_ws/install/kimm_hqp_controller/lib:/home/home/dcp_ws/install/kimm_trajectory_smoother/lib:/home/home/dcp_ws/install/kimm_qpoases/lib:/home/home/gello_ws/install/franka_plugin/lib:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/home/gello_ws/install/dynamixel_sdk/lib:/home/home/kimm_ws/install/rbpodo_hardware/lib:/home/home/kimm_ws/install/rbpodo_msgs/lib:/home/home/kimm_ws/install/rb5_gui_manager/lib:/home/home/kimm_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/home/dcp_ws/src/fairino/fairino_action_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/dcp_ws/install/fairino_action_manager
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.080s] -- The CXX compiler identification is GNU 11.4.0
+[0.085s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.138s] -- Detecting C compile features
+[0.138s] -- Detecting C compile features - done
+[0.139s] -- Detecting CXX compiler ABI info
+[0.190s] -- Detecting CXX compiler ABI info - done
+[0.194s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.194s] -- Detecting CXX compile features
+[0.194s] -- Detecting CXX compile features - done
+[0.196s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.305s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.340s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.359s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.359s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.362s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.386s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.404s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.431s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.433s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.492s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.509s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.534s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.540s] -- Looking for pthread.h
+[0.590s] -- Looking for pthread.h - found
+[0.590s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.641s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.643s] -- Found Threads: TRUE  
+[0.668s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.685s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.700s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.717s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.719s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.728s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.728s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.728s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.747s] -- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+[0.747s] -- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+[0.748s] -- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.748s] -- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so
+[0.748s] -- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so
+[0.781s] -- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+[0.782s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[0.804s] -- Checking for NumPy
+[0.939s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[1.001s] --   NUMPY_VERSION=1.21.5
+[1.156s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development.Module NumPy 
+[1.156s] -- PythonLibraryDirs: 
+[1.156s] -- PythonLibVersionString: 3.10.12
+[1.172s] -- Python site lib: lib/python3.10/site-packages
+[1.172s] -- Python include dirs: /usr/include/python3.10
+[1.205s] -- Checking for NumPy
+[1.269s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[1.323s] --   NUMPY_VERSION=1.21.5
+[1.328s] -- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[1.328s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[1.328s]   No header defined for python310; skipping header check (note: header-only
+[1.328s]   libraries have no designated component)
+[1.328s] Call Stack (most recent call first):
+[1.328s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+[1.328s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+[1.328s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[1.328s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+[1.328s]   CMakeLists.txt:21 (find_package)
+[1.328s] 
+[1.328s] [0m
+[1.330s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[1.498s] -- Default C++ standard: 201703
+[1.498s] -- Minimal C++ standard upgraded to 11
+[1.498s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.498s] -- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17
+[1.498s] -- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+[1.503s] -- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem 
+[1.505s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.505s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.506s] -- Found kimm_qpoases: 1.0.0 (/home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/cmake)
+[1.507s] -- Found kimm_trajectory_smoother: 1.0.0 (/home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake)
+[1.509s] -- Found kimm_hqp_controller: 1.0.0 (/home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake)
+[1.512s] -- Found pak_hqp_controller: 0.0.1 (/home/home/dcp_ws/install/pak_hqp_controller/share/pak_hqp_controller/cmake)
+[1.513s] -- Found fairino_interfaces: 0.0.0 (/home/home/dcp_ws/install/fairino_interfaces/share/fairino_interfaces/cmake)
+[1.524s] -- Found tf2_eigen: 0.25.12 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.526s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[1.540s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.584s] -- Configuring done
+[1.606s] -- Generating done
+[1.612s] -- Build files have been written to: /home/home/dcp_ws/build/fairino_action_manager
+[1.622s] Invoked command in '/home/home/dcp_ws/build/fairino_action_manager' returned '0': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/kimm_ws/install/rb5_action_manager:/opt/ros/humble:/home/home/dcp_ws/install/kimm_qpoases:/home/home/gello_ws/install/franka_plugin:/home/home/gello_ws/install/franka_description:/home/home/gello_ws/install/dynamixel_sdk_examples:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces:/home/home/gello_ws/install/dynamixel:/home/home/gello_ws/install/dynamixel_sdk:/home/home/kimm_ws/install/rbpodo_bringup:/home/home/kimm_ws/install/rbpodo_hardware:/home/home/kimm_ws/install/rbpodo_msgs:/home/home/kimm_ws/install/rb3_730es_u_moveit_config:/home/home/kimm_ws/install/rbpodo_description:/home/home/kimm_ws/install/rb5_gui_manager:/home/home/kimm_ws/install/action_interface LD_LIBRARY_PATH=/home/home/dcp_ws/install/fairino_interfaces/lib:/home/home/dcp_ws/install/fairino_action_manager/lib:/home/home/dcp_ws/install/pak_hqp_controller/lib:/home/home/dcp_ws/install/kimm_hqp_controller/lib:/home/home/dcp_ws/install/kimm_trajectory_smoother/lib:/home/home/dcp_ws/install/kimm_qpoases/lib:/home/home/gello_ws/install/franka_plugin/lib:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/home/gello_ws/install/dynamixel_sdk/lib:/home/home/kimm_ws/install/rbpodo_hardware/lib:/home/home/kimm_ws/install/rbpodo_msgs/lib:/home/home/kimm_ws/install/rb5_gui_manager/lib:/home/home/kimm_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/home/dcp_ws/src/fairino/fairino_action_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/dcp_ws/install/fairino_action_manager
+[1.622s] Invoking command in '/home/home/dcp_ws/build/fairino_action_manager': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/kimm_ws/install/rb5_action_manager:/opt/ros/humble:/home/home/dcp_ws/install/kimm_qpoases:/home/home/gello_ws/install/franka_plugin:/home/home/gello_ws/install/franka_description:/home/home/gello_ws/install/dynamixel_sdk_examples:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces:/home/home/gello_ws/install/dynamixel:/home/home/gello_ws/install/dynamixel_sdk:/home/home/kimm_ws/install/rbpodo_bringup:/home/home/kimm_ws/install/rbpodo_hardware:/home/home/kimm_ws/install/rbpodo_msgs:/home/home/kimm_ws/install/rb3_730es_u_moveit_config:/home/home/kimm_ws/install/rbpodo_description:/home/home/kimm_ws/install/rb5_gui_manager:/home/home/kimm_ws/install/action_interface LD_LIBRARY_PATH=/home/home/dcp_ws/install/fairino_interfaces/lib:/home/home/dcp_ws/install/fairino_action_manager/lib:/home/home/dcp_ws/install/pak_hqp_controller/lib:/home/home/dcp_ws/install/kimm_hqp_controller/lib:/home/home/dcp_ws/install/kimm_trajectory_smoother/lib:/home/home/dcp_ws/install/kimm_qpoases/lib:/home/home/gello_ws/install/franka_plugin/lib:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/home/gello_ws/install/dynamixel_sdk/lib:/home/home/kimm_ws/install/rbpodo_hardware/lib:/home/home/kimm_ws/install/rbpodo_msgs/lib:/home/home/kimm_ws/install/rb5_gui_manager/lib:/home/home/kimm_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/home/dcp_ws/build/fairino_action_manager -- -j10 -l10
+[1.660s] [  5%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller/controller.cpp.o[0m
+[1.660s] [ 11%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/gripper_real_action_server.cpp.o[0m
+[1.660s] [ 16%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/gripper_sim_action_server.cpp.o[0m
+[1.660s] [ 22%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/se3_action_server.cpp.o[0m
+[1.660s] [ 27%] [32mBuilding CXX object CMakeFiles/task.dir/src/servers/task/place.cpp.o[0m
+[1.661s] [ 33%] [32mBuilding CXX object CMakeFiles/task.dir/src/servers/task/base_task.cpp.o[0m
+[1.661s] [ 38%] [32mBuilding CXX object CMakeFiles/task.dir/src/servers/task/pick.cpp.o[0m
+[1.662s] [ 44%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/tool_changer_action_sever.cpp.o[0m
+[1.666s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/joint_posture_action_server.cpp.o[0m
+[1.666s] [ 55%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/qr_action_server.cpp.o[0m
+[2.965s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+[2.965s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/gripper_sim_action_server.hpp:3[m[K,
+[2.965s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/gripper_sim_action_server.cpp:1[m[K:
+[2.965s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:61:10:[m[K [01;31m[Kfatal error: [m[Kpak_hqp_controller/task/task_parallel_grasp.hpp: 그런 파일이나 디렉터리가 없습니다
+[2.965s]    61 | #include [01;31m[K"pak_hqp_controller/task/task_parallel_grasp.hpp"[m[K
+[2.965s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.965s] compilation terminated.
+[2.982s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:132: CMakeFiles/controller.dir/src/servers/basic/gripper_sim_action_server.cpp.o] 오류 1
+[2.982s] gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[2.985s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+[2.986s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/se3_action_server.hpp:3[m[K,
+[2.986s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/se3_action_server.cpp:1[m[K:
+[2.986s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:61:10:[m[K [01;31m[Kfatal error: [m[Kpak_hqp_controller/task/task_parallel_grasp.hpp: 그런 파일이나 디렉터리가 없습니다
+[2.986s]    61 | #include [01;31m[K"pak_hqp_controller/task/task_parallel_grasp.hpp"[m[K
+[2.986s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.986s] compilation terminated.
+[2.996s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:104: CMakeFiles/controller.dir/src/servers/basic/se3_action_server.cpp.o] 오류 1
+[3.047s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+[3.047s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/gripper_real_action_server.hpp:3[m[K,
+[3.047s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/gripper_real_action_server.cpp:1[m[K:
+[3.047s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:61:10:[m[K [01;31m[Kfatal error: [m[Kpak_hqp_controller/task/task_parallel_grasp.hpp: 그런 파일이나 디렉터리가 없습니다
+[3.047s]    61 | #include [01;31m[K"pak_hqp_controller/task/task_parallel_grasp.hpp"[m[K
+[3.047s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.047s] compilation terminated.
+[3.058s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:118: CMakeFiles/controller.dir/src/servers/basic/gripper_real_action_server.cpp.o] 오류 1
+[3.217s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/controller/controller.cpp:1[m[K:
+[3.218s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:61:10:[m[K [01;31m[Kfatal error: [m[Kpak_hqp_controller/task/task_parallel_grasp.hpp: 그런 파일이나 디렉터리가 없습니다
+[3.218s]    61 | #include [01;31m[K"pak_hqp_controller/task/task_parallel_grasp.hpp"[m[K
+[3.218s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.218s] compilation terminated.
+[3.234s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller/controller.cpp.o] 오류 1
+[3.255s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+[3.255s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/tool_changer_action_server.hpp:3[m[K,
+[3.255s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/tool_changer_action_sever.cpp:1[m[K:
+[3.256s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:61:10:[m[K [01;31m[Kfatal error: [m[Kpak_hqp_controller/task/task_parallel_grasp.hpp: 그런 파일이나 디렉터리가 없습니다
+[3.256s]    61 | #include [01;31m[K"pak_hqp_controller/task/task_parallel_grasp.hpp"[m[K
+[3.256s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.256s] compilation terminated.
+[3.264s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+[3.264s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/qr_action_server.hpp:3[m[K,
+[3.264s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/qr_action_server.cpp:1[m[K:
+[3.264s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:61:10:[m[K [01;31m[Kfatal error: [m[Kpak_hqp_controller/task/task_parallel_grasp.hpp: 그런 파일이나 디렉터리가 없습니다
+[3.264s]    61 | #include [01;31m[K"pak_hqp_controller/task/task_parallel_grasp.hpp"[m[K
+[3.264s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.264s] compilation terminated.
+[3.271s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:146: CMakeFiles/controller.dir/src/servers/basic/tool_changer_action_sever.cpp.o] 오류 1
+[3.273s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:160: CMakeFiles/controller.dir/src/servers/basic/qr_action_server.cpp.o] 오류 1
+[3.363s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+[3.363s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/joint_posture_action_server.hpp:3[m[K,
+[3.363s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/joint_posture_action_server.cpp:1[m[K:
+[3.363s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:61:10:[m[K [01;31m[Kfatal error: [m[Kpak_hqp_controller/task/task_parallel_grasp.hpp: 그런 파일이나 디렉터리가 없습니다
+[3.363s]    61 | #include [01;31m[K"pak_hqp_controller/task/task_parallel_grasp.hpp"[m[K
+[3.363s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.363s] compilation terminated.
+[3.378s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:90: CMakeFiles/controller.dir/src/servers/basic/joint_posture_action_server.cpp.o] 오류 1
+[3.378s] gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/controller.dir/all] 오류 2
+[3.378s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[3.805s] [ 61%] [32m[1mLinking CXX shared library libtask.so[0m
+[3.926s] [ 61%] Built target task
+[3.927s] gmake: *** [Makefile:146: all] 오류 2
+[3.929s] Invoked command in '/home/home/dcp_ws/build/fairino_action_manager' returned '2': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/kimm_ws/install/rb5_action_manager:/opt/ros/humble:/home/home/dcp_ws/install/kimm_qpoases:/home/home/gello_ws/install/franka_plugin:/home/home/gello_ws/install/franka_description:/home/home/gello_ws/install/dynamixel_sdk_examples:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces:/home/home/gello_ws/install/dynamixel:/home/home/gello_ws/install/dynamixel_sdk:/home/home/kimm_ws/install/rbpodo_bringup:/home/home/kimm_ws/install/rbpodo_hardware:/home/home/kimm_ws/install/rbpodo_msgs:/home/home/kimm_ws/install/rb3_730es_u_moveit_config:/home/home/kimm_ws/install/rbpodo_description:/home/home/kimm_ws/install/rb5_gui_manager:/home/home/kimm_ws/install/action_interface LD_LIBRARY_PATH=/home/home/dcp_ws/install/fairino_interfaces/lib:/home/home/dcp_ws/install/fairino_action_manager/lib:/home/home/dcp_ws/install/pak_hqp_controller/lib:/home/home/dcp_ws/install/kimm_hqp_controller/lib:/home/home/dcp_ws/install/kimm_trajectory_smoother/lib:/home/home/dcp_ws/install/kimm_qpoases/lib:/home/home/gello_ws/install/franka_plugin/lib:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/home/gello_ws/install/dynamixel_sdk/lib:/home/home/kimm_ws/install/rbpodo_hardware/lib:/home/home/kimm_ws/install/rbpodo_msgs/lib:/home/home/kimm_ws/install/rb5_gui_manager/lib:/home/home/kimm_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/home/dcp_ws/build/fairino_action_manager -- -j10 -l10

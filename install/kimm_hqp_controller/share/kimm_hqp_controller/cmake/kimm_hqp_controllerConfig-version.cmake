@@ -1,0 +1,1 @@
+/home/home/dcp_ws/build/kimm_hqp_controller/ament_cmake_core/kimm_hqp_controllerConfig-version.cmake

@@ -1,0 +1,14 @@
+{
+  "package_name": "fairino_interfaces",
+  "non_idl_tuples": [
+    "/home/home/dcp_ws/src/fairino/fairino_interfaces:action/JointPosture.action",
+    "/home/home/dcp_ws/src/fairino/fairino_interfaces:action/SE3.action",
+    "/home/home/dcp_ws/src/fairino/fairino_interfaces:action/SE3Array.action",
+    "/home/home/dcp_ws/src/fairino/fairino_interfaces:action/Gripper.action",
+    "/home/home/dcp_ws/src/fairino/fairino_interfaces:action/Move.action",
+    "/home/home/dcp_ws/src/fairino/fairino_interfaces:action/QR.action",
+    "/home/home/dcp_ws/src/fairino/fairino_interfaces:action/ToolChanger.action",
+    "/home/home/dcp_ws/src/fairino/fairino_interfaces:srv/Pick.srv",
+    "/home/home/dcp_ws/src/fairino/fairino_interfaces:srv/Place.srv"
+  ]
+}

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from fairino_interfaces/action/Move.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module fairino_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Define the goal")
+    struct Move_Goal {
+      geometry_msgs::msg::PoseStamped target_pose;
+    };
+    @verbatim (language="comment", text=
+      "Define the result")
+    struct Move_Result {
+      boolean is_completed;
+    };
+    @verbatim (language="comment", text=
+      "Define a feedback message")
+    struct Move_Feedback {
+      float percent_complete;
+    };
+  };
+};

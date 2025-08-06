@@ -1,0 +1,69 @@
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+  CMakeLists.txt:21 (find_package)
+
+[0m
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/gripper_sim_action_server.hpp:3[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/gripper_sim_action_server.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:61:10:[m[K [01;31m[Kfatal error: [m[Kpak_hqp_controller/task/task_parallel_grasp.hpp: 그런 파일이나 디렉터리가 없습니다
+   61 | #include [01;31m[K"pak_hqp_controller/task/task_parallel_grasp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:132: CMakeFiles/controller.dir/src/servers/basic/gripper_sim_action_server.cpp.o] 오류 1
+gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/se3_action_server.hpp:3[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/se3_action_server.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:61:10:[m[K [01;31m[Kfatal error: [m[Kpak_hqp_controller/task/task_parallel_grasp.hpp: 그런 파일이나 디렉터리가 없습니다
+   61 | #include [01;31m[K"pak_hqp_controller/task/task_parallel_grasp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:104: CMakeFiles/controller.dir/src/servers/basic/se3_action_server.cpp.o] 오류 1
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/gripper_real_action_server.hpp:3[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/gripper_real_action_server.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:61:10:[m[K [01;31m[Kfatal error: [m[Kpak_hqp_controller/task/task_parallel_grasp.hpp: 그런 파일이나 디렉터리가 없습니다
+   61 | #include [01;31m[K"pak_hqp_controller/task/task_parallel_grasp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:118: CMakeFiles/controller.dir/src/servers/basic/gripper_real_action_server.cpp.o] 오류 1
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/controller/controller.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:61:10:[m[K [01;31m[Kfatal error: [m[Kpak_hqp_controller/task/task_parallel_grasp.hpp: 그런 파일이나 디렉터리가 없습니다
+   61 | #include [01;31m[K"pak_hqp_controller/task/task_parallel_grasp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller/controller.cpp.o] 오류 1
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/tool_changer_action_server.hpp:3[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/tool_changer_action_sever.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:61:10:[m[K [01;31m[Kfatal error: [m[Kpak_hqp_controller/task/task_parallel_grasp.hpp: 그런 파일이나 디렉터리가 없습니다
+   61 | #include [01;31m[K"pak_hqp_controller/task/task_parallel_grasp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/qr_action_server.hpp:3[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/qr_action_server.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:61:10:[m[K [01;31m[Kfatal error: [m[Kpak_hqp_controller/task/task_parallel_grasp.hpp: 그런 파일이나 디렉터리가 없습니다
+   61 | #include [01;31m[K"pak_hqp_controller/task/task_parallel_grasp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:146: CMakeFiles/controller.dir/src/servers/basic/tool_changer_action_sever.cpp.o] 오류 1
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:160: CMakeFiles/controller.dir/src/servers/basic/qr_action_server.cpp.o] 오류 1
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/action_server_base.hpp:4[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/basic/joint_posture_action_server.hpp:3[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/joint_posture_action_server.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:61:10:[m[K [01;31m[Kfatal error: [m[Kpak_hqp_controller/task/task_parallel_grasp.hpp: 그런 파일이나 디렉터리가 없습니다
+   61 | #include [01;31m[K"pak_hqp_controller/task/task_parallel_grasp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:90: CMakeFiles/controller.dir/src/servers/basic/joint_posture_action_server.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/controller.dir/all] 오류 2
+gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+gmake: *** [Makefile:146: all] 오류 2

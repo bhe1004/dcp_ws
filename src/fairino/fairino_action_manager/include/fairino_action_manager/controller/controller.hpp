@@ -58,14 +58,14 @@
 // pak hqp controller
 #include "pak_hqp_controller/controller/controller.hpp"
 #include "pak_hqp_controller/task/task_se3_equality.hpp"
-#include "pak_hqp_controller/task/task_parallel_grasp.hpp"
+#include "pak_hqp_controller/task/task_only_yaw_free.hpp"
 #include "pak_hqp_controller/robot/robot_wrapper.hpp"
 
 #include <pak_hqp_controller/solver/solver.hpp>
 #include <pak_hqp_controller/robot/robot_wrapper.hpp>
 #include <pak_hqp_controller/controller/controller.hpp>
 #include <pak_hqp_controller/task/task_se3_equality.hpp>
-#include <pak_hqp_controller/task/task_parallel_grasp.hpp>
+#include <pak_hqp_controller/task/task_only_yaw_free.hpp>
 
 using namespace std;
 using namespace Eigen;
@@ -208,7 +208,8 @@ namespace RobotController
         std::shared_ptr<pak_hqp_controller::robot::RobotWrapper> robot_wrapper_;
         std::shared_ptr<pak_hqp_controller::controller::Controller> controller_;
         std::shared_ptr<pak_hqp_controller::task::TaskSE3Equality> se3_task_;
-        std::shared_ptr<pak_hqp_controller::task::TaskParallelGrasp> parallel_grasp_task_;
+        std::shared_ptr<pak_hqp_controller::task::TaskOnlyYawFree> yaw_free_task_;
+
         Eigen::Vector3d base_pos_; 
     };
 }

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fairino_interfaces__py",
+		"source" : "/home/home/dcp_ws/build/fairino_interfaces/fairino_interfaces__py"
+	}
+}

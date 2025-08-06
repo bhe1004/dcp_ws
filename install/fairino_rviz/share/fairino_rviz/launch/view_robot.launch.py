@@ -1,0 +1,1 @@
+/home/home/dcp_ws/src/fairino/fairino_rviz/launch/view_robot.launch.py

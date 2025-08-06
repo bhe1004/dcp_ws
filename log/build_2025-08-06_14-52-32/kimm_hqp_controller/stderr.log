@@ -1,0 +1,658 @@
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+  CMakeLists.txt:9 (find_package)
+
+[0m
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/solver/solver_HQP_eiquadprog.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog.hpp:[m[K In member function ‘[01m[Kvirtual const kimmhqp::solver::HQPOutput& kimmhqp::solver::SolverHQuadProg::solve(const WHQPData&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog.hpp:27:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KproblemData[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 |             const HQPOutput & solve([01;35m[Kconst WHQPData & problemData[m[K){
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/solver/solver_HQP_factory.cpp:2[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog.hpp:[m[K In member function ‘[01m[Kvirtual const kimmhqp::solver::HQPOutput& kimmhqp::solver::SolverHQuadProg::solve(const WHQPData&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog.hpp:27:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KproblemData[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 |             const HQPOutput & solve([01;35m[Kconst WHQPData & problemData[m[K){
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/solver/solver_HQP_factory.cpp:3[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog_fast.hpp:[m[K In member function ‘[01m[Kvirtual const kimmhqp::solver::HQPOutput& kimmhqp::solver::SolverHQuadProgFast::solve(const WHQPData&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog_fast.hpp:27:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KproblemData[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 |             const HQPOutput & solve([01;35m[Kconst WHQPData & problemData[m[K){
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:[m[K In constructor ‘[01m[Kkimmhqp::robot::RobotWrapper::RobotWrapper(const string&, const std::vector<std::__cxx11::basic_string<char> >&, bool, bool)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:167:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkimmhqp::robot::RobotWrapper::m_verbose[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  167 |                 bool [01;35m[Km_verbose[m[K;
+      |                      [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:164:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool kimmhqp::robot::RobotWrapper::mobile_flag_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  164 |                 bool [01;35m[Kmobile_flag_[m[K;
+      |                      [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:16:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   16 |         [01;35m[KRobotWrapper[m[K::RobotWrapper(const std::string & filename, const std::vector<std::string> & , bool mobile, bool verbose)
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblemB.hpp:1038[m[K,
+                 from [01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES.hpp:32[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_qpoases.hpp:5[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/solver/solver_HQP_factory.cpp:4[m[K:
+[01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblemB.ipp:[m[K In member function ‘[01m[Kvoid qpOASES::QProblemB::applyGivens(qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t&, qpOASES::real_t&) const[m[K’:
+[01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblemB.ipp:412:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  412 | inline void QProblemB::applyGivens(     real_t c, real_t s, [01;35m[Kreal_t nu[m[K, real_t xold, real_t yold,
+      |                                                             [01;35m[K~~~~~~~^~[m[K
+In file included from [01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblem.hpp:43[m[K,
+                 from [01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES.hpp:33[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_qpoases.hpp:5[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/solver/solver_HQP_factory.cpp:4[m[K:
+[01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:[m[K In copy constructor ‘[01m[KqpOASES::ConstraintProduct::ConstraintProduct(const qpOASES::ConstraintProduct&)[m[K’:
+[01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:64:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   64 |                 ConstraintProduct(      [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:[m[K In member function ‘[01m[KqpOASES::ConstraintProduct& qpOASES::ConstraintProduct::operator=(const qpOASES::ConstraintProduct&)[m[K’:
+[01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:71:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   71 |                 ConstraintProduct &operator=(   [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/solver/solver_HQP_factory.cpp:4[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_qpoases.hpp:[m[K In member function ‘[01m[Kvirtual const kimmhqp::solver::HQPOutput& kimmhqp::solver::SolverHQPoases::solve(const WHQPData&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_qpoases.hpp:31:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KproblemData[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   31 |             const HQPOutput & solve([01;35m[Kconst WHQPData & problemData[m[K){
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/solver/solver_HQP_eiquadprog_fast.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog_fast.hpp:[m[K In member function ‘[01m[Kvirtual const kimmhqp::solver::HQPOutput& kimmhqp::solver::SolverHQuadProgFast::solve(const WHQPData&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog_fast.hpp:27:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KproblemData[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 |             const HQPOutput & solve([01;35m[Kconst WHQPData & problemData[m[K){
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:[m[K In member function ‘[01m[Kpinocchio::SE3 kimmhqp::robot::RobotWrapper::framePosition(const Data&, pinocchio::ModelTpl<double, 0>::FrameIndex) const[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:146:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  146 |             return data.oMi[f.[01;35m[Kparent[m[K].act(f.placement);
+      |                               [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:146:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  146 |             return data.oMi[f.[01;35m[Kparent[m[K].act(f.placement);
+      |                               [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:146:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  146 |             return data.oMi[f.[01;35m[Kparent[m[K].act(f.placement);
+      |                               [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:[m[K In member function ‘[01m[Kvoid kimmhqp::robot::RobotWrapper::framePosition(const Data&, pinocchio::ModelTpl<double, 0>::FrameIndex, kimmhqp::robot::RobotWrapper::SE3&) const[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:153:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  153 |             framePosition = data.oMi[f.[01;35m[Kparent[m[K].act(f.placement);
+      |                                        [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:153:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  153 |             framePosition = data.oMi[f.[01;35m[Kparent[m[K].act(f.placement);
+      |                                        [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:153:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  153 |             framePosition = data.oMi[f.[01;35m[Kparent[m[K].act(f.placement);
+      |                                        [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:[m[K In member function ‘[01m[Kpinocchio::Motion kimmhqp::robot::RobotWrapper::frameVelocity(const Data&, pinocchio::ModelTpl<double, 0>::FrameIndex) const[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:160:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  160 |             return f.placement.actInv(data.v[f.[01;35m[Kparent[m[K]);
+      |                                                [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:160:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  160 |             return f.placement.actInv(data.v[f.[01;35m[Kparent[m[K]);
+      |                                                [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:160:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  160 |             return f.placement.actInv(data.v[f.[01;35m[Kparent[m[K]);
+      |                                                [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:[m[K In member function ‘[01m[Kvoid kimmhqp::robot::RobotWrapper::frameVelocity(const Data&, pinocchio::ModelTpl<double, 0>::FrameIndex, kimmhqp::robot::RobotWrapper::Motion&) const[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:167:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  167 |             frameVelocity = f.placement.actInv(data.v[f.[01;35m[Kparent[m[K]);
+      |                                                         [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:167:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  167 |             frameVelocity = f.placement.actInv(data.v[f.[01;35m[Kparent[m[K]);
+      |                                                         [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:167:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  167 |             frameVelocity = f.placement.actInv(data.v[f.[01;35m[Kparent[m[K]);
+      |                                                         [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:[m[K In member function ‘[01m[Kpinocchio::Motion kimmhqp::robot::RobotWrapper::frameAcceleration(const Data&, pinocchio::ModelTpl<double, 0>::FrameIndex) const[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:174:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  174 |             return f.placement.actInv(data.a[f.[01;35m[Kparent[m[K]);
+      |                                                [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:174:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  174 |             return f.placement.actInv(data.a[f.[01;35m[Kparent[m[K]);
+      |                                                [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:174:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  174 |             return f.placement.actInv(data.a[f.[01;35m[Kparent[m[K]);
+      |                                                [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:[m[K In member function ‘[01m[Kvoid kimmhqp::robot::RobotWrapper::frameAcceleration(const Data&, pinocchio::ModelTpl<double, 0>::FrameIndex, kimmhqp::robot::RobotWrapper::Motion&) const[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:181:61:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  181 |             frameAcceleration = f.placement.actInv(data.a[f.[01;35m[Kparent[m[K]);
+      |                                                             [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:181:61:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  181 |             frameAcceleration = f.placement.actInv(data.a[f.[01;35m[Kparent[m[K]);
+      |                                                             [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:181:61:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  181 |             frameAcceleration = f.placement.actInv(data.a[f.[01;35m[Kparent[m[K]);
+      |                                                             [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:[m[K In member function ‘[01m[Kpinocchio::Motion kimmhqp::robot::RobotWrapper::frameClassicAcceleration(const Data&, pinocchio::ModelTpl<double, 0>::FrameIndex) const[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:188:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  188 |             Motion a = f.placement.actInv(data.a[f.[01;35m[Kparent[m[K]);
+      |                                                    [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:188:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  188 |             Motion a = f.placement.actInv(data.a[f.[01;35m[Kparent[m[K]);
+      |                                                    [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:188:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  188 |             Motion a = f.placement.actInv(data.a[f.[01;35m[Kparent[m[K]);
+      |                                                    [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:189:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  189 |             Motion v = f.placement.actInv(data.v[f.[01;35m[Kparent[m[K]);
+      |                                                    [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:189:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  189 |             Motion v = f.placement.actInv(data.v[f.[01;35m[Kparent[m[K]);
+      |                                                    [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:189:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  189 |             Motion v = f.placement.actInv(data.v[f.[01;35m[Kparent[m[K]);
+      |                                                    [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:[m[K In member function ‘[01m[Kvoid kimmhqp::robot::RobotWrapper::frameClassicAcceleration(const Data&, pinocchio::ModelTpl<double, 0>::FrameIndex, kimmhqp::robot::RobotWrapper::Motion&) const[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:198:61:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  198 |             frameAcceleration = f.placement.actInv(data.a[f.[01;35m[Kparent[m[K]);
+      |                                                             [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:198:61:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  198 |             frameAcceleration = f.placement.actInv(data.a[f.[01;35m[Kparent[m[K]);
+      |                                                             [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:198:61:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  198 |             frameAcceleration = f.placement.actInv(data.a[f.[01;35m[Kparent[m[K]);
+      |                                                             [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:199:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  199 |             Motion v = f.placement.actInv(data.v[f.[01;35m[Kparent[m[K]);
+      |                                                    [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:199:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  199 |             Motion v = f.placement.actInv(data.v[f.[01;35m[Kparent[m[K]);
+      |                                                    [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:199:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinocchio::FrameTpl<double, 0>::parent[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  199 |             Motion v = f.placement.actInv(data.v[f.[01;35m[Kparent[m[K]);
+      |                                                    [01;35m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:16[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/algorithm/contact-cholesky.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:19[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/frame.hpp:231:39:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & [01;36m[Kparent[m[K;
+      |                                       [01;36m[K^~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/formulation/inverse_dynamics_formulation_acc.cpp:[m[K In member function ‘[01m[Kbool kimmhqp::InverseDynamicsFormulationAccForce::removeTask(const string&, double)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/formulation/inverse_dynamics_formulation_acc.cpp:316:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtaskFound[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  316 |   bool [01;35m[KtaskFound[m[K = removeFromHqpData(taskName);
+      |        [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblemB.hpp:1038[m[K,
+                 from [01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES.hpp:32[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_qpoases.hpp:5[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/solver/solver_HQP_qpoases.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblemB.ipp:[m[K In member function ‘[01m[Kvoid qpOASES::QProblemB::applyGivens(qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t&, qpOASES::real_t&) const[m[K’:
+[01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblemB.ipp:412:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  412 | inline void QProblemB::applyGivens(     real_t c, real_t s, [01;35m[Kreal_t nu[m[K, real_t xold, real_t yold,
+      |                                                             [01;35m[K~~~~~~~^~[m[K
+In file included from [01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblem.hpp:43[m[K,
+                 from [01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES.hpp:33[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_qpoases.hpp:5[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/solver/solver_HQP_qpoases.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:[m[K In copy constructor ‘[01m[KqpOASES::ConstraintProduct::ConstraintProduct(const qpOASES::ConstraintProduct&)[m[K’:
+[01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:64:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   64 |                 ConstraintProduct(      [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:[m[K In member function ‘[01m[KqpOASES::ConstraintProduct& qpOASES::ConstraintProduct::operator=(const qpOASES::ConstraintProduct&)[m[K’:
+[01m[K/home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp:71:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   71 |                 ConstraintProduct &operator=(   [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/solver/solver_HQP_qpoases.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_qpoases.hpp:[m[K In member function ‘[01m[Kvirtual const kimmhqp::solver::HQPOutput& kimmhqp::solver::SolverHQPoases::solve(const WHQPData&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_qpoases.hpp:31:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KproblemData[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   31 |             const HQPOutput & solve([01;35m[Kconst WHQPData & problemData[m[K){
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/tasks/task_joint_bound.cpp:[m[K In member function ‘[01m[Kvirtual const kimmhqp::math::ConstraintBase& kimmhqp::tasks::TaskTorqueBounds::compute(double, ConstRefVector, ConstRefVector, kimmhqp::tasks::TaskTorqueBounds::Data&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/tasks/task_joint_bound.cpp:63:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   63 |                                                     [01;35m[KConstRefVector v[m[K,
+      |                                                     [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/tasks/task_joint_bound.cpp:[m[K In member function ‘[01m[Kvirtual const kimmhqp::math::ConstraintBase& kimmhqp::tasks::TaskJointBounds::compute(double, ConstRefVector, ConstRefVector, kimmhqp::tasks::TaskJointBounds::Data&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/tasks/task_joint_bound.cpp:141:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koffset[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  141 |       int [01;35m[Koffset[m[K = m_nv-m_na;
+      |           [01;35m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:84[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/math/fwd.hpp:4[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/trajectory/trajectory_base.hpp:4[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/trajectory/trajectory_euclidian.hpp:4[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/trajectory/trajectory_euclidian.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/trajectory/trajectory_euclidian.cpp:[m[K In member function ‘[01m[Kvoid kimmhqp::trajectory::TrajectoryEuclidianTimeopt::setMaxVelocity(ConstRefVector)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/trajectory/trajectory_euclidian.cpp:211:21:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+  211 |       assert([01;35m[Km_size = acc.size()[m[K);
+      |              [01;35m[K~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/trajectory/trajectory_euclidian.cpp:[m[K In member function ‘[01m[Kvoid kimmhqp::trajectory::TrajectoryEuclidianTimeopt::addWaypoint(ConstRefVector)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/trajectory/trajectory_euclidian.cpp:215:21:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+  215 |       assert([01;35m[Km_size = waypoint.size()[m[K);
+      |              [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/tasks/task_joint_posture.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_joint_posture.hpp:[m[K In constructor ‘[01m[Kkimmhqp::tasks::TaskJointPosture::TaskJointPosture(const string&, kimmhqp::tasks::TaskBase::RobotWrapper&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_joint_posture.hpp:67:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkimmhqp::tasks::TaskJointPosture::m_constraint[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   67 |       ConstraintEquality [01;35m[Km_constraint[m[K;
+      |                          [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_joint_posture.hpp:65:24:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kkimmhqp::tasks::TaskJointPosture::TrajectorySample kimmhqp::tasks::TaskJointPosture::m_ref[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   65 |       TrajectorySample [01;35m[Km_ref[m[K;
+      |                        [01;35m[K^~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/tasks/task_joint_posture.cpp:12:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   12 |     [01;35m[KTaskJointPosture[m[K::TaskJointPosture(const std::string & name,
+      |     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/tasks/task_mobile_base.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_mobile_base.hpp:[m[K In constructor ‘[01m[Kkimmhqp::tasks::TaskMobileEquality::TaskMobileEquality(const string&, kimmhqp::tasks::TaskBase::RobotWrapper&, const bool&, unsigned int)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_mobile_base.hpp:112:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkimmhqp::tasks::TaskMobileEquality::m_ref[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  112 |       TrajectorySample [01;35m[Km_ref[m[K;
+      |                        [01;35m[K^~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_mobile_base.hpp:93:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool kimmhqp::tasks::TaskMobileEquality::m_ori_ctrl[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   93 |       bool [01;35m[Km_ori_ctrl[m[K;
+      |            [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/tasks/task_mobile_base.cpp:15:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   15 |     [01;35m[KTaskMobileEquality[m[K::TaskMobileEquality(const std::string & name,
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/tasks/task_mobile_base.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_mobile_base.hpp:114:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkimmhqp::tasks::TaskMobileEquality::m_mobile[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  114 |       bool [01;35m[Km_mobile[m[K;
+      |            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_mobile_base.hpp:94:20:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kunsigned int kimmhqp::tasks::TaskMobileEquality::m_index[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   94 |       unsigned int [01;35m[Km_index[m[K;
+      |                    [01;35m[K^~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/tasks/task_mobile_base.cpp:15:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   15 |     [01;35m[KTaskMobileEquality[m[K::TaskMobileEquality(const std::string & name,
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joints.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-collection.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-generic.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:17[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:[m[K In member function ‘[01m[Kvoid pinocchio::JointModelUniversalTpl<Scalar, Options>::calc(pinocchio::JointModelUniversalTpl<Scalar, Options>::JointDataDerived&, const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) const [with ConfigVector = Eigen::Ref<const Eigen::Matrix<double, -1, 1> >; TangentVector = Eigen::Ref<const Eigen::Matrix<double, -1, 1> >; _Scalar = double; int _Options = 0][m[K’:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:539:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Krot1[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  539 |       [01;35m[KtoRotationMatrix(axis1, c0, s0, rot1)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3-tpl.hpp:13[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3.hpp:47[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:12[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/math/rotation.hpp:26:8:[m[K [01;36m[Knote: [m[Kby argument 4 of type ‘[01m[Kconst Eigen::MatrixBase<Eigen::Matrix<double, 3, 3> >&[m[K’ to ‘[01m[Kvoid pinocchio::toRotationMatrix(const Eigen::MatrixBase<Derived>&, const Scalar&, const Scalar&, const Eigen::MatrixBase<OtherDerived>&) [with Vector3 = Eigen::Matrix<double, 3, 1>; Scalar = double; Matrix3 = Eigen::Matrix<double, 3, 3>][m[K’ declared here
+   26 |   void [01;36m[KtoRotationMatrix[m[K(
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joints.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-collection.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-generic.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:17[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:538:15:[m[K [01;36m[Knote: [m[K‘[01m[Krot1[m[K’ declared here
+  538 |       Matrix3 [01;36m[Krot1[m[K, rot2;
+      |               [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:540:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Krot2[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  540 |       [01;35m[KtoRotationMatrix(axis2, c1, s1, rot2)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3-tpl.hpp:13[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3.hpp:47[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:12[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/math/rotation.hpp:26:8:[m[K [01;36m[Knote: [m[Kby argument 4 of type ‘[01m[Kconst Eigen::MatrixBase<Eigen::Matrix<double, 3, 3> >&[m[K’ to ‘[01m[Kvoid pinocchio::toRotationMatrix(const Eigen::MatrixBase<Derived>&, const Scalar&, const Scalar&, const Eigen::MatrixBase<OtherDerived>&) [with Vector3 = Eigen::Matrix<double, 3, 1>; Scalar = double; Matrix3 = Eigen::Matrix<double, 3, 3>][m[K’ declared here
+   26 |   void [01;36m[KtoRotationMatrix[m[K(
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joints.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-collection.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-generic.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:17[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:538:21:[m[K [01;36m[Knote: [m[K‘[01m[Krot2[m[K’ declared here
+  538 |       Matrix3 rot1, [01;36m[Krot2[m[K;
+      |                     [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:[m[K In member function ‘[01m[Kvoid pinocchio::JointModelUniversalTpl<Scalar, Options>::calc(pinocchio::JointModelUniversalTpl<Scalar, Options>::JointDataDerived&, const Eigen::MatrixBase<OtherDerived>&) const [with ConfigVector = Eigen::Ref<const Eigen::Matrix<double, -1, 1> >; _Scalar = double; int _Options = 0][m[K’:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:487:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Krot1[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  487 |       [01;35m[KtoRotationMatrix(axis1, c0, s0, rot1)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3-tpl.hpp:13[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3.hpp:47[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:12[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/math/rotation.hpp:26:8:[m[K [01;36m[Knote: [m[Kby argument 4 of type ‘[01m[Kconst Eigen::MatrixBase<Eigen::Matrix<double, 3, 3> >&[m[K’ to ‘[01m[Kvoid pinocchio::toRotationMatrix(const Eigen::MatrixBase<Derived>&, const Scalar&, const Scalar&, const Eigen::MatrixBase<OtherDerived>&) [with Vector3 = Eigen::Matrix<double, 3, 1>; Scalar = double; Matrix3 = Eigen::Matrix<double, 3, 3>][m[K’ declared here
+   26 |   void [01;36m[KtoRotationMatrix[m[K(
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joints.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-collection.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-generic.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:17[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:486:15:[m[K [01;36m[Knote: [m[K‘[01m[Krot1[m[K’ declared here
+  486 |       Matrix3 [01;36m[Krot1[m[K, rot2;
+      |               [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:488:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Krot2[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  488 |       [01;35m[KtoRotationMatrix(axis2, c1, s1, rot2)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3-tpl.hpp:13[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3.hpp:47[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:12[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/math/rotation.hpp:26:8:[m[K [01;36m[Knote: [m[Kby argument 4 of type ‘[01m[Kconst Eigen::MatrixBase<Eigen::Matrix<double, 3, 3> >&[m[K’ to ‘[01m[Kvoid pinocchio::toRotationMatrix(const Eigen::MatrixBase<Derived>&, const Scalar&, const Scalar&, const Eigen::MatrixBase<OtherDerived>&) [with Vector3 = Eigen::Matrix<double, 3, 1>; Scalar = double; Matrix3 = Eigen::Matrix<double, 3, 3>][m[K’ declared here
+   26 |   void [01;36m[KtoRotationMatrix[m[K(
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joints.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-collection.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-generic.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:17[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:486:21:[m[K [01;36m[Knote: [m[K‘[01m[Krot2[m[K’ declared here
+  486 |       Matrix3 rot1, [01;36m[Krot2[m[K;
+      |                     [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:[m[K In member function ‘[01m[Kvoid pinocchio::JointModelUniversalTpl<Scalar, Options>::calc(pinocchio::JointModelUniversalTpl<Scalar, Options>::JointDataDerived&, const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) const [with ConfigVector = Eigen::Matrix<double, -1, 1>; TangentVector = Eigen::Matrix<double, -1, 1>; _Scalar = double; int _Options = 0][m[K’:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:539:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Krot1[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  539 |       [01;35m[KtoRotationMatrix(axis1, c0, s0, rot1)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3-tpl.hpp:13[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3.hpp:47[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:12[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/math/rotation.hpp:26:8:[m[K [01;36m[Knote: [m[Kby argument 4 of type ‘[01m[Kconst Eigen::MatrixBase<Eigen::Matrix<double, 3, 3> >&[m[K’ to ‘[01m[Kvoid pinocchio::toRotationMatrix(const Eigen::MatrixBase<Derived>&, const Scalar&, const Scalar&, const Eigen::MatrixBase<OtherDerived>&) [with Vector3 = Eigen::Matrix<double, 3, 1>; Scalar = double; Matrix3 = Eigen::Matrix<double, 3, 3>][m[K’ declared here
+   26 |   void [01;36m[KtoRotationMatrix[m[K(
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joints.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-collection.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-generic.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:17[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:538:15:[m[K [01;36m[Knote: [m[K‘[01m[Krot1[m[K’ declared here
+  538 |       Matrix3 [01;36m[Krot1[m[K, rot2;
+      |               [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:540:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Krot2[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  540 |       [01;35m[KtoRotationMatrix(axis2, c1, s1, rot2)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3-tpl.hpp:13[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3.hpp:47[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:12[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/math/rotation.hpp:26:8:[m[K [01;36m[Knote: [m[Kby argument 4 of type ‘[01m[Kconst Eigen::MatrixBase<Eigen::Matrix<double, 3, 3> >&[m[K’ to ‘[01m[Kvoid pinocchio::toRotationMatrix(const Eigen::MatrixBase<Derived>&, const Scalar&, const Scalar&, const Eigen::MatrixBase<OtherDerived>&) [with Vector3 = Eigen::Matrix<double, 3, 1>; Scalar = double; Matrix3 = Eigen::Matrix<double, 3, 3>][m[K’ declared here
+   26 |   void [01;36m[KtoRotationMatrix[m[K(
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joints.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-collection.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-generic.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:17[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:538:21:[m[K [01;36m[Knote: [m[K‘[01m[Krot2[m[K’ declared here
+  538 |       Matrix3 rot1, [01;36m[Krot2[m[K;
+      |                     [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:[m[K In member function ‘[01m[Kvoid pinocchio::JointModelUniversalTpl<Scalar, Options>::calc(pinocchio::JointModelUniversalTpl<Scalar, Options>::JointDataDerived&, const Eigen::MatrixBase<OtherDerived>&) const [with ConfigVector = Eigen::Matrix<double, -1, 1>; _Scalar = double; int _Options = 0][m[K’:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:487:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Krot1[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  487 |       [01;35m[KtoRotationMatrix(axis1, c0, s0, rot1)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3-tpl.hpp:13[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3.hpp:47[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:12[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/math/rotation.hpp:26:8:[m[K [01;36m[Knote: [m[Kby argument 4 of type ‘[01m[Kconst Eigen::MatrixBase<Eigen::Matrix<double, 3, 3> >&[m[K’ to ‘[01m[Kvoid pinocchio::toRotationMatrix(const Eigen::MatrixBase<Derived>&, const Scalar&, const Scalar&, const Eigen::MatrixBase<OtherDerived>&) [with Vector3 = Eigen::Matrix<double, 3, 1>; Scalar = double; Matrix3 = Eigen::Matrix<double, 3, 3>][m[K’ declared here
+   26 |   void [01;36m[KtoRotationMatrix[m[K(
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joints.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-collection.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-generic.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:17[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:486:15:[m[K [01;36m[Knote: [m[K‘[01m[Krot1[m[K’ declared here
+  486 |       Matrix3 [01;36m[Krot1[m[K, rot2;
+      |               [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:488:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Krot2[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  488 |       [01;35m[KtoRotationMatrix(axis2, c1, s1, rot2)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3-tpl.hpp:13[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/spatial/se3.hpp:47[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:12[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/math/rotation.hpp:26:8:[m[K [01;36m[Knote: [m[Kby argument 4 of type ‘[01m[Kconst Eigen::MatrixBase<Eigen::Matrix<double, 3, 3> >&[m[K’ to ‘[01m[Kvoid pinocchio::toRotationMatrix(const Eigen::MatrixBase<Derived>&, const Scalar&, const Scalar&, const Eigen::MatrixBase<OtherDerived>&) [with Vector3 = Eigen::Matrix<double, 3, 1>; Scalar = double; Matrix3 = Eigen::Matrix<double, 3, 3>][m[K’ declared here
+   26 |   void [01;36m[KtoRotationMatrix[m[K(
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joints.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-collection.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-generic.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/data.hpp:17[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp:7[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/kimm_hqp_controller/src/robot/robot_wrapper.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/multibody/joint/joint-universal.hpp:486:21:[m[K [01;36m[Knote: [m[K‘[01m[Krot2[m[K’ declared here
+  486 |       Matrix3 rot1, [01;36m[Krot2[m[K;
+      |                     [01;36m[K^~~~[m[K

@@ -1,0 +1,133 @@
+[0.009s] Invoking command in '/home/home/dcp_ws/build/kimm_hqp_controller': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/kimm_ws/install/rb5_action_manager:/opt/ros/humble:/home/home/dcp_ws/install/kimm_qpoases:/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/gello_ws/install/franka_plugin:/home/home/gello_ws/install/franka_description:/home/home/gello_ws/install/dynamixel_sdk_examples:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces:/home/home/gello_ws/install/dynamixel:/home/home/gello_ws/install/dynamixel_sdk:/home/home/kimm_ws/install/rbpodo_bringup:/home/home/kimm_ws/install/rbpodo_hardware:/home/home/kimm_ws/install/rbpodo_msgs:/home/home/kimm_ws/install/rb3_730es_u_moveit_config:/home/home/kimm_ws/install/rbpodo_description:/home/home/kimm_ws/install/rb5_gui_manager:/home/home/kimm_ws/install/action_interface LD_LIBRARY_PATH=/home/home/dcp_ws/install/kimm_trajectory_smoother/lib:/home/home/dcp_ws/install/kimm_qpoases/lib:/home/home/dcp_ws/install/fairino_action_manager/lib:/home/home/dcp_ws/install/fairino_interfaces/lib:/home/home/dcp_ws/install/pak_hqp_controller/lib:/home/home/dcp_ws/install/kimm_hqp_controller/lib:/home/home/gello_ws/install/franka_plugin/lib:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/home/gello_ws/install/dynamixel_sdk/lib:/home/home/kimm_ws/install/rbpodo_hardware/lib:/home/home/kimm_ws/install/rbpodo_msgs/lib:/home/home/kimm_ws/install/rb5_gui_manager/lib:/home/home/kimm_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/home/dcp_ws/src/fairino/kimm_hqp_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/dcp_ws/install/kimm_hqp_controller
+[0.016s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.055s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.095s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.095s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.115s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.115s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.117s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.128s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.143s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.144s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.209s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.232s] -- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+[0.232s] -- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+[0.233s] -- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.233s] -- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so
+[0.233s] -- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so
+[0.238s] -- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+[0.238s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[0.259s] -- Checking for NumPy
+[0.381s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[0.442s] --   NUMPY_VERSION=1.21.5
+[0.597s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development.Module NumPy 
+[0.597s] -- PythonLibraryDirs: 
+[0.597s] -- PythonLibVersionString: 3.10.12
+[0.613s] -- Python site lib: lib/python3.10/site-packages
+[0.613s] -- Python include dirs: /usr/include/python3.10
+[0.649s] -- Checking for NumPy
+[0.705s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[0.761s] --   NUMPY_VERSION=1.21.5
+[0.761s] -- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[0.763s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[0.763s]   No header defined for python310; skipping header check (note: header-only
+[0.763s]   libraries have no designated component)
+[0.763s] Call Stack (most recent call first):
+[0.763s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+[0.763s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+[0.763s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[0.763s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+[0.763s]   CMakeLists.txt:9 (find_package)
+[0.763s] 
+[0.763s] [0m
+[0.764s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[0.939s] -- Default C++ standard: 201703
+[0.939s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.939s] -- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17
+[0.939s] -- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+[0.944s] -- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem 
+[0.944s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.944s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.945s] -- Found kimm_qpoases: 1.0.0 (/home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/cmake)
+[0.946s] -- Found kimm_trajectory_smoother: 1.0.0 (/home/home/dcp_ws/install/kimm_trajectory_smoother/share/kimm_trajectory_smoother/cmake)
+[0.996s] -- Configuring done
+[1.006s] -- Generating done
+[1.009s] -- Build files have been written to: /home/home/dcp_ws/build/kimm_hqp_controller
+[1.018s] Invoked command in '/home/home/dcp_ws/build/kimm_hqp_controller' returned '0': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/kimm_ws/install/rb5_action_manager:/opt/ros/humble:/home/home/dcp_ws/install/kimm_qpoases:/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/gello_ws/install/franka_plugin:/home/home/gello_ws/install/franka_description:/home/home/gello_ws/install/dynamixel_sdk_examples:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces:/home/home/gello_ws/install/dynamixel:/home/home/gello_ws/install/dynamixel_sdk:/home/home/kimm_ws/install/rbpodo_bringup:/home/home/kimm_ws/install/rbpodo_hardware:/home/home/kimm_ws/install/rbpodo_msgs:/home/home/kimm_ws/install/rb3_730es_u_moveit_config:/home/home/kimm_ws/install/rbpodo_description:/home/home/kimm_ws/install/rb5_gui_manager:/home/home/kimm_ws/install/action_interface LD_LIBRARY_PATH=/home/home/dcp_ws/install/kimm_trajectory_smoother/lib:/home/home/dcp_ws/install/kimm_qpoases/lib:/home/home/dcp_ws/install/fairino_action_manager/lib:/home/home/dcp_ws/install/fairino_interfaces/lib:/home/home/dcp_ws/install/pak_hqp_controller/lib:/home/home/dcp_ws/install/kimm_hqp_controller/lib:/home/home/gello_ws/install/franka_plugin/lib:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/home/gello_ws/install/dynamixel_sdk/lib:/home/home/kimm_ws/install/rbpodo_hardware/lib:/home/home/kimm_ws/install/rbpodo_msgs/lib:/home/home/kimm_ws/install/rb5_gui_manager/lib:/home/home/kimm_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/home/dcp_ws/src/fairino/kimm_hqp_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/dcp_ws/install/kimm_hqp_controller
+[1.019s] Invoking command in '/home/home/dcp_ws/build/kimm_hqp_controller': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/kimm_ws/install/rb5_action_manager:/opt/ros/humble:/home/home/dcp_ws/install/kimm_qpoases:/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/gello_ws/install/franka_plugin:/home/home/gello_ws/install/franka_description:/home/home/gello_ws/install/dynamixel_sdk_examples:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces:/home/home/gello_ws/install/dynamixel:/home/home/gello_ws/install/dynamixel_sdk:/home/home/kimm_ws/install/rbpodo_bringup:/home/home/kimm_ws/install/rbpodo_hardware:/home/home/kimm_ws/install/rbpodo_msgs:/home/home/kimm_ws/install/rb3_730es_u_moveit_config:/home/home/kimm_ws/install/rbpodo_description:/home/home/kimm_ws/install/rb5_gui_manager:/home/home/kimm_ws/install/action_interface LD_LIBRARY_PATH=/home/home/dcp_ws/install/kimm_trajectory_smoother/lib:/home/home/dcp_ws/install/kimm_qpoases/lib:/home/home/dcp_ws/install/fairino_action_manager/lib:/home/home/dcp_ws/install/fairino_interfaces/lib:/home/home/dcp_ws/install/pak_hqp_controller/lib:/home/home/dcp_ws/install/kimm_hqp_controller/lib:/home/home/gello_ws/install/franka_plugin/lib:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/home/gello_ws/install/dynamixel_sdk/lib:/home/home/kimm_ws/install/rbpodo_hardware/lib:/home/home/kimm_ws/install/rbpodo_msgs/lib:/home/home/kimm_ws/install/rb5_gui_manager/lib:/home/home/kimm_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/home/dcp_ws/build/kimm_hqp_controller -- -j10 -l10
+[1.063s] [35m[1mConsolidate compiler generated dependencies of target kimm_hqp_controller[0m
+[1.123s] [100%] Built target kimm_hqp_controller
+[1.131s] Invoked command in '/home/home/dcp_ws/build/kimm_hqp_controller' returned '0': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/kimm_ws/install/rb5_action_manager:/opt/ros/humble:/home/home/dcp_ws/install/kimm_qpoases:/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/gello_ws/install/franka_plugin:/home/home/gello_ws/install/franka_description:/home/home/gello_ws/install/dynamixel_sdk_examples:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces:/home/home/gello_ws/install/dynamixel:/home/home/gello_ws/install/dynamixel_sdk:/home/home/kimm_ws/install/rbpodo_bringup:/home/home/kimm_ws/install/rbpodo_hardware:/home/home/kimm_ws/install/rbpodo_msgs:/home/home/kimm_ws/install/rb3_730es_u_moveit_config:/home/home/kimm_ws/install/rbpodo_description:/home/home/kimm_ws/install/rb5_gui_manager:/home/home/kimm_ws/install/action_interface LD_LIBRARY_PATH=/home/home/dcp_ws/install/kimm_trajectory_smoother/lib:/home/home/dcp_ws/install/kimm_qpoases/lib:/home/home/dcp_ws/install/fairino_action_manager/lib:/home/home/dcp_ws/install/fairino_interfaces/lib:/home/home/dcp_ws/install/pak_hqp_controller/lib:/home/home/dcp_ws/install/kimm_hqp_controller/lib:/home/home/gello_ws/install/franka_plugin/lib:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/home/gello_ws/install/dynamixel_sdk/lib:/home/home/kimm_ws/install/rbpodo_hardware/lib:/home/home/kimm_ws/install/rbpodo_msgs/lib:/home/home/kimm_ws/install/rb5_gui_manager/lib:/home/home/kimm_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/home/dcp_ws/build/kimm_hqp_controller -- -j10 -l10
+[1.132s] Invoking command in '/home/home/dcp_ws/build/kimm_hqp_controller': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/kimm_ws/install/rb5_action_manager:/opt/ros/humble:/home/home/dcp_ws/install/kimm_qpoases:/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/gello_ws/install/franka_plugin:/home/home/gello_ws/install/franka_description:/home/home/gello_ws/install/dynamixel_sdk_examples:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces:/home/home/gello_ws/install/dynamixel:/home/home/gello_ws/install/dynamixel_sdk:/home/home/kimm_ws/install/rbpodo_bringup:/home/home/kimm_ws/install/rbpodo_hardware:/home/home/kimm_ws/install/rbpodo_msgs:/home/home/kimm_ws/install/rb3_730es_u_moveit_config:/home/home/kimm_ws/install/rbpodo_description:/home/home/kimm_ws/install/rb5_gui_manager:/home/home/kimm_ws/install/action_interface LD_LIBRARY_PATH=/home/home/dcp_ws/install/kimm_trajectory_smoother/lib:/home/home/dcp_ws/install/kimm_qpoases/lib:/home/home/dcp_ws/install/fairino_action_manager/lib:/home/home/dcp_ws/install/fairino_interfaces/lib:/home/home/dcp_ws/install/pak_hqp_controller/lib:/home/home/dcp_ws/install/kimm_hqp_controller/lib:/home/home/gello_ws/install/franka_plugin/lib:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/home/gello_ws/install/dynamixel_sdk/lib:/home/home/kimm_ws/install/rbpodo_hardware/lib:/home/home/kimm_ws/install/rbpodo_msgs/lib:/home/home/kimm_ws/install/rb5_gui_manager/lib:/home/home/kimm_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/home/dcp_ws/build/kimm_hqp_controller
+[1.138s] -- Install configuration: ""
+[1.139s] -- Execute custom install script
+[1.139s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/config.hpp
+[1.145s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/contact/contact_base.hpp
+[1.152s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/contact/contact_point.hpp
+[1.157s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/contact/fwd.hpp
+[1.164s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/formulation/contact_level.hpp
+[1.169s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/formulation/inverse_dynamics_formulation_acc.hpp
+[1.174s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/formulation/inverse_dynamics_formulation_base.hpp
+[1.179s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/formulation/inverse_dynamics_formulation_weighted_acc.hpp
+[1.186s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/math/constraint_base.hpp
+[1.192s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/math/constraint_bound.hpp
+[1.201s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/math/constraint_equality.hpp
+[1.210s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/math/constraint_inequality.hpp
+[1.215s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/math/fwd.hpp
+[1.219s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/math/util.hpp
+[1.224s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/robot/fwd.hpp
+[1.229s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/robot/robot_wrapper.hpp
+[1.234s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/fwd.hpp
+[1.240s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_base.hpp
+[1.245s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog.hpp
+[1.251s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog_fast.hpp
+[1.256s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog_rt.hpp
+[1.261s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_eiquadprog_rt.hxx
+[1.267s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_factory.hpp
+[1.272s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_factory.hxx
+[1.279s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_output.hpp
+[1.285s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/solver_HQP_qpoases.hpp
+[1.290s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/solver/util.hpp
+[1.296s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/fwd.hpp
+[1.301s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_base.hpp
+[1.306s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_contact_force.hpp
+[1.311s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_joint_bound.hpp
+[1.317s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_joint_posture.hpp
+[1.321s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_mobile_base.hpp
+[1.326s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_motion.hpp
+[1.331s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/tasks/task_se3_equality.hpp
+[1.337s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/trajectory/fwd.hpp
+[1.342s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/trajectory/trajectory_base.hpp
+[1.347s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/trajectory/trajectory_euclidian.hpp
+[1.355s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/trajectory/trajectory_se3.hpp
+[1.360s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/util/Stdafx.hh
+[1.366s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/util/statistics.hpp
+[1.372s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/include/kimm_hqp_controller/util/stop_watch.hpp
+[1.377s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/environment/library_path.sh
+[1.383s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/environment/library_path.dsv
+[1.391s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/ament_index/resource_index/package_run_dependencies/kimm_hqp_controller
+[1.394s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/ament_index/resource_index/parent_prefix_path/kimm_hqp_controller
+[1.402s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/environment/ament_prefix_path.sh
+[1.409s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/environment/ament_prefix_path.dsv
+[1.417s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/environment/path.sh
+[1.424s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/environment/path.dsv
+[1.436s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/local_setup.bash
+[1.443s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/local_setup.sh
+[1.451s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/local_setup.zsh
+[1.458s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/local_setup.dsv
+[1.465s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/package.dsv
+[1.472s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/ament_index/resource_index/packages/kimm_hqp_controller
+[1.478s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.486s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[1.495s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.501s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/ament_cmake_export_targets-extras.cmake
+[1.507s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/kimm_hqp_controllerConfig.cmake
+[1.514s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/kimm_hqp_controllerConfig-version.cmake
+[1.520s] -- Symlinking: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/package.xml
+[1.526s] -- Up-to-date: /home/home/dcp_ws/install/kimm_hqp_controller/lib/libkimm_hqp_controller.so
+[1.527s] -- Up-to-date: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/export_kimm_hqp_controller.cmake
+[1.528s] -- Up-to-date: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/export_kimm_hqp_controller-noconfig.cmake
+[1.528s] -- Up-to-date: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/export_kimm_hqp_controllerExport.cmake
+[1.528s] -- Up-to-date: /home/home/dcp_ws/install/kimm_hqp_controller/share/kimm_hqp_controller/cmake/export_kimm_hqp_controllerExport-noconfig.cmake
+[1.528s] Invoked command in '/home/home/dcp_ws/build/kimm_hqp_controller' returned '0': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/kimm_ws/install/rb5_action_manager:/opt/ros/humble:/home/home/dcp_ws/install/kimm_qpoases:/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/gello_ws/install/franka_plugin:/home/home/gello_ws/install/franka_description:/home/home/gello_ws/install/dynamixel_sdk_examples:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces:/home/home/gello_ws/install/dynamixel:/home/home/gello_ws/install/dynamixel_sdk:/home/home/kimm_ws/install/rbpodo_bringup:/home/home/kimm_ws/install/rbpodo_hardware:/home/home/kimm_ws/install/rbpodo_msgs:/home/home/kimm_ws/install/rb3_730es_u_moveit_config:/home/home/kimm_ws/install/rbpodo_description:/home/home/kimm_ws/install/rb5_gui_manager:/home/home/kimm_ws/install/action_interface LD_LIBRARY_PATH=/home/home/dcp_ws/install/kimm_trajectory_smoother/lib:/home/home/dcp_ws/install/kimm_qpoases/lib:/home/home/dcp_ws/install/fairino_action_manager/lib:/home/home/dcp_ws/install/fairino_interfaces/lib:/home/home/dcp_ws/install/pak_hqp_controller/lib:/home/home/dcp_ws/install/kimm_hqp_controller/lib:/home/home/gello_ws/install/franka_plugin/lib:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/home/gello_ws/install/dynamixel_sdk/lib:/home/home/kimm_ws/install/rbpodo_hardware/lib:/home/home/kimm_ws/install/rbpodo_msgs/lib:/home/home/kimm_ws/install/rb5_gui_manager/lib:/home/home/kimm_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/home/dcp_ws/build/kimm_hqp_controller

@@ -1,0 +1,1 @@
+/home/home/dcp_ws/build/fairino_interfaces/ament_cmake_core/fairino_interfacesConfig.cmake
