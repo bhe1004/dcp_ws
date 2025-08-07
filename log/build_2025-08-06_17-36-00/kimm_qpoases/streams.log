@@ -1,0 +1,57 @@
+[0.035s] Invoking command in '/home/home/dcp_ws/build/kimm_qpoases': /usr/bin/cmake --build /home/home/dcp_ws/build/kimm_qpoases -- -j10 -l10
+[0.188s] [100%] Built target kimm_qpoases
+[0.218s] Invoked command in '/home/home/dcp_ws/build/kimm_qpoases' returned '0': /usr/bin/cmake --build /home/home/dcp_ws/build/kimm_qpoases -- -j10 -l10
+[0.221s] Invoking command in '/home/home/dcp_ws/build/kimm_qpoases': /usr/bin/cmake --install /home/home/dcp_ws/build/kimm_qpoases
+[0.243s] -- Install configuration: ""
+[0.243s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/lib/libkimm_qpoases.so
+[0.243s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include
+[0.243s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES.hpp
+[0.243s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES
+[0.243s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Options.hpp
+[0.243s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblem.hpp
+[0.243s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Constants.hpp
+[0.243s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/extras
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/extras/SolutionAnalysis.ipp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/extras/OQPinterface.hpp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/extras/SolutionAnalysis.hpp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/SQProblem.hpp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/SQProblem.ipp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Indexlist.hpp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Bounds.hpp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Indexlist.ipp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Utils.ipp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Constraints.ipp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Utils.hpp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblem.ipp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/SubjectTo.ipp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblemB.hpp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Matrices.hpp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Types.hpp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/MessageHandling.hpp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Flipper.hpp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/ConstraintProduct.hpp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/QProblemB.ipp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Bounds.ipp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/MessageHandling.ipp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/Constraints.hpp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/include/qpOASES/SubjectTo.hpp
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/library_path.sh
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/library_path.dsv
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/ament_index/resource_index/package_run_dependencies/kimm_qpoases
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/ament_index/resource_index/parent_prefix_path/kimm_qpoases
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/ament_prefix_path.sh
+[0.244s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/ament_prefix_path.dsv
+[0.245s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/path.sh
+[0.245s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/environment/path.dsv
+[0.245s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/local_setup.bash
+[0.245s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/local_setup.sh
+[0.245s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/local_setup.zsh
+[0.245s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/local_setup.dsv
+[0.245s] -- Installing: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/package.dsv
+[0.245s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/ament_index/resource_index/packages/kimm_qpoases
+[0.245s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.245s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/cmake/ament_cmake_export_libraries-extras.cmake
+[0.245s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/cmake/kimm_qpoasesConfig.cmake
+[0.245s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/cmake/kimm_qpoasesConfig-version.cmake
+[0.245s] -- Up-to-date: /home/home/dcp_ws/install/kimm_qpoases/share/kimm_qpoases/package.xml
+[0.257s] Invoked command in '/home/home/dcp_ws/build/kimm_qpoases' returned '0': /usr/bin/cmake --install /home/home/dcp_ws/build/kimm_qpoases

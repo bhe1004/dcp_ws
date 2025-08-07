@@ -43,21 +43,27 @@ struct Pick_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
+      this->client_id = "";
       this->duration = 0.0f;
     }
   }
 
   explicit Pick_Request_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : target_pose(_alloc, _init)
+  : client_id(_alloc),
+    target_pose(_alloc, _init)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
+      this->client_id = "";
       this->duration = 0.0f;
     }
   }
 
   // field types and members
+  using _client_id_type =
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+  _client_id_type client_id;
   using _target_pose_type =
     geometry_msgs::msg::Pose_<ContainerAllocator>;
   _target_pose_type target_pose;
@@ -66,6 +72,12 @@ struct Pick_Request_
   _duration_type duration;
 
   // setters for named parameter idiom
+  Type & set__client_id(
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+  {
+    this->client_id = _arg;
+    return *this;
+  }
   Type & set__target_pose(
     const geometry_msgs::msg::Pose_<ContainerAllocator> & _arg)
   {
@@ -121,6 +133,9 @@ struct Pick_Request_
   // comparison operators
   bool operator==(const Pick_Request_ & other) const
   {
+    if (this->client_id != other.client_id) {
+      return false;
+    }
     if (this->target_pose != other.target_pose) {
       return false;
     }

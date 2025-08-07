@@ -1,0 +1,73 @@
+[0.009s] Invoking command in '/home/home/dcp_ws/build/fairino_action_manager': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/kimm_ws/install/rb5_action_manager:/opt/ros/humble:/home/home/dcp_ws/install/kimm_qpoases:/home/home/gello_ws/install/franka_plugin:/home/home/gello_ws/install/franka_description:/home/home/gello_ws/install/dynamixel_sdk_examples:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces:/home/home/gello_ws/install/dynamixel:/home/home/gello_ws/install/dynamixel_sdk:/home/home/kimm_ws/install/rbpodo_bringup:/home/home/kimm_ws/install/rbpodo_hardware:/home/home/kimm_ws/install/rbpodo_msgs:/home/home/kimm_ws/install/rb3_730es_u_moveit_config:/home/home/kimm_ws/install/rbpodo_description:/home/home/kimm_ws/install/rb5_gui_manager:/home/home/kimm_ws/install/action_interface LD_LIBRARY_PATH=/home/home/dcp_ws/install/fairino_interfaces/lib:/home/home/dcp_ws/install/fairino_action_manager/lib:/home/home/dcp_ws/install/pak_hqp_controller/lib:/home/home/dcp_ws/install/kimm_hqp_controller/lib:/home/home/dcp_ws/install/kimm_trajectory_smoother/lib:/home/home/dcp_ws/install/kimm_qpoases/lib:/home/home/gello_ws/install/franka_plugin/lib:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/home/gello_ws/install/dynamixel_sdk/lib:/home/home/kimm_ws/install/rbpodo_hardware/lib:/home/home/kimm_ws/install/rbpodo_msgs/lib:/home/home/kimm_ws/install/rb5_gui_manager/lib:/home/home/kimm_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/home/dcp_ws/build/fairino_action_manager -- -j10 -l10
+[0.047s] [  5%] [32mBuilding CXX object CMakeFiles/task.dir/src/servers/task/pick.cpp.o[0m
+[0.047s] [ 11%] [32mBuilding CXX object CMakeFiles/task.dir/src/servers/task/base_task.cpp.o[0m
+[0.048s] [ 16%] [32mBuilding CXX object CMakeFiles/task.dir/src/servers/task/place.cpp.o[0m
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[0.093s] [ 22%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller/controller.cpp.o[0m
+[0.096s] [ 27%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/joint_posture_action_server.cpp.o[0m
+[0.096s] [ 33%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/se3_action_server.cpp.o[0m
+[0.097s] [ 38%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/gripper_real_action_server.cpp.o[0m
+[0.100s] [ 44%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/gripper_sim_action_server.cpp.o[0m
+[0.101s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/tool_changer_action_sever.cpp.o[0m
+[0.107s] [ 55%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/qr_action_server.cpp.o[0m
+[1.428s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/task/base_task.cpp:4:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KBaseTask::BaseTask(rclcpp::Node::SharedPtr, rclcpp_action::Client<fairino_interfaces::action::SE3>::SharedPtr, rclcpp_action::Client<fairino_interfaces::action::Gripper>::SharedPtr)[m[K’
+[1.428s]     4 | [01;31m[KBaseTask[m[K::BaseTask(
+[1.428s]       | [01;31m[K^~~~~~~~[m[K
+[1.428s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/task/base_task.cpp:1[m[K:
+[1.428s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/base_task.hpp:16:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KBaseTask::BaseTask(const BaseTask&)[m[K’
+[1.428s]    16 | class [01;36m[KBaseTask[m[K
+[1.428s]       |       [01;36m[K^~~~~~~~[m[K
+[1.429s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/base_task.hpp:20:5:[m[K [01;36m[Knote: [m[K                ‘[01m[KBaseTask::BaseTask(rclcpp::Node::SharedPtr, rclcpp_action::Client<fairino_interfaces::action::SE3>::SharedPtr, rclcpp_action::Client<fairino_interfaces::action::Gripper>::SharedPtr, const string&)[m[K’
+[1.429s]    20 |     [01;36m[KBaseTask[m[K(
+[1.429s]       |     [01;36m[K^~~~~~~~[m[K
+[1.429s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/base_task.hpp:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass BaseTask[m[K’ defined here
+[1.429s]    16 | class [01;36m[KBaseTask[m[K
+[1.429s]       |       [01;36m[K^~~~~~~~[m[K
+[1.429s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/task/base_task.cpp:11:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool BaseTask::move_to_pose(const Pose&, float, const string&)[m[K’
+[1.429s]    11 | bool [01;31m[KBaseTask[m[K::move_to_pose(const geometry_msgs::msg::Pose& pose, float duration, const std::string& client_id)
+[1.429s]       |      [01;31m[K^~~~~~~~[m[K
+[1.429s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/task/base_task.cpp:1[m[K:
+[1.429s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/base_task.hpp:40:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kbool BaseTask::move_to_pose(const Pose&, float)[m[K’
+[1.429s]    40 |     bool [01;36m[Kmove_to_pose[m[K(const geometry_msgs::msg::Pose& pose, float duration);
+[1.429s]       |          [01;36m[K^~~~~~~~~~~~[m[K
+[1.429s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/base_task.hpp:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass BaseTask[m[K’ defined here
+[1.429s]    16 | class [01;36m[KBaseTask[m[K
+[1.429s]       |       [01;36m[K^~~~~~~~[m[K
+[1.535s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/task/pick.cpp:[m[K In member function ‘[01m[Kvirtual bool Pick::execute(const Pose&, float)[m[K’:
+[1.535s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/task/pick.cpp:16:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPick::move_to_pose(const Pose&, const float&, std::string&)[m[K’
+[1.536s]    16 |     if (![01;31m[Kmove_to_pose(target_pose, duration, client_id_)[m[K) {
+[1.536s]       |          [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.536s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/pick.hpp:3[m[K,
+[1.536s]                  from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/task/pick.cpp:3[m[K:
+[1.536s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/base_task.hpp:40:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool BaseTask::move_to_pose(const Pose&, float)[m[K’
+[1.536s]    40 |     bool [01;36m[Kmove_to_pose[m[K(const geometry_msgs::msg::Pose& pose, float duration);
+[1.536s]       |          [01;36m[K^~~~~~~~~~~~[m[K
+[1.536s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/base_task.hpp:40:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[1.785s] gmake[2]: *** [CMakeFiles/task.dir/build.make:76: CMakeFiles/task.dir/src/servers/task/base_task.cpp.o] 오류 1
+[1.785s] gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[1.806s] gmake[2]: *** [CMakeFiles/task.dir/build.make:90: CMakeFiles/task.dir/src/servers/task/pick.cpp.o] 오류 1
+[1.807s] gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/task.dir/all] 오류 2
+[1.807s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[4.404s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/se3_action_server.cpp:[m[K In member function ‘[01m[Kvoid SE3ActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<fairino_interfaces::action::SE3> >)[m[K’:
+[4.404s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/se3_action_server.cpp:99:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotController::FairinoWrapper[m[K’ {aka ‘[01m[Kclass RobotController::FairinoWrapper[m[K’} has no member named ‘[01m[Kinit_place_ctrl[m[K’; did you mean ‘[01m[Kinit_se3_ctrl[m[K’?
+[4.404s]    99 |         mu_->[01;31m[Kinit_place_ctrl[m[K(start_time_); // 새로운 place 동작
+[4.404s]       |              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.404s]       |              [32m[Kinit_se3_ctrl[m[K
+[4.560s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/tool_changer_action_sever.cpp:[m[K In member function ‘[01m[Kvirtual bool ToolChangerActionServer::compute(const rclcpp::Time&)[m[K’:
+[4.560s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/tool_changer_action_sever.cpp:97:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.561s]    97 | bool ToolChangerActionServer::compute([01;35m[Kconst rclcpp::Time& current_time[m[K)
+[4.561s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[4.819s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/controller/controller.cpp:203:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid RobotController::FairinoWrapper::init_place_ctrl(rclcpp::Time)[m[K’
+[4.819s]   203 |     void [01;31m[KFairinoWrapper[m[K::init_place_ctrl(rclcpp::Time time) {
+[4.819s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.819s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/controller/controller.cpp:203:10:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid RobotController::FairinoWrapper::init_place_ctrl(rclcpp::Time)[m[K’
+[4.819s] In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/controller/controller.cpp:1[m[K:
+[4.819s] [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:147:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass RobotController::FairinoWrapper[m[K’ defined here
+[4.819s]   147 |     class [01;36m[KFairinoWrapper[m[K
+[4.819s]       |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.492s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:104: CMakeFiles/controller.dir/src/servers/basic/se3_action_server.cpp.o] 오류 1
+[6.492s] gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[7.752s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller/controller.cpp.o] 오류 1
+[7.753s] gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/controller.dir/all] 오류 2
+[7.753s] gmake: *** [Makefile:146: all] 오류 2
+[7.755s] Invoked command in '/home/home/dcp_ws/build/fairino_action_manager' returned '2': CMAKE_PREFIX_PATH=/home/home/dcp_ws/install/fairino_interfaces:/home/home/dcp_ws/install/robotiq_description:/home/home/dcp_ws/install/isaacsim:/home/home/dcp_ws/install/fairino_rviz:/home/home/dcp_ws/install/fairino_action_manager:/home/home/dcp_ws/install/fairino_description:/home/home/dcp_ws/install/dh_robotics_ag95_description:/home/home/dcp_ws/install/pak_hqp_controller:/home/home/dcp_ws/install/kimm_hqp_controller:/home/home/dcp_ws/install/kimm_trajectory_smoother:/home/home/dcp_ws/install/isaacsim_ros2:/home/home/kimm_ws/install/rb5_action_manager:/opt/ros/humble:/home/home/dcp_ws/install/kimm_qpoases:/home/home/gello_ws/install/franka_plugin:/home/home/gello_ws/install/franka_description:/home/home/gello_ws/install/dynamixel_sdk_examples:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces:/home/home/gello_ws/install/dynamixel:/home/home/gello_ws/install/dynamixel_sdk:/home/home/kimm_ws/install/rbpodo_bringup:/home/home/kimm_ws/install/rbpodo_hardware:/home/home/kimm_ws/install/rbpodo_msgs:/home/home/kimm_ws/install/rb3_730es_u_moveit_config:/home/home/kimm_ws/install/rbpodo_description:/home/home/kimm_ws/install/rb5_gui_manager:/home/home/kimm_ws/install/action_interface LD_LIBRARY_PATH=/home/home/dcp_ws/install/fairino_interfaces/lib:/home/home/dcp_ws/install/fairino_action_manager/lib:/home/home/dcp_ws/install/pak_hqp_controller/lib:/home/home/dcp_ws/install/kimm_hqp_controller/lib:/home/home/dcp_ws/install/kimm_trajectory_smoother/lib:/home/home/dcp_ws/install/kimm_qpoases/lib:/home/home/gello_ws/install/franka_plugin/lib:/home/home/gello_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/home/gello_ws/install/dynamixel_sdk/lib:/home/home/kimm_ws/install/rbpodo_hardware/lib:/home/home/kimm_ws/install/rbpodo_msgs/lib:/home/home/kimm_ws/install/rb5_gui_manager/lib:/home/home/kimm_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/home/dcp_ws/build/fairino_action_manager -- -j10 -l10

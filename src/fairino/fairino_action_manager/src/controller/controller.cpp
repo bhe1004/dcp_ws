@@ -195,6 +195,46 @@ namespace RobotController
         se3_task->setReference(state_.fairino.H_ee);
         se3_task->setGains(200.0, 100.0);
     
+        controller_->addTask(se3_task, 0);           // priority 1
+    
+        se3_task_ = se3_task;
+    }
+
+    void FairinoWrapper::init_place_ctrl(rclcpp::Time time) {
+        state_.fairino.q_ref = state_.fairino.q;
+    
+        trajEE_Cubic_->setInitSample(state_.fairino.H_ee);
+        trajEE_Cubic_->setDuration(state_.fairino.duration);
+        trajEE_Cubic_->setStartTime(time.seconds());
+        state_.fairino.H_ee_init = state_.fairino.H_ee;
+        stime_ = time.seconds();
+    
+        if (state_.fairino.isrelative){
+            state_.fairino.H_ee_ref.translation() = state_.fairino.H_ee.translation() + state_.fairino.H_ee_ref.translation();
+            state_.fairino.H_ee_ref.rotation() = state_.fairino.H_ee.rotation() * state_.fairino.H_ee_ref.rotation();
+        }
+        trajEE_Cubic_->setGoalSample(state_.fairino.H_ee_ref);
+    
+        // --- 여기부터 HQP task 등록 ---
+        // (기존 task 제거)
+        controller_->removeTask("task-se3");
+        controller_->removeTask("task-yaw-free");
+    
+        // [1] Yaw-free orientation 제약 task (priority 0)
+        auto only_yaw_free_task = std::make_shared<pak_hqp_controller::task::TaskOnlyYawFree>(
+            "task-yaw-free", *robot_wrapper_, "wrist3_link"
+        );
+        // 비커를 집었을 때 orientation을 기준(초기 orientation)
+        only_yaw_free_task->setReference(state_.fairino.H_ee);
+        only_yaw_free_task->setGain(200.0); // 필요시 gain 조정
+    
+        // [2] SE3 Equality 제약 task (priority 1)
+        auto se3_task = std::make_shared<pak_hqp_controller::task::TaskSE3Equality>(
+            "task-se3", *robot_wrapper_, "wrist3_link", Eigen::Vector3d::Zero() // 필요시 오프셋
+        );
+        se3_task->setReference(state_.fairino.H_ee);
+        se3_task->setGains(200.0, 100.0);
+    
         // [3] HQP controller에 task 추가 (priority 순서 지켜야 함)
         controller_->addTask(only_yaw_free_task, 0); // priority 0 (최상위)
         controller_->addTask(se3_task, 1);           // priority 1

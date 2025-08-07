@@ -277,6 +277,7 @@ class ControlSuiteShell(cmd.Cmd):
     def do_pick(self, arg):
         """Pick an object using the task manager"""
         request = Pick.Request()
+        request.client_id = "pick"
         request.duration = 5.0
 
         if arg.strip() == "0":
@@ -312,12 +313,13 @@ class ControlSuiteShell(cmd.Cmd):
     def do_place(self, arg):
         """Pick an object using the task manager"""
         request = Place.Request()
+        request.client_id = "place"
         request.duration = 5.0
 
         if arg.strip() == "0":
             request.target_pose.position.x = 0.5
-            request.target_pose.position.y = 0.45
-            request.target_pose.position.z = 0.45
+            request.target_pose.position.y = 0.2
+            request.target_pose.position.z = 0.6
             request.target_pose.orientation.x = 0.5
             request.target_pose.orientation.y = -0.5
             request.target_pose.orientation.z = 0.5

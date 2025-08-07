@@ -14,6 +14,8 @@
 // Include directives for member types
 // Member `target_pose`
 #include "geometry_msgs/msg/detail/pose__functions.h"
+// Member `client_id`
+#include "rosidl_runtime_c/string_functions.h"
 
 bool
 fairino_interfaces__action__SE3_Goal__init(fairino_interfaces__action__SE3_Goal * msg)
@@ -29,6 +31,11 @@ fairino_interfaces__action__SE3_Goal__init(fairino_interfaces__action__SE3_Goal 
   // duration
   // relative
   // wholebody
+  // client_id
+  if (!rosidl_runtime_c__String__init(&msg->client_id)) {
+    fairino_interfaces__action__SE3_Goal__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -43,6 +50,8 @@ fairino_interfaces__action__SE3_Goal__fini(fairino_interfaces__action__SE3_Goal 
   // duration
   // relative
   // wholebody
+  // client_id
+  rosidl_runtime_c__String__fini(&msg->client_id);
 }
 
 bool
@@ -69,6 +78,12 @@ fairino_interfaces__action__SE3_Goal__are_equal(const fairino_interfaces__action
   if (lhs->wholebody != rhs->wholebody) {
     return false;
   }
+  // client_id
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->client_id), &(rhs->client_id)))
+  {
+    return false;
+  }
   return true;
 }
 
@@ -92,6 +107,12 @@ fairino_interfaces__action__SE3_Goal__copy(
   output->relative = input->relative;
   // wholebody
   output->wholebody = input->wholebody;
+  // client_id
+  if (!rosidl_runtime_c__String__copy(
+      &(input->client_id), &(output->client_id)))
+  {
+    return false;
+  }
   return true;
 }
 

@@ -37,7 +37,24 @@ void Pick_Request_fini_function(void * message_memory)
   typed_message->~Pick_Request();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember Pick_Request_message_member_array[2] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember Pick_Request_message_member_array[3] = {
+  {
+    "client_id",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(fairino_interfaces::srv::Pick_Request, client_id),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
   {
     "target_pose",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
@@ -77,7 +94,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Pick_Request_
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers Pick_Request_message_members = {
   "fairino_interfaces::srv",  // message namespace
   "Pick_Request",  // message name
-  2,  // number of fields
+  3,  // number of fields
   sizeof(fairino_interfaces::srv::Pick_Request),
   Pick_Request_message_member_array,  // message members
   Pick_Request_init_function,  // function to initialize message memory (memory has to be allocated)

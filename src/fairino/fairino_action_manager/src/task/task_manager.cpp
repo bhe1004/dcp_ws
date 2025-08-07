@@ -49,8 +49,10 @@ void TaskServiceManager::setup()
 void TaskServiceManager::handle_pick_request(
     const std::shared_ptr<PickTask::Request> request,
     std::shared_ptr<PickTask::Response> response)
-{
-    Pick pick_task(shared_from_this(), se3_client_, gripper_client_);
+{   
+    RCLCPP_INFO(this->get_logger(), "Pick requested by: %s", request->client_id.c_str());
+
+    Pick pick_task(shared_from_this(), se3_client_, gripper_client_, request->client_id);
     
     response->is_completed = pick_task.execute(request->target_pose, request->duration);
 }
@@ -58,8 +60,10 @@ void TaskServiceManager::handle_pick_request(
 void TaskServiceManager::handle_place_request(
     const std::shared_ptr<PlaceTask::Request> request,
     std::shared_ptr<PlaceTask::Response> response)
-{
-    Place place_task(shared_from_this(), se3_client_, gripper_client_);
+{   
+    RCLCPP_INFO(this->get_logger(), "Place requested by: %s", request->client_id.c_str());
+
+    Place place_task(shared_from_this(), se3_client_, gripper_client_, request->client_id);
     
     response->is_completed = place_task.execute(request->target_pose, request->duration);
 }

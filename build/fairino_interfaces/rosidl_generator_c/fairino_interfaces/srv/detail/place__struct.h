@@ -18,12 +18,15 @@ extern "C"
 // Constants defined in the message
 
 // Include directives for member types
+// Member 'client_id'
+#include "rosidl_runtime_c/string.h"
 // Member 'target_pose'
 #include "geometry_msgs/msg/detail/pose__struct.h"
 
 /// Struct defined in srv/Place in the package fairino_interfaces.
 typedef struct fairino_interfaces__srv__Place_Request
 {
+  rosidl_runtime_c__String client_id;
   geometry_msgs__msg__Pose target_pose;
   float duration;
 } fairino_interfaces__srv__Place_Request;

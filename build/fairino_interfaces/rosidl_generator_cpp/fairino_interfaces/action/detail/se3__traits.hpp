@@ -54,6 +54,13 @@ inline void to_flow_style_yaml(
   {
     out << "wholebody: ";
     rosidl_generator_traits::value_to_yaml(msg.wholebody, out);
+    out << ", ";
+  }
+
+  // member: client_id
+  {
+    out << "client_id: ";
+    rosidl_generator_traits::value_to_yaml(msg.client_id, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -98,6 +105,16 @@ inline void to_block_style_yaml(
     }
     out << "wholebody: ";
     rosidl_generator_traits::value_to_yaml(msg.wholebody, out);
+    out << "\n";
+  }
+
+  // member: client_id
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "client_id: ";
+    rosidl_generator_traits::value_to_yaml(msg.client_id, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)
@@ -148,11 +165,11 @@ inline const char * name<fairino_interfaces::action::SE3_Goal>()
 
 template<>
 struct has_fixed_size<fairino_interfaces::action::SE3_Goal>
-  : std::integral_constant<bool, has_fixed_size<geometry_msgs::msg::Pose>::value> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct has_bounded_size<fairino_interfaces::action::SE3_Goal>
-  : std::integral_constant<bool, has_bounded_size<geometry_msgs::msg::Pose>::value> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct is_message<fairino_interfaces::action::SE3_Goal>

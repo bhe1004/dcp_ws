@@ -1,0 +1,4 @@
+Invoking command in '/home/home/dcp_ws/build/kimm_qpoases': /usr/bin/cmake --build /home/home/dcp_ws/build/kimm_qpoases -- -j10 -l10
+Invoked command in '/home/home/dcp_ws/build/kimm_qpoases' returned '0': /usr/bin/cmake --build /home/home/dcp_ws/build/kimm_qpoases -- -j10 -l10
+Invoking command in '/home/home/dcp_ws/build/kimm_qpoases': /usr/bin/cmake --install /home/home/dcp_ws/build/kimm_qpoases
+Invoked command in '/home/home/dcp_ws/build/kimm_qpoases' returned '0': /usr/bin/cmake --install /home/home/dcp_ws/build/kimm_qpoases

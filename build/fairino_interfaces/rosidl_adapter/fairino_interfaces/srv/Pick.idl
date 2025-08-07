@@ -9,6 +9,8 @@ module fairino_interfaces {
     @verbatim (language="comment", text=
       "Request")
     struct Pick_Request {
+      string client_id;
+
       geometry_msgs::msg::Pose target_pose;
 
       float duration;

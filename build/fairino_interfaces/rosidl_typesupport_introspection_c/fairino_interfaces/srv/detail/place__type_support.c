@@ -13,6 +13,8 @@
 
 
 // Include directives for member types
+// Member `client_id`
+#include "rosidl_runtime_c/string_functions.h"
 // Member `target_pose`
 #include "geometry_msgs/msg/pose.h"
 // Member `target_pose`
@@ -37,7 +39,24 @@ void fairino_interfaces__srv__Place_Request__rosidl_typesupport_introspection_c_
   fairino_interfaces__srv__Place_Request__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember fairino_interfaces__srv__Place_Request__rosidl_typesupport_introspection_c__Place_Request_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember fairino_interfaces__srv__Place_Request__rosidl_typesupport_introspection_c__Place_Request_message_member_array[3] = {
+  {
+    "client_id",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(fairino_interfaces__srv__Place_Request, client_id),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
   {
     "target_pose",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
@@ -77,7 +96,7 @@ static rosidl_typesupport_introspection_c__MessageMember fairino_interfaces__srv
 static const rosidl_typesupport_introspection_c__MessageMembers fairino_interfaces__srv__Place_Request__rosidl_typesupport_introspection_c__Place_Request_message_members = {
   "fairino_interfaces__srv",  // message namespace
   "Place_Request",  // message name
-  2,  // number of fields
+  3,  // number of fields
   sizeof(fairino_interfaces__srv__Place_Request),
   fairino_interfaces__srv__Place_Request__rosidl_typesupport_introspection_c__Place_Request_message_member_array,  // message members
   fairino_interfaces__srv__Place_Request__rosidl_typesupport_introspection_c__Place_Request_init_function,  // function to initialize message memory (memory has to be allocated)
@@ -95,7 +114,7 @@ static rosidl_message_type_support_t fairino_interfaces__srv__Place_Request__ros
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_fairino_interfaces
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, fairino_interfaces, srv, Place_Request)() {
-  fairino_interfaces__srv__Place_Request__rosidl_typesupport_introspection_c__Place_Request_message_member_array[0].members_ =
+  fairino_interfaces__srv__Place_Request__rosidl_typesupport_introspection_c__Place_Request_message_member_array[1].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, geometry_msgs, msg, Pose)();
   if (!fairino_interfaces__srv__Place_Request__rosidl_typesupport_introspection_c__Place_Request_message_type_support_handle.typesupport_identifier) {
     fairino_interfaces__srv__Place_Request__rosidl_typesupport_introspection_c__Place_Request_message_type_support_handle.typesupport_identifier =

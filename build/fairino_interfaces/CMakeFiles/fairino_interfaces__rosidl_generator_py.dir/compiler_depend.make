@@ -1542,10 +1542,13 @@ CMakeFiles/fairino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fairi
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   rosidl_generator_c/fairino_interfaces/action/detail/se3__functions.h \
-  rosidl_generator_c/fairino_interfaces/msg/rosidl_generator_c__visibility_control.h
+  rosidl_generator_c/fairino_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
 
 CMakeFiles/fairino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fairino_interfaces/action/_tool_changer_s.c.o: rosidl_generator_py/fairino_interfaces/action/_tool_changer_s.c \
   /usr/include/stdc-predef.h \
@@ -2048,11 +2051,14 @@ CMakeFiles/fairino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fairi
   /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/fairino_interfaces/srv/detail/pick__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h \
   rosidl_generator_c/fairino_interfaces/srv/detail/pick__functions.h \
-  rosidl_generator_c/fairino_interfaces/msg/rosidl_generator_c__visibility_control.h
+  rosidl_generator_c/fairino_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
 
 CMakeFiles/fairino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fairino_interfaces/srv/_place_s.c.o: rosidl_generator_py/fairino_interfaces/srv/_place_s.c \
   /usr/include/stdc-predef.h \
@@ -2302,11 +2308,14 @@ CMakeFiles/fairino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fairi
   /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/fairino_interfaces/srv/detail/place__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h \
   rosidl_generator_c/fairino_interfaces/srv/detail/place__functions.h \
-  rosidl_generator_c/fairino_interfaces/msg/rosidl_generator_c__visibility_control.h
+  rosidl_generator_c/fairino_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
 
 
 rosidl_generator_c/fairino_interfaces/srv/detail/place__struct.h:
@@ -2706,6 +2715,8 @@ rosidl_generator_c/fairino_interfaces/action/detail/joint_posture__functions.h:
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/python3.10/bytesobject.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
 
 /usr/include/python3.10/cpython/methodobject.h:
 

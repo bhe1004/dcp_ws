@@ -20,7 +20,8 @@ public:
     BaseTask(
         rclcpp::Node::SharedPtr node,
         SE3ActionClient::SharedPtr se3_client,
-        GripperActionClient::SharedPtr gripper_client);
+        GripperActionClient::SharedPtr gripper_client,
+        const std::string& client_id);
 
     virtual ~BaseTask() = default;
 
@@ -31,11 +32,12 @@ public:
 
 protected:
     // 공통 헬퍼 함수
-    bool move_to_pose(const geometry_msgs::msg::Pose& pose, float duration);
+    bool move_to_pose(const geometry_msgs::msg::Pose& pose, float duration, const std::string& client_id);
     bool control_gripper(bool grasp);
 
     // 멤버 변수
     rclcpp::Node::SharedPtr node_;
     SE3ActionClient::SharedPtr se3_client_;
     GripperActionClient::SharedPtr gripper_client_;
+    std::string client_id_;
 };

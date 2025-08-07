@@ -56,6 +56,8 @@ cdr_serialize(
   const fairino_interfaces::srv::Pick_Request & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
+  // Member: client_id
+  cdr << ros_message.client_id;
   // Member: target_pose
   geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
     ros_message.target_pose,
@@ -71,6 +73,9 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   fairino_interfaces::srv::Pick_Request & ros_message)
 {
+  // Member: client_id
+  cdr >> ros_message.client_id;
+
   // Member: target_pose
   geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
     cdr, ros_message.target_pose);
@@ -94,6 +99,10 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
+  // Member: client_id
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.client_id.size() + 1);
   // Member: target_pose
 
   current_alignment +=
@@ -128,6 +137,19 @@ max_serialized_size_Pick_Request(
   full_bounded = true;
   is_plain = true;
 
+
+  // Member: client_id
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
 
   // Member: target_pose
   {

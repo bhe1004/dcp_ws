@@ -123,7 +123,9 @@ class DCP(ABC, BaseTask):
             name="cylinder1",
             position=np.array([0.8, -0.146, 0.1]),
             radius=0.02,
-            height=0.3)
+            height=0.3,
+            mass=0.02,
+        )
 
         # Define the robot
         self._robot = self.set_robot()

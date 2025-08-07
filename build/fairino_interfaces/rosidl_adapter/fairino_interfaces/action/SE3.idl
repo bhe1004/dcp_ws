@@ -16,6 +16,8 @@ module fairino_interfaces {
       boolean relative;
 
       boolean wholebody;
+
+      string client_id;
     };
     @verbatim (language="comment", text=
       "Define the result")

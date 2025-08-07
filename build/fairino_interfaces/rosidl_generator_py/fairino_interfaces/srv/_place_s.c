@@ -16,6 +16,9 @@
 #include "fairino_interfaces/srv/detail/place__struct.h"
 #include "fairino_interfaces/srv/detail/place__functions.h"
 
+#include "rosidl_runtime_c/string.h"
+#include "rosidl_runtime_c/string_functions.h"
+
 ROSIDL_GENERATOR_C_IMPORT
 bool geometry_msgs__msg__pose__convert_from_py(PyObject * _pymsg, void * _ros_message);
 ROSIDL_GENERATOR_C_IMPORT
@@ -54,6 +57,21 @@ bool fairino_interfaces__srv__place__request__convert_from_py(PyObject * _pymsg,
     assert(strncmp("fairino_interfaces.srv._place.Place_Request", full_classname_dest, 43) == 0);
   }
   fairino_interfaces__srv__Place_Request * ros_message = _ros_message;
+  {  // client_id
+    PyObject * field = PyObject_GetAttrString(_pymsg, "client_id");
+    if (!field) {
+      return false;
+    }
+    assert(PyUnicode_Check(field));
+    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
+    if (!encoded_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    rosidl_runtime_c__String__assign(&ros_message->client_id, PyBytes_AS_STRING(encoded_field));
+    Py_DECREF(encoded_field);
+    Py_DECREF(field);
+  }
   {  // target_pose
     PyObject * field = PyObject_GetAttrString(_pymsg, "target_pose");
     if (!field) {
@@ -96,6 +114,23 @@ PyObject * fairino_interfaces__srv__place__request__convert_to_py(void * raw_ros
     }
   }
   fairino_interfaces__srv__Place_Request * ros_message = (fairino_interfaces__srv__Place_Request *)raw_ros_message;
+  {  // client_id
+    PyObject * field = NULL;
+    field = PyUnicode_DecodeUTF8(
+      ros_message->client_id.data,
+      strlen(ros_message->client_id.data),
+      "replace");
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "client_id", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
   {  // target_pose
     PyObject * field = NULL;
     field = geometry_msgs__msg__pose__convert_to_py(&ros_message->target_pose);

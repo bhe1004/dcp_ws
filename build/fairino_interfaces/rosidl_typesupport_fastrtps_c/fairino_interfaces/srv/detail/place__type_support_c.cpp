@@ -35,6 +35,8 @@ extern "C"
 #endif
 
 #include "geometry_msgs/msg/detail/pose__functions.h"  // target_pose
+#include "rosidl_runtime_c/string.h"  // client_id
+#include "rosidl_runtime_c/string_functions.h"  // client_id
 
 // forward declare type support functions
 ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_fairino_interfaces
@@ -64,6 +66,20 @@ static bool _Place_Request__cdr_serialize(
     return false;
   }
   const _Place_Request__ros_msg_type * ros_message = static_cast<const _Place_Request__ros_msg_type *>(untyped_ros_message);
+  // Field name: client_id
+  {
+    const rosidl_runtime_c__String * str = &ros_message->client_id;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
+      return false;
+    }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
+  }
+
   // Field name: target_pose
   {
     const message_type_support_callbacks_t * callbacks =
@@ -95,6 +111,22 @@ static bool _Place_Request__cdr_deserialize(
     return false;
   }
   _Place_Request__ros_msg_type * ros_message = static_cast<_Place_Request__ros_msg_type *>(untyped_ros_message);
+  // Field name: client_id
+  {
+    std::string tmp;
+    cdr >> tmp;
+    if (!ros_message->client_id.data) {
+      rosidl_runtime_c__String__init(&ros_message->client_id);
+    }
+    bool succeeded = rosidl_runtime_c__String__assign(
+      &ros_message->client_id,
+      tmp.c_str());
+    if (!succeeded) {
+      fprintf(stderr, "failed to assign string into field 'client_id'\n");
+      return false;
+    }
+  }
+
   // Field name: target_pose
   {
     const message_type_support_callbacks_t * callbacks =
@@ -131,6 +163,10 @@ size_t get_serialized_size_fairino_interfaces__srv__Place_Request(
   (void)padding;
   (void)wchar_size;
 
+  // field.name client_id
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->client_id.size + 1);
   // field.name target_pose
 
   current_alignment += get_serialized_size_geometry_msgs__msg__Pose(
@@ -170,6 +206,18 @@ size_t max_serialized_size_fairino_interfaces__srv__Place_Request(
   full_bounded = true;
   is_plain = true;
 
+  // member: client_id
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
   // member: target_pose
   {
     size_t array_size = 1;

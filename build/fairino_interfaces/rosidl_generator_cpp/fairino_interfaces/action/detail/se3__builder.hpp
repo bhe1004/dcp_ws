@@ -21,16 +21,32 @@ namespace action
 namespace builder
 {
 
+class Init_SE3_Goal_client_id
+{
+public:
+  explicit Init_SE3_Goal_client_id(::fairino_interfaces::action::SE3_Goal & msg)
+  : msg_(msg)
+  {}
+  ::fairino_interfaces::action::SE3_Goal client_id(::fairino_interfaces::action::SE3_Goal::_client_id_type arg)
+  {
+    msg_.client_id = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::fairino_interfaces::action::SE3_Goal msg_;
+};
+
 class Init_SE3_Goal_wholebody
 {
 public:
   explicit Init_SE3_Goal_wholebody(::fairino_interfaces::action::SE3_Goal & msg)
   : msg_(msg)
   {}
-  ::fairino_interfaces::action::SE3_Goal wholebody(::fairino_interfaces::action::SE3_Goal::_wholebody_type arg)
+  Init_SE3_Goal_client_id wholebody(::fairino_interfaces::action::SE3_Goal::_wholebody_type arg)
   {
     msg_.wholebody = std::move(arg);
-    return std::move(msg_);
+    return Init_SE3_Goal_client_id(msg_);
   }
 
 private:

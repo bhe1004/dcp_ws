@@ -11,6 +11,8 @@
 #include "rcutils/allocator.h"
 
 // Include directives for member types
+// Member `client_id`
+#include "rosidl_runtime_c/string_functions.h"
 // Member `target_pose`
 #include "geometry_msgs/msg/detail/pose__functions.h"
 
@@ -18,6 +20,11 @@ bool
 fairino_interfaces__srv__Pick_Request__init(fairino_interfaces__srv__Pick_Request * msg)
 {
   if (!msg) {
+    return false;
+  }
+  // client_id
+  if (!rosidl_runtime_c__String__init(&msg->client_id)) {
+    fairino_interfaces__srv__Pick_Request__fini(msg);
     return false;
   }
   // target_pose
@@ -35,6 +42,8 @@ fairino_interfaces__srv__Pick_Request__fini(fairino_interfaces__srv__Pick_Reques
   if (!msg) {
     return;
   }
+  // client_id
+  rosidl_runtime_c__String__fini(&msg->client_id);
   // target_pose
   geometry_msgs__msg__Pose__fini(&msg->target_pose);
   // duration
@@ -44,6 +53,12 @@ bool
 fairino_interfaces__srv__Pick_Request__are_equal(const fairino_interfaces__srv__Pick_Request * lhs, const fairino_interfaces__srv__Pick_Request * rhs)
 {
   if (!lhs || !rhs) {
+    return false;
+  }
+  // client_id
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->client_id), &(rhs->client_id)))
+  {
     return false;
   }
   // target_pose
@@ -65,6 +80,12 @@ fairino_interfaces__srv__Pick_Request__copy(
   fairino_interfaces__srv__Pick_Request * output)
 {
   if (!input || !output) {
+    return false;
+  }
+  // client_id
+  if (!rosidl_runtime_c__String__copy(
+      &(input->client_id), &(output->client_id)))
+  {
     return false;
   }
   // target_pose

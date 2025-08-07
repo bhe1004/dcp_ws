@@ -61,16 +61,19 @@ class Pick_Request(metaclass=Metaclass_Pick_Request):
     """Message class 'Pick_Request'."""
 
     __slots__ = [
+        '_client_id',
         '_target_pose',
         '_duration',
     ]
 
     _fields_and_field_types = {
+        'client_id': 'string',
         'target_pose': 'geometry_msgs/Pose',
         'duration': 'float',
     }
 
     SLOT_TYPES = (
+        rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.NamespacedType(['geometry_msgs', 'msg'], 'Pose'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
     )
@@ -79,6 +82,7 @@ class Pick_Request(metaclass=Metaclass_Pick_Request):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        self.client_id = kwargs.get('client_id', str())
         from geometry_msgs.msg import Pose
         self.target_pose = kwargs.get('target_pose', Pose())
         self.duration = kwargs.get('duration', float())
@@ -112,6 +116,8 @@ class Pick_Request(metaclass=Metaclass_Pick_Request):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
+        if self.client_id != other.client_id:
+            return False
         if self.target_pose != other.target_pose:
             return False
         if self.duration != other.duration:
@@ -122,6 +128,19 @@ class Pick_Request(metaclass=Metaclass_Pick_Request):
     def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
+
+    @builtins.property
+    def client_id(self):
+        """Message field 'client_id'."""
+        return self._client_id
+
+    @client_id.setter
+    def client_id(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, str), \
+                "The 'client_id' field must be of type 'str'"
+        self._client_id = value
 
     @builtins.property
     def target_pose(self):

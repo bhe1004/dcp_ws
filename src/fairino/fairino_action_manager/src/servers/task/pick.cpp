@@ -13,7 +13,7 @@ bool Pick::execute(const geometry_msgs::msg::Pose& target_pose, const float dura
     }
     
     // Step 2: Move to target
-    if (!move_to_pose(target_pose, duration)) {
+    if (!move_to_pose(target_pose, duration, client_id_)) {
         RCLCPP_ERROR(node_->get_logger(), "Pick failed: Could not move to target pose.");
         return false;
     }

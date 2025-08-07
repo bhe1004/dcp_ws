@@ -4,11 +4,12 @@
 BaseTask::BaseTask(
     rclcpp::Node::SharedPtr node,
     SE3ActionClient::SharedPtr se3_client,
-    GripperActionClient::SharedPtr gripper_client)
-: node_(node), se3_client_(se3_client), gripper_client_(gripper_client)
+    GripperActionClient::SharedPtr gripper_client,
+    const std::string& client_id)
+: node_(node), se3_client_(se3_client), gripper_client_(gripper_client), client_id_(client_id)
 {}
 
-bool BaseTask::move_to_pose(const geometry_msgs::msg::Pose& pose, float duration)
+bool BaseTask::move_to_pose(const geometry_msgs::msg::Pose& pose, float duration, const std::string& client_id)
 {
     if (!se3_client_->wait_for_action_server(std::chrono::seconds(5))) {
         RCLCPP_ERROR(node_->get_logger(), "SE3 action server not available after waiting");
@@ -18,6 +19,7 @@ bool BaseTask::move_to_pose(const geometry_msgs::msg::Pose& pose, float duration
     auto goal_msg = SE3Action::Goal();
     goal_msg.target_pose = pose;
     goal_msg.duration = duration;
+    goal_msg.client_id = client_id;
 
     RCLCPP_INFO(node_->get_logger(), "Sending SE3 goal...");
     auto goal_handle_future = se3_client_->async_send_goal(goal_msg);

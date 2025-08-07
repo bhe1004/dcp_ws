@@ -41,7 +41,7 @@ namespace pak_hqp_controller {
                 Q_ += cst->A().transpose() * cst->A(); // 단순 least squares 방식 예시
                 c_ += -cst->A().transpose() * cst->b();
             }
-
+            
             // 3. Equality stacking
             int n_eq = 0;
             for (const auto* c : eq_constraints)
@@ -56,18 +56,36 @@ namespace pak_hqp_controller {
                 row += m;
             }
 
+
             // 4. Inequality stacking
             int n_ineq = 0;
-            for (const auto* c : ineq_constraints)
-                n_ineq += c->A().rows();
+            for (const auto* c : ineq_constraints) {
+                if (c->uses_bounds()) {
+                    n_ineq += c->A().rows() * 2;  // upper + lower
+                } else {
+                    n_ineq += c->A().rows();
+                }
+            }
             Aineq_ = Eigen::MatrixXd::Zero(n_ineq, dof);
             bineq_ = Eigen::VectorXd::Zero(n_ineq);
             row = 0;
             for (const auto* c : ineq_constraints) {
                 int m = c->A().rows();
-                Aineq_.block(row, 0, m, dof) = c->A();
-                bineq_.segment(row, m) = c->b();
-                row += m;
+                if (c->uses_bounds()) {
+                    // upper:  Ax ≤ upper
+                    Aineq_.block(row, 0, m, dof) = c->A().eval();
+                    bineq_.segment(row, m) = c->upper().eval();
+                    row += m;
+                    // lower: -Ax ≤ -lower
+                    Aineq_.block(row, 0, m, dof) = -c->A().eval();
+                    bineq_.segment(row, m) = (-c->lower()).eval();
+                    row += m;
+                } else {
+                    // 기존 Ax ≤ b
+                    Aineq_.block(row, 0, m, dof) = c->A().eval();
+                    bineq_.segment(row, m) = c->b().eval();
+                    row += m;
+                }
             }
 
             // 5. eiquadprog로 QP 풀기
@@ -95,8 +113,9 @@ namespace pak_hqp_controller {
 
             Eigen::VectorXi activeSet;   // NEW
             size_t activeSetSize = 0;    // NEW 
-
+            
             double qp_result = eiquadprog::solvers::solve_quadprog(Q_, c_, CE, ce0, CI, ci0, x, activeSet, activeSetSize);
+
 
             if (qp_result != std::numeric_limits<double>::infinity()) {
                 std::cerr << "[Solver] =====QP solved======" << std::endl;

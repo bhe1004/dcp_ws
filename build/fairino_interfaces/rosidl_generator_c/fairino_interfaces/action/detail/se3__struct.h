@@ -20,6 +20,8 @@ extern "C"
 // Include directives for member types
 // Member 'target_pose'
 #include "geometry_msgs/msg/detail/pose__struct.h"
+// Member 'client_id'
+#include "rosidl_runtime_c/string.h"
 
 /// Struct defined in action/SE3 in the package fairino_interfaces.
 typedef struct fairino_interfaces__action__SE3_Goal
@@ -28,6 +30,7 @@ typedef struct fairino_interfaces__action__SE3_Goal
   float duration;
   bool relative;
   bool wholebody;
+  rosidl_runtime_c__String client_id;
 } fairino_interfaces__action__SE3_Goal;
 
 // Struct for a sequence of fairino_interfaces__action__SE3_Goal.

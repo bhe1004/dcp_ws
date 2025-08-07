@@ -66,6 +66,8 @@ cdr_serialize(
   cdr << (ros_message.relative ? true : false);
   // Member: wholebody
   cdr << (ros_message.wholebody ? true : false);
+  // Member: client_id
+  cdr << ros_message.client_id;
   return true;
 }
 
@@ -95,6 +97,9 @@ cdr_deserialize(
     cdr >> tmp;
     ros_message.wholebody = tmp ? true : false;
   }
+
+  // Member: client_id
+  cdr >> ros_message.client_id;
 
   return true;
 }
@@ -135,6 +140,10 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+  // Member: client_id
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.client_id.size() + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -203,6 +212,19 @@ max_serialized_size_SE3_Goal(
     current_alignment += array_size * sizeof(uint8_t);
   }
 
+  // Member: client_id
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -211,7 +233,7 @@ max_serialized_size_SE3_Goal(
     using DataType = fairino_interfaces::action::SE3_Goal;
     is_plain =
       (
-      offsetof(DataType, wholebody) +
+      offsetof(DataType, client_id) +
       last_member_size
       ) == ret_val;
   }

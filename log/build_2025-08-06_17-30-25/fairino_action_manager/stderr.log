@@ -1,0 +1,60 @@
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/task/base_task.cpp:4:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KBaseTask::BaseTask(rclcpp::Node::SharedPtr, rclcpp_action::Client<fairino_interfaces::action::SE3>::SharedPtr, rclcpp_action::Client<fairino_interfaces::action::Gripper>::SharedPtr)[m[K’
+    4 | [01;31m[KBaseTask[m[K::BaseTask(
+      | [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/task/base_task.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/base_task.hpp:16:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KBaseTask::BaseTask(const BaseTask&)[m[K’
+   16 | class [01;36m[KBaseTask[m[K
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/base_task.hpp:20:5:[m[K [01;36m[Knote: [m[K                ‘[01m[KBaseTask::BaseTask(rclcpp::Node::SharedPtr, rclcpp_action::Client<fairino_interfaces::action::SE3>::SharedPtr, rclcpp_action::Client<fairino_interfaces::action::Gripper>::SharedPtr, const string&)[m[K’
+   20 |     [01;36m[KBaseTask[m[K(
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/base_task.hpp:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass BaseTask[m[K’ defined here
+   16 | class [01;36m[KBaseTask[m[K
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/task/base_task.cpp:11:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool BaseTask::move_to_pose(const Pose&, float, const string&)[m[K’
+   11 | bool [01;31m[KBaseTask[m[K::move_to_pose(const geometry_msgs::msg::Pose& pose, float duration, const std::string& client_id)
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/task/base_task.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/base_task.hpp:40:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kbool BaseTask::move_to_pose(const Pose&, float)[m[K’
+   40 |     bool [01;36m[Kmove_to_pose[m[K(const geometry_msgs::msg::Pose& pose, float duration);
+      |          [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/base_task.hpp:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass BaseTask[m[K’ defined here
+   16 | class [01;36m[KBaseTask[m[K
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/task/pick.cpp:[m[K In member function ‘[01m[Kvirtual bool Pick::execute(const Pose&, float)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/task/pick.cpp:16:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPick::move_to_pose(const Pose&, const float&, std::string&)[m[K’
+   16 |     if (![01;31m[Kmove_to_pose(target_pose, duration, client_id_)[m[K) {
+      |          [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/pick.hpp:3[m[K,
+                 from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/task/pick.cpp:3[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/base_task.hpp:40:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool BaseTask::move_to_pose(const Pose&, float)[m[K’
+   40 |     bool [01;36m[Kmove_to_pose[m[K(const geometry_msgs::msg::Pose& pose, float duration);
+      |          [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/servers/task/base_task.hpp:40:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+gmake[2]: *** [CMakeFiles/task.dir/build.make:76: CMakeFiles/task.dir/src/servers/task/base_task.cpp.o] 오류 1
+gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+gmake[2]: *** [CMakeFiles/task.dir/build.make:90: CMakeFiles/task.dir/src/servers/task/pick.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/task.dir/all] 오류 2
+gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/se3_action_server.cpp:[m[K In member function ‘[01m[Kvoid SE3ActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<fairino_interfaces::action::SE3> >)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/se3_action_server.cpp:99:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotController::FairinoWrapper[m[K’ {aka ‘[01m[Kclass RobotController::FairinoWrapper[m[K’} has no member named ‘[01m[Kinit_place_ctrl[m[K’; did you mean ‘[01m[Kinit_se3_ctrl[m[K’?
+   99 |         mu_->[01;31m[Kinit_place_ctrl[m[K(start_time_); // 새로운 place 동작
+      |              [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |              [32m[Kinit_se3_ctrl[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/tool_changer_action_sever.cpp:[m[K In member function ‘[01m[Kvirtual bool ToolChangerActionServer::compute(const rclcpp::Time&)[m[K’:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/servers/basic/tool_changer_action_sever.cpp:97:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   97 | bool ToolChangerActionServer::compute([01;35m[Kconst rclcpp::Time& current_time[m[K)
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/controller/controller.cpp:203:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid RobotController::FairinoWrapper::init_place_ctrl(rclcpp::Time)[m[K’
+  203 |     void [01;31m[KFairinoWrapper[m[K::init_place_ctrl(rclcpp::Time time) {
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/controller/controller.cpp:203:10:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid RobotController::FairinoWrapper::init_place_ctrl(rclcpp::Time)[m[K’
+In file included from [01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/src/controller/controller.cpp:1[m[K:
+[01m[K/home/home/dcp_ws/src/fairino/fairino_action_manager/include/fairino_action_manager/controller/controller.hpp:147:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass RobotController::FairinoWrapper[m[K’ defined here
+  147 |     class [01;36m[KFairinoWrapper[m[K
+      |           [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:104: CMakeFiles/controller.dir/src/servers/basic/se3_action_server.cpp.o] 오류 1
+gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller/controller.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/controller.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

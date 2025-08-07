@@ -3,6 +3,7 @@ geometry_msgs/Pose target_pose
 float32 duration
 bool relative 
 bool wholebody
+string client_id
 ---
 # Define the result
 bool is_completed

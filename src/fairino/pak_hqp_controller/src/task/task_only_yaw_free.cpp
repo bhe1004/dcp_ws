@@ -33,8 +33,8 @@ namespace pak_hqp_controller {
 
         // QP에 넣을 yaw-free(roll/pitch 유지) orientation 제약 계산
         const ConstraintBase& TaskOnlyYawFree::compute(double t,
-                                                              const Eigen::VectorXd& q,
-                                                              const Eigen::VectorXd& v)
+                                                        const Eigen::VectorXd& q,
+                                                        const Eigen::VectorXd& v)
         {
             auto& model = robot_.model();
             auto& data  = robot_.data();
@@ -64,6 +64,8 @@ namespace pak_hqp_controller {
                 return R_no_yaw;
             };
 
+            
+
             // 4. 현재 pose와 목표 pose(집을 때 orientation)에서 yaw만 제거
             Eigen::Matrix3d R_current_no_yaw = removeYaw(current_pose.rotation());
             Eigen::Matrix3d R_ref_no_yaw = removeYaw(ref_pose_.rotation());
@@ -81,11 +83,15 @@ namespace pak_hqp_controller {
             pinocchio::computeFrameJacobian(model, data, q, frame_id_, pinocchio::LOCAL, J_full);
 
             // 8. Jacobian의 angular part(각속도, 마지막 3행)에서 roll/pitch(x, y)만 뽑음
-            Eigen::MatrixXd J_ori = J_full.bottomRows(3).topRows(2); // (3, nq)에서 상위 2행
+            Eigen::MatrixXd J_ori = J_full.bottomRows(3).topRows(2).eval();
+            // Eigen::MatrixXd J_ori = J_full.block(3, 0, 2, model.nv); 
+
+            double bound_eps = 0.1; // 바운드 오차 허용치
+            Eigen::VectorXd lower = x_dot_des - Eigen::Vector2d::Constant(bound_eps);
+            Eigen::VectorXd upper = x_dot_des + Eigen::Vector2d::Constant(bound_eps);
 
             // 9. QP equality 제약 생성: J_ori * dq = x_dot_des (roll/pitch 제약)
-            constraint_ = ConstraintBase(name_, ConstraintType::Equality, J_ori, x_dot_des);
-
+            constraint_ = ConstraintBase(name_, ConstraintType::Inequality, J_ori, lower.eval(), upper.eval());
             return constraint_;
         }
 

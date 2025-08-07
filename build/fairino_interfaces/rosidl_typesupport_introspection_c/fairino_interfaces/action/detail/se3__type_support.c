@@ -17,6 +17,8 @@
 #include "geometry_msgs/msg/pose.h"
 // Member `target_pose`
 #include "geometry_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h"
+// Member `client_id`
+#include "rosidl_runtime_c/string_functions.h"
 
 #ifdef __cplusplus
 extern "C"
@@ -37,7 +39,7 @@ void fairino_interfaces__action__SE3_Goal__rosidl_typesupport_introspection_c__S
   fairino_interfaces__action__SE3_Goal__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember fairino_interfaces__action__SE3_Goal__rosidl_typesupport_introspection_c__SE3_Goal_message_member_array[4] = {
+static rosidl_typesupport_introspection_c__MessageMember fairino_interfaces__action__SE3_Goal__rosidl_typesupport_introspection_c__SE3_Goal_message_member_array[5] = {
   {
     "target_pose",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
@@ -105,13 +107,30 @@ static rosidl_typesupport_introspection_c__MessageMember fairino_interfaces__act
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "client_id",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(fairino_interfaces__action__SE3_Goal, client_id),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers fairino_interfaces__action__SE3_Goal__rosidl_typesupport_introspection_c__SE3_Goal_message_members = {
   "fairino_interfaces__action",  // message namespace
   "SE3_Goal",  // message name
-  4,  // number of fields
+  5,  // number of fields
   sizeof(fairino_interfaces__action__SE3_Goal),
   fairino_interfaces__action__SE3_Goal__rosidl_typesupport_introspection_c__SE3_Goal_message_member_array,  // message members
   fairino_interfaces__action__SE3_Goal__rosidl_typesupport_introspection_c__SE3_Goal_init_function,  // function to initialize message memory (memory has to be allocated)

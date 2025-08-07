@@ -166,6 +166,7 @@ namespace RobotController
         void compute_joint_posture_ctrl(rclcpp::Time time);
         void init_se3_ctrl(rclcpp::Time time);
         void compute_se3_ctrl(rclcpp::Time time);
+        void init_place_ctrl(rclcpp::Time time);
         void init_se3_array_ctrl(rclcpp::Time time);
         void compute_se3_array_ctrl(rclcpp::Time time);
         void compute_all_terms();

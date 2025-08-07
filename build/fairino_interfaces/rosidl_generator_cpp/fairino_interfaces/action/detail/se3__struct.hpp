@@ -46,11 +46,13 @@ struct SE3_Goal_
       this->duration = 0.0f;
       this->relative = false;
       this->wholebody = false;
+      this->client_id = "";
     }
   }
 
   explicit SE3_Goal_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : target_pose(_alloc, _init)
+  : target_pose(_alloc, _init),
+    client_id(_alloc)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
@@ -58,6 +60,7 @@ struct SE3_Goal_
       this->duration = 0.0f;
       this->relative = false;
       this->wholebody = false;
+      this->client_id = "";
     }
   }
 
@@ -74,6 +77,9 @@ struct SE3_Goal_
   using _wholebody_type =
     bool;
   _wholebody_type wholebody;
+  using _client_id_type =
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+  _client_id_type client_id;
 
   // setters for named parameter idiom
   Type & set__target_pose(
@@ -98,6 +104,12 @@ struct SE3_Goal_
     const bool & _arg)
   {
     this->wholebody = _arg;
+    return *this;
+  }
+  Type & set__client_id(
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+  {
+    this->client_id = _arg;
     return *this;
   }
 
@@ -153,6 +165,9 @@ struct SE3_Goal_
       return false;
     }
     if (this->wholebody != other.wholebody) {
+      return false;
+    }
+    if (this->client_id != other.client_id) {
       return false;
     }
     return true;

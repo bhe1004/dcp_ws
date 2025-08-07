@@ -2202,6 +2202,7 @@ CMakeFiles/pak_hqp_controller.dir/src/controller/controller.cpp.o: /home/home/dc
   /opt/ros/humble/include/pinocchio/parsers/urdf/geometry.hxx \
   /home/home/dcp_ws/src/fairino/pak_hqp_controller/include/pak_hqp_controller/task/task_base.hpp \
   /home/home/dcp_ws/src/fairino/pak_hqp_controller/include/pak_hqp_controller/task/constraint_base.hpp \
+  /usr/include/c++/11/optional \
   /home/home/dcp_ws/src/fairino/pak_hqp_controller/include/pak_hqp_controller/solver/solver.hpp
 
 CMakeFiles/pak_hqp_controller.dir/src/robot/robot_wrapper.cpp.o: /home/home/dcp_ws/src/fairino/pak_hqp_controller/src/robot/robot_wrapper.cpp \
@@ -4863,6 +4864,7 @@ CMakeFiles/pak_hqp_controller.dir/src/solver/solver.cpp.o: /home/home/dcp_ws/src
   /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
   /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
   /home/home/dcp_ws/src/fairino/pak_hqp_controller/include/pak_hqp_controller/task/constraint_base.hpp \
+  /usr/include/c++/11/optional \
   /opt/ros/humble/include/eiquadprog/eiquadprog.hpp \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -5324,6 +5326,7 @@ CMakeFiles/pak_hqp_controller.dir/src/task/task_only_yaw_free.cpp.o: /home/home/
   /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
   /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
   /home/home/dcp_ws/src/fairino/pak_hqp_controller/include/pak_hqp_controller/task/constraint_base.hpp \
+  /usr/include/c++/11/optional \
   /home/home/dcp_ws/src/fairino/pak_hqp_controller/include/pak_hqp_controller/robot/robot_wrapper.hpp \
   /opt/ros/humble/include/pinocchio/multibody/model.hpp \
   /opt/ros/humble/include/pinocchio/spatial/fwd.hpp \
@@ -7533,6 +7536,7 @@ CMakeFiles/pak_hqp_controller.dir/src/task/task_se3_equality.cpp.o: /home/home/d
   /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
   /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
   /home/home/dcp_ws/src/fairino/pak_hqp_controller/include/pak_hqp_controller/task/constraint_base.hpp \
+  /usr/include/c++/11/optional \
   /home/home/dcp_ws/src/fairino/pak_hqp_controller/include/pak_hqp_controller/robot/robot_wrapper.hpp \
   /opt/ros/humble/include/pinocchio/multibody/model.hpp \
   /opt/ros/humble/include/pinocchio/spatial/fwd.hpp \
@@ -9305,6 +9309,8 @@ CMakeFiles/pak_hqp_controller.dir/src/task/task_singularity_avoidance.cpp.o: /ho
 /home/home/dcp_ws/src/fairino/pak_hqp_controller/src/robot/robot_wrapper.cpp:
 
 /home/home/dcp_ws/src/fairino/pak_hqp_controller/include/pak_hqp_controller/solver/solver.hpp:
+
+/usr/include/c++/11/optional:
 
 /home/home/dcp_ws/src/fairino/pak_hqp_controller/include/pak_hqp_controller/task/constraint_base.hpp:
 

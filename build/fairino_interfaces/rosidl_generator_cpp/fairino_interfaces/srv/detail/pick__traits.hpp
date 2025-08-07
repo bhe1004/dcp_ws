@@ -29,6 +29,13 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
+  // member: client_id
+  {
+    out << "client_id: ";
+    rosidl_generator_traits::value_to_yaml(msg.client_id, out);
+    out << ", ";
+  }
+
   // member: target_pose
   {
     out << "target_pose: ";
@@ -48,6 +55,16 @@ inline void to_block_style_yaml(
   const Pick_Request & msg,
   std::ostream & out, size_t indentation = 0)
 {
+  // member: client_id
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "client_id: ";
+    rosidl_generator_traits::value_to_yaml(msg.client_id, out);
+    out << "\n";
+  }
+
   // member: target_pose
   {
     if (indentation > 0) {
@@ -114,11 +131,11 @@ inline const char * name<fairino_interfaces::srv::Pick_Request>()
 
 template<>
 struct has_fixed_size<fairino_interfaces::srv::Pick_Request>
-  : std::integral_constant<bool, has_fixed_size<geometry_msgs::msg::Pose>::value> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct has_bounded_size<fairino_interfaces::srv::Pick_Request>
-  : std::integral_constant<bool, has_bounded_size<geometry_msgs::msg::Pose>::value> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct is_message<fairino_interfaces::srv::Pick_Request>

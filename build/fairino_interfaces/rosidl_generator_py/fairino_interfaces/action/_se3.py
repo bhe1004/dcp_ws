@@ -65,6 +65,7 @@ class SE3_Goal(metaclass=Metaclass_SE3_Goal):
         '_duration',
         '_relative',
         '_wholebody',
+        '_client_id',
     ]
 
     _fields_and_field_types = {
@@ -72,6 +73,7 @@ class SE3_Goal(metaclass=Metaclass_SE3_Goal):
         'duration': 'float',
         'relative': 'boolean',
         'wholebody': 'boolean',
+        'client_id': 'string',
     }
 
     SLOT_TYPES = (
@@ -79,6 +81,7 @@ class SE3_Goal(metaclass=Metaclass_SE3_Goal):
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.UnboundedString(),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -90,6 +93,7 @@ class SE3_Goal(metaclass=Metaclass_SE3_Goal):
         self.duration = kwargs.get('duration', float())
         self.relative = kwargs.get('relative', bool())
         self.wholebody = kwargs.get('wholebody', bool())
+        self.client_id = kwargs.get('client_id', str())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -127,6 +131,8 @@ class SE3_Goal(metaclass=Metaclass_SE3_Goal):
         if self.relative != other.relative:
             return False
         if self.wholebody != other.wholebody:
+            return False
+        if self.client_id != other.client_id:
             return False
         return True
 
@@ -189,6 +195,19 @@ class SE3_Goal(metaclass=Metaclass_SE3_Goal):
                 isinstance(value, bool), \
                 "The 'wholebody' field must be of type 'bool'"
         self._wholebody = value
+
+    @builtins.property
+    def client_id(self):
+        """Message field 'client_id'."""
+        return self._client_id
+
+    @client_id.setter
+    def client_id(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, str), \
+                "The 'client_id' field must be of type 'str'"
+        self._client_id = value
 
 
 # Import statements for member types

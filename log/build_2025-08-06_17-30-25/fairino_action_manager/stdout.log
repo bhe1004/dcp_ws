@@ -1,0 +1,11 @@
+[  5%] [32mBuilding CXX object CMakeFiles/task.dir/src/servers/task/pick.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/task.dir/src/servers/task/base_task.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/task.dir/src/servers/task/place.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target controller[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller/controller.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/joint_posture_action_server.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/se3_action_server.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/gripper_real_action_server.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/gripper_sim_action_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/tool_changer_action_sever.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/controller.dir/src/servers/basic/qr_action_server.cpp.o[0m

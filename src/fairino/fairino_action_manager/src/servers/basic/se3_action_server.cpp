@@ -25,7 +25,8 @@ SE3ActionServer::SE3ActionServer(rclcpp::Node::SharedPtr node, const std::string
 rclcpp_action::GoalResponse SE3ActionServer::handle_goal(
     const rclcpp_action::GoalUUID & /*uuid*/,
     std::shared_ptr<const SE3Action::Goal> goal)
-{
+{   
+    std::string client_id = goal->client_id;
     RCLCPP_INFO(node_->get_logger(), "[%s] Received goal request: pos(%f,%f,%f)\norientation:(%f, %f, %f, %f)\nduration %f", 
         action_name_.c_str(),
         goal->target_pose.position.x, goal->target_pose.position.y, goal->target_pose.position.z,
@@ -67,6 +68,7 @@ void SE3ActionServer::handle_accepted(
     // This function is called when a goal is accepted.
     // It should not block. If long processing is needed, spawn a thread.
     // Here, we'll set up for the external 'compute' method.
+    std::string client_id = goal_handle->get_goal()->client_id;
 
     current_goal_handle_ = goal_handle; // Store the handle
     const auto goal = goal_handle->get_goal();
@@ -88,7 +90,21 @@ void SE3ActionServer::handle_accepted(
     mu_->state().fairino.duration = goal->duration;
 
     start_time_ = node_->now(); // Use node's clock
-    mu_->init_se3_ctrl(start_time_); // Pass rclcpp::Time
+
+    if (client_id == "pick") {
+        mu_->init_se3_ctrl(start_time_);  // 기존 pick 동작
+        RCLCPP_INFO(node_->get_logger(), "[%s] Pick: init_se3_ctrl() 호출", action_name_.c_str());
+    }
+    else if (client_id == "place") {
+        mu_->init_place_ctrl(start_time_); // 새로운 place 동작
+        RCLCPP_INFO(node_->get_logger(), "[%s] Place: init_place_ctrl() 호출", action_name_.c_str());
+    }
+    else {
+        // 그 외 client_id면 pick 방식 기본값으로(혹은 에러)
+        mu_->init_se3_ctrl(start_time_);
+        RCLCPP_WARN(node_->get_logger(), "[%s] Unknown client_id: %s. 기본 init_se3_ctrl() 사용", action_name_.c_str(), client_id.c_str());
+    }
+    // mu_->init_se3_ctrl(start_time_); // Pass rclcpp::Time
     control_running_ = true;
 
     RCLCPP_INFO(node_->get_logger(), "[%s] Goal accepted. Control running.", action_name_.c_str());
